@@ -1,0 +1,5 @@
+{
+  "supervisor_pid": 21669,
+  "reason": "prioritize authorized native baseline checks; active child allowed to finish",
+  "resume_signal": "SIGCONT"
+}

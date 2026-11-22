@@ -1,0 +1,8 @@
+{
+  "updated": "2026-11-22 20:00:35",
+  "completed_matrices_checked": 161,
+  "exact_duplicate_skill_domain_matrices": [
+    "experiments/native-source-aligned-v3/states/lucid/e58d77188d3a3a45266b5ce7faf4c35bc824aa9d00eb5db44732d0ea25d0d041/rootmem/matrix.json"
+  ],
+  "diagnostic_only_no_outputs_or_scores_changed": true
+}

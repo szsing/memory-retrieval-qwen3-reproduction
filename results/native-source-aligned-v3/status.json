@@ -1,0 +1,64 @@
+{
+  "started": "2026-11-22 12:55:21",
+  "deadline": 1795348521.0,
+  "phase": "remaining_subsets",
+  "completed": [
+    "smoke--mem0-",
+    "smoke--amem-",
+    "smoke--rootmem-",
+    "retrieve-inmind-mem0-",
+    "evaluate-inmind-mem0-61",
+    "retrieve-inmind-amem-",
+    "evaluate-inmind-amem-61",
+    "retrieve-inmind-plain-",
+    "evaluate-inmind-plain-61",
+    "retrieve-inmind-hyde-",
+    "evaluate-inmind-hyde-61",
+    "retrieve-inmind-rerank-",
+    "evaluate-inmind-rerank-61",
+    "evaluate-inmind-mem0-125",
+    "evaluate-inmind-amem-125",
+    "evaluate-inmind-plain-125",
+    "evaluate-inmind-hyde-125",
+    "evaluate-inmind-rerank-125",
+    "evaluate-inmind-full-125"
+  ],
+  "failed": [
+    {
+      "spec": {
+        "stage": "retrieve",
+        "bed": "inmind",
+        "method": "rootmem"
+      },
+      "code": 1
+    },
+    {
+      "spec": {
+        "stage": "retrieve",
+        "bed": "implex",
+        "method": "mem0"
+      },
+      "code": 1
+    },
+    {
+      "spec": {
+        "stage": "retrieve",
+        "bed": "implex",
+        "method": "amem"
+      },
+      "code": 1
+    }
+  ],
+  "current": {
+    "stage": "retrieve",
+    "bed": "implex",
+    "method": "rootmem"
+  },
+  "full_benchmark": "inmind",
+  "no_other_full_benchmarks": true,
+  "validated_native_methods": [
+    "mem0",
+    "amem",
+    "rootmem"
+  ]
+}

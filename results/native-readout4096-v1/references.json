@@ -1,0 +1,8 @@
+{
+  "reason": "Root4096 generated once using the identical packing rule; none/oracle inputs unchanged when the entire target fact fits the budget. Explicit references, not new generations.",
+  "sources": {
+    "rootmem": "${PROJECT_ROOT}/experiments/root-native4096-v1/answers/rootmem.json",
+    "none": "${PROJECT_ROOT}/experiments/native-source-aligned-v3/answers/inmind/none.json",
+    "oracle": "${PROJECT_ROOT}/experiments/native-source-aligned-v3/answers/inmind/oracle.json"
+  }
+}

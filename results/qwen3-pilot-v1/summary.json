@@ -1,0 +1,128 @@
+{
+  "dense": {
+    "dense365_indirect": [
+      0,
+      20
+    ],
+    "dense365_direct": [
+      19,
+      20
+    ],
+    "official241_indirect": [
+      1,
+      20
+    ],
+    "official241_direct": [
+      20,
+      20
+    ]
+  },
+  "hyde": {
+    "dense365_indirect": [
+      1,
+      20
+    ],
+    "dense365_direct": [
+      18,
+      20
+    ],
+    "official241_indirect": [
+      2,
+      20
+    ],
+    "official241_direct": [
+      19,
+      20
+    ]
+  },
+  "property_gate_pin_rrf": {
+    "dense365_indirect": [
+      4,
+      20
+    ],
+    "dense365_direct": [
+      19,
+      20
+    ],
+    "official241_indirect": [
+      11,
+      20
+    ],
+    "official241_direct": [
+      20,
+      20
+    ]
+  },
+  "dense_pick": {
+    "dense365_indirect": [
+      1,
+      20
+    ],
+    "dense365_direct": [
+      19,
+      20
+    ],
+    "official241_indirect": [
+      1,
+      20
+    ],
+    "official241_direct": [
+      20,
+      20
+    ]
+  },
+  "hyde_pick": {
+    "dense365_indirect": [
+      3,
+      20
+    ],
+    "dense365_direct": [
+      19,
+      20
+    ],
+    "official241_indirect": [
+      2,
+      20
+    ],
+    "official241_direct": [
+      20,
+      20
+    ]
+  },
+  "property_pick": {
+    "dense365_indirect": [
+      2,
+      20
+    ],
+    "dense365_direct": [
+      19,
+      20
+    ],
+    "official241_indirect": [
+      9,
+      20
+    ],
+    "official241_direct": [
+      20,
+      20
+    ]
+  },
+  "hyde_property_pick": {
+    "dense365_indirect": [
+      4,
+      20
+    ],
+    "dense365_direct": [
+      19,
+      20
+    ],
+    "official241_indirect": [
+      10,
+      20
+    ],
+    "official241_direct": [
+      20,
+      20
+    ]
+  }
+}

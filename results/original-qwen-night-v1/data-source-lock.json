@@ -1,0 +1,6 @@
+{
+  "inmind_data/benchmark/dataset/inmind.jsonl": "4e27c56047d1f7c3eaf21ad5b6662f638f81a434034546be08b85e09876675a4",
+  "inmind_data/evaluation/background/lme_s_background.jsonl": "aef51e8a4e606a3ac5ceafdc64d875a7f1f41a051dafd68dce45f9c90d626da1",
+  "bench_data/lucid/lucid.json": "7248f5b1bc4be34a9ecb548a3df57543b135d4447f9ae50a39bd6ef519f90970",
+  "bench_data/implexconv/implexconv_opposed_trim.json": "63b7a7618c57b1fcf1a138b827a6e0a3b7e092ea00ad1f0003e3116610042737"
+}

@@ -1,0 +1,15 @@
+{
+  "updated": "2026-11-22 17:02:58",
+  "running": {},
+  "remaining": [],
+  "completed": [
+    "hyde",
+    "plain",
+    "rerank",
+    "full",
+    "write_only_attr",
+    "fact_presence"
+  ],
+  "failed": [],
+  "deadline": 1795348521.0
+}

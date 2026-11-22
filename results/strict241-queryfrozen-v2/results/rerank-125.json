@@ -1,0 +1,14 @@
+{
+  "method": "rerank",
+  "n": 125,
+  "correct": 44,
+  "metric": "same-Qwen hidden-fact application",
+  "raw_hit6": 12,
+  "pool_lines_per_question": 241,
+  "background_sha256": "fde3dcc239671a04559be54cd7da64c6a310ad56b0e38aa193ce0d1086e9e371",
+  "heldout_n": 61,
+  "all_complete": true,
+  "query_features_frozen": true,
+  "query_feature_sha256": "33156a6686929218cabc6dd6a4eb4c2e203ea339ee019b982c34baba0f73f769",
+  "write_side_pool_isolated": true
+}

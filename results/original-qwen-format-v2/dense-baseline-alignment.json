@@ -1,0 +1,28 @@
+{
+  "inmind": {
+    "inmind_off": {
+      "actual": 1.0,
+      "author": 1
+    },
+    "inmind_dense": {
+      "actual": 1.0,
+      "author": 1
+    },
+    "harm": {
+      "actual": 73.0,
+      "author": 73
+    }
+  },
+  "lucid": {
+    "lucid_test": {
+      "actual": 42.0,
+      "author": 42
+    }
+  },
+  "implex": {
+    "implex_test": {
+      "actual": 15.0,
+      "author": 15
+    }
+  }
+}

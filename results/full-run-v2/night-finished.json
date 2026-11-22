@@ -1,0 +1,484 @@
+{
+  "time": "2026-11-19 09:33:44",
+  "supervisor_pid": 9670,
+  "meaning": "queue exited; inspect complete/paused/failed coverage, not an assertion all benchmarks finished",
+  "datasets": {
+    "inmind": {
+      "official_questions": 250,
+      "methods": {
+        "dense": {
+          "retrieval_completed": 250,
+          "denominator": 250,
+          "evaluated": 249,
+          "evaluation_errors": 1,
+          "correct": 117,
+          "accuracy_on_evaluated_only": 0.46987951807228917,
+          "complete": false,
+          "raw_session_hit6": 0.588,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "dense_pick": {
+          "retrieval_completed": 250,
+          "denominator": 250,
+          "evaluated": 250,
+          "evaluation_errors": 0,
+          "correct": 103,
+          "accuracy_on_evaluated_only": 0.412,
+          "complete": true,
+          "raw_session_hit6": 0.552,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "hyde": {
+          "retrieval_completed": 250,
+          "denominator": 250,
+          "evaluated": 250,
+          "evaluation_errors": 0,
+          "correct": 113,
+          "accuracy_on_evaluated_only": 0.452,
+          "complete": true,
+          "raw_session_hit6": 0.584,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "both": {
+          "retrieval_completed": 250,
+          "denominator": 250,
+          "evaluated": 250,
+          "evaluation_errors": 0,
+          "correct": 154,
+          "accuracy_on_evaluated_only": 0.616,
+          "complete": true,
+          "raw_session_hit6": 0.824,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "write_only": {
+          "retrieval_completed": 250,
+          "denominator": 250,
+          "evaluated": 214,
+          "evaluation_errors": 0,
+          "correct": 135,
+          "accuracy_on_evaluated_only": 0.6308411214953271,
+          "complete": false,
+          "raw_session_hit6": 0.824,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "query_only": {
+          "retrieval_completed": 250,
+          "denominator": 250,
+          "evaluated": 194,
+          "evaluation_errors": 0,
+          "correct": 82,
+          "accuracy_on_evaluated_only": 0.422680412371134,
+          "complete": false,
+          "raw_session_hit6": 0.536,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "shuffled": {
+          "retrieval_completed": 250,
+          "denominator": 250,
+          "evaluated": 187,
+          "evaluation_errors": 0,
+          "correct": 85,
+          "accuracy_on_evaluated_only": 0.45454545454545453,
+          "complete": false,
+          "raw_session_hit6": 0.588,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "fact_prior": {
+          "retrieval_completed": 250,
+          "denominator": 250,
+          "evaluated": 174,
+          "evaluation_errors": 0,
+          "correct": 108,
+          "accuracy_on_evaluated_only": 0.6206896551724138,
+          "complete": false,
+          "raw_session_hit6": 0.824,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "gated_pin": {
+          "retrieval_completed": 250,
+          "denominator": 250,
+          "evaluated": 180,
+          "evaluation_errors": 0,
+          "correct": 102,
+          "accuracy_on_evaluated_only": 0.5666666666666667,
+          "complete": false,
+          "raw_session_hit6": 0.788,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "gated_fact_prior": {
+          "retrieval_completed": 250,
+          "denominator": 250,
+          "evaluated": 174,
+          "evaluation_errors": 0,
+          "correct": 97,
+          "accuracy_on_evaluated_only": 0.5574712643678161,
+          "complete": false,
+          "raw_session_hit6": 0.788,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "picker": {
+          "retrieval_completed": 250,
+          "denominator": 250,
+          "evaluated": 177,
+          "evaluation_errors": 1,
+          "correct": 96,
+          "accuracy_on_evaluated_only": 0.5423728813559322,
+          "complete": false,
+          "raw_session_hit6": 0.716,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "rootmem_both": {
+          "retrieval_completed": 142,
+          "denominator": 250,
+          "evaluated": 142,
+          "evaluation_errors": 0,
+          "correct": 72,
+          "accuracy_on_evaluated_only": 0.5070422535211268,
+          "complete": false,
+          "raw_session_hit6": null,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "rootmem": {
+          "retrieval_completed": 134,
+          "denominator": 250,
+          "evaluated": 134,
+          "evaluation_errors": 0,
+          "correct": 57,
+          "accuracy_on_evaluated_only": 0.4253731343283582,
+          "complete": false,
+          "raw_session_hit6": null,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "amem": {
+          "retrieval_completed": 24,
+          "denominator": 250,
+          "evaluated": 23,
+          "evaluation_errors": 0,
+          "correct": 10,
+          "accuracy_on_evaluated_only": 0.43478260869565216,
+          "complete": false,
+          "raw_session_hit6": null,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        }
+      }
+    },
+    "lucid_s": {
+      "official_questions": 1936,
+      "methods": {
+        "dense": {
+          "retrieval_completed": 1936,
+          "denominator": 1936,
+          "evaluated": 394,
+          "evaluation_errors": 0,
+          "correct": 152,
+          "accuracy_on_evaluated_only": 0.38578680203045684,
+          "complete": false,
+          "raw_session_hit6": 0.2422520661157025,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "dense_pick": {
+          "retrieval_completed": 1936,
+          "denominator": 1936,
+          "evaluated": 267,
+          "evaluation_errors": 0,
+          "correct": 118,
+          "accuracy_on_evaluated_only": 0.4419475655430712,
+          "complete": false,
+          "raw_session_hit6": 0.2334710743801653,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "hyde": {
+          "retrieval_completed": 1936,
+          "denominator": 1936,
+          "evaluated": 322,
+          "evaluation_errors": 0,
+          "correct": 136,
+          "accuracy_on_evaluated_only": 0.422360248447205,
+          "complete": false,
+          "raw_session_hit6": 0.25464876033057854,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "rootmem": {
+          "retrieval_completed": 1,
+          "denominator": 1936,
+          "evaluated": 1,
+          "evaluation_errors": 0,
+          "correct": 1,
+          "accuracy_on_evaluated_only": 1.0,
+          "complete": false,
+          "raw_session_hit6": null,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "both": {
+          "retrieval_completed": 261,
+          "denominator": 1936,
+          "evaluated": 261,
+          "evaluation_errors": 0,
+          "correct": 112,
+          "accuracy_on_evaluated_only": 0.42911877394636017,
+          "complete": false,
+          "raw_session_hit6": 0.26053639846743293,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "write_only": {
+          "retrieval_completed": 261,
+          "denominator": 1936,
+          "evaluated": 177,
+          "evaluation_errors": 0,
+          "correct": 78,
+          "accuracy_on_evaluated_only": 0.4406779661016949,
+          "complete": false,
+          "raw_session_hit6": 0.26053639846743293,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "rootmem_both": {
+          "retrieval_completed": 1,
+          "denominator": 1936,
+          "evaluated": 1,
+          "evaluation_errors": 0,
+          "correct": 1,
+          "accuracy_on_evaluated_only": 1.0,
+          "complete": false,
+          "raw_session_hit6": null,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "query_only": {
+          "retrieval_completed": 261,
+          "denominator": 1936,
+          "evaluated": 166,
+          "evaluation_errors": 0,
+          "correct": 71,
+          "accuracy_on_evaluated_only": 0.42771084337349397,
+          "complete": false,
+          "raw_session_hit6": 0.26053639846743293,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "shuffled": {
+          "retrieval_completed": 261,
+          "denominator": 1936,
+          "evaluated": 160,
+          "evaluation_errors": 0,
+          "correct": 73,
+          "accuracy_on_evaluated_only": 0.45625,
+          "complete": false,
+          "raw_session_hit6": 0.2567049808429119,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "fact_prior": {
+          "retrieval_completed": 261,
+          "denominator": 1936,
+          "evaluated": 155,
+          "evaluation_errors": 0,
+          "correct": 71,
+          "accuracy_on_evaluated_only": 0.45806451612903226,
+          "complete": false,
+          "raw_session_hit6": 0.26053639846743293,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "gated_pin": {
+          "retrieval_completed": 261,
+          "denominator": 1936,
+          "evaluated": 156,
+          "evaluation_errors": 0,
+          "correct": 68,
+          "accuracy_on_evaluated_only": 0.4358974358974359,
+          "complete": false,
+          "raw_session_hit6": 0.26053639846743293,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "gated_fact_prior": {
+          "retrieval_completed": 261,
+          "denominator": 1936,
+          "evaluated": 157,
+          "evaluation_errors": 0,
+          "correct": 69,
+          "accuracy_on_evaluated_only": 0.4394904458598726,
+          "complete": false,
+          "raw_session_hit6": 0.26053639846743293,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "picker": {
+          "retrieval_completed": 261,
+          "denominator": 1936,
+          "evaluated": 155,
+          "evaluation_errors": 1,
+          "correct": 68,
+          "accuracy_on_evaluated_only": 0.43870967741935485,
+          "complete": false,
+          "raw_session_hit6": 0.26053639846743293,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "amem": {
+          "retrieval_completed": 1,
+          "denominator": 1936,
+          "evaluated": 1,
+          "evaluation_errors": 0,
+          "correct": 1,
+          "accuracy_on_evaluated_only": 1.0,
+          "complete": false,
+          "raw_session_hit6": null,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        }
+      }
+    },
+    "implex": {
+      "official_questions": 3633,
+      "methods": {
+        "dense": {
+          "retrieval_completed": 2744,
+          "denominator": 3633,
+          "evaluated": 384,
+          "evaluation_errors": 1,
+          "correct": 112,
+          "accuracy_on_evaluated_only": 0.2916666666666667,
+          "complete": false,
+          "raw_session_hit6": 0.0641399416909621,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "dense_pick": {
+          "retrieval_completed": 2729,
+          "denominator": 3633,
+          "evaluated": 224,
+          "evaluation_errors": 0,
+          "correct": 66,
+          "accuracy_on_evaluated_only": 0.29464285714285715,
+          "complete": false,
+          "raw_session_hit6": 0.07365335287651155,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "hyde": {
+          "retrieval_completed": 2647,
+          "denominator": 3633,
+          "evaluated": 301,
+          "evaluation_errors": 0,
+          "correct": 95,
+          "accuracy_on_evaluated_only": 0.31561461794019935,
+          "complete": false,
+          "raw_session_hit6": 0.0865130336229694,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "rootmem": {
+          "retrieval_completed": 2,
+          "denominator": 3633,
+          "evaluated": 2,
+          "evaluation_errors": 0,
+          "correct": 1,
+          "accuracy_on_evaluated_only": 0.5,
+          "complete": false,
+          "raw_session_hit6": null,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "both": {
+          "retrieval_completed": 2,
+          "denominator": 3633,
+          "evaluated": 2,
+          "evaluation_errors": 0,
+          "correct": 1,
+          "accuracy_on_evaluated_only": 0.5,
+          "complete": false,
+          "raw_session_hit6": 0.0,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "write_only": {
+          "retrieval_completed": 2,
+          "denominator": 3633,
+          "evaluated": 2,
+          "evaluation_errors": 0,
+          "correct": 1,
+          "accuracy_on_evaluated_only": 0.5,
+          "complete": false,
+          "raw_session_hit6": 0.0,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "rootmem_both": {
+          "retrieval_completed": 2,
+          "denominator": 3633,
+          "evaluated": 2,
+          "evaluation_errors": 0,
+          "correct": 1,
+          "accuracy_on_evaluated_only": 0.5,
+          "complete": false,
+          "raw_session_hit6": null,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "query_only": {
+          "retrieval_completed": 2,
+          "denominator": 3633,
+          "evaluated": 2,
+          "evaluation_errors": 0,
+          "correct": 1,
+          "accuracy_on_evaluated_only": 0.5,
+          "complete": false,
+          "raw_session_hit6": 0.0,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "shuffled": {
+          "retrieval_completed": 2,
+          "denominator": 3633,
+          "evaluated": 2,
+          "evaluation_errors": 0,
+          "correct": 1,
+          "accuracy_on_evaluated_only": 0.5,
+          "complete": false,
+          "raw_session_hit6": 0.0,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "fact_prior": {
+          "retrieval_completed": 2,
+          "denominator": 3633,
+          "evaluated": 2,
+          "evaluation_errors": 0,
+          "correct": 1,
+          "accuracy_on_evaluated_only": 0.5,
+          "complete": false,
+          "raw_session_hit6": 0.0,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "gated_pin": {
+          "retrieval_completed": 2,
+          "denominator": 3633,
+          "evaluated": 2,
+          "evaluation_errors": 0,
+          "correct": 1,
+          "accuracy_on_evaluated_only": 0.5,
+          "complete": false,
+          "raw_session_hit6": 0.0,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "gated_fact_prior": {
+          "retrieval_completed": 2,
+          "denominator": 3633,
+          "evaluated": 2,
+          "evaluation_errors": 0,
+          "correct": 1,
+          "accuracy_on_evaluated_only": 0.5,
+          "complete": false,
+          "raw_session_hit6": 0.0,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "picker": {
+          "retrieval_completed": 2,
+          "denominator": 3633,
+          "evaluated": 2,
+          "evaluation_errors": 0,
+          "correct": 1,
+          "accuracy_on_evaluated_only": 0.5,
+          "complete": false,
+          "raw_session_hit6": 0.0,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "amem": {
+          "retrieval_completed": 2,
+          "denominator": 3633,
+          "evaluated": 2,
+          "evaluation_errors": 0,
+          "correct": 1,
+          "accuracy_on_evaluated_only": 0.5,
+          "complete": false,
+          "raw_session_hit6": null,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        }
+      }
+    }
+  }
+}

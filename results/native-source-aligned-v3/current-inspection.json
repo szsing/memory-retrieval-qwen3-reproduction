@@ -1,0 +1,149 @@
+{
+  "checked": "2026-11-22 13:00:45",
+  "status": {
+    "started": "2026-11-22 12:55:21",
+    "deadline": 1795348521.0,
+    "phase": "inmind_subset",
+    "completed": [
+      "smoke--mem0-",
+      "smoke--amem-",
+      "smoke--rootmem-"
+    ],
+    "failed": [],
+    "current": {
+      "stage": "retrieve",
+      "bed": "inmind",
+      "method": "mem0"
+    },
+    "full_benchmark": "inmind",
+    "no_other_full_benchmarks": true,
+    "validated_native_methods": [
+      "mem0",
+      "amem",
+      "rootmem"
+    ]
+  },
+  "diagnostics": {
+    "api_calls": 94,
+    "truncations": 0,
+    "thinking": 0
+  },
+  "ingestion": {
+    "mem0": {
+      "time": "2026-11-22 12:59:48",
+      "job": "retrieve-inmind-mem0-",
+      "kind": "ingest",
+      "method": "mem0",
+      "done": 41,
+      "total": 365
+    },
+    "amem": {
+      "time": "2026-11-22 12:55:54",
+      "job": "smoke--amem-",
+      "kind": "ingest",
+      "method": "amem",
+      "done": 1,
+      "total": 4
+    },
+    "rootmem": {
+      "time": "2026-11-22 12:56:21",
+      "job": "smoke--rootmem-",
+      "kind": "ingest",
+      "method": "rootmem",
+      "done": 4,
+      "total": 4
+    }
+  },
+  "smokes": {
+    "mem0": {
+      "method": "mem0",
+      "passed": true,
+      "notes": 4,
+      "known_fact_retrieved": true,
+      "update_input_included": true,
+      "metadata": {},
+      "calls": 8,
+      "native_failure_is_not_zero_score": true
+    },
+    "amem": {
+      "method": "amem",
+      "passed": true,
+      "notes": 4,
+      "known_fact_retrieved": true,
+      "update_input_included": true,
+      "metadata": {
+        "frozen_state_unchanged": true
+      },
+      "calls": 9,
+      "native_failure_is_not_zero_score": true
+    },
+    "rootmem": {
+      "method": "rootmem",
+      "passed": true,
+      "notes": 4,
+      "known_fact_retrieved": true,
+      "update_input_included": true,
+      "metadata": {
+        "router": {
+          "fallback_to_all": false,
+          "error_type": null
+        },
+        "activated_domains": [
+          "Health & Safety Protocols"
+        ],
+        "external_retrieval_replaced_by": "same BGE-small raw search"
+      },
+      "calls": 2,
+      "native_failure_is_not_zero_score": true
+    }
+  },
+  "judge_calibration": {
+    "passed": true,
+    "n": 10,
+    "positive_negative_controls": true,
+    "outputs": [
+      {
+        "id": 0,
+        "v": "yes"
+      },
+      {
+        "id": 1,
+        "v": "no"
+      },
+      {
+        "id": 2,
+        "v": "yes"
+      },
+      {
+        "id": 3,
+        "v": "no"
+      },
+      {
+        "id": 4,
+        "v": "yes"
+      },
+      {
+        "id": 5,
+        "v": "no"
+      },
+      {
+        "id": 6,
+        "v": "yes"
+      },
+      {
+        "id": 7,
+        "v": "no"
+      },
+      {
+        "id": 8,
+        "v": "yes"
+      },
+      {
+        "id": 9,
+        "v": "no"
+      }
+    ]
+  },
+  "supervisor_alive": true,
+  "report_alive": true
+}

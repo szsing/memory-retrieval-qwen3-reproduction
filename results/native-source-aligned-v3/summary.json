@@ -1,0 +1,567 @@
+{
+  "updated": "2026-11-22 18:12:34",
+  "state": {
+    "started": "2026-11-22 12:55:21",
+    "deadline": 1795348521.0,
+    "phase": "remaining_subsets",
+    "completed": [
+      "smoke--mem0-",
+      "smoke--amem-",
+      "smoke--rootmem-",
+      "retrieve-inmind-mem0-",
+      "evaluate-inmind-mem0-61",
+      "retrieve-inmind-amem-",
+      "evaluate-inmind-amem-61",
+      "retrieve-inmind-plain-",
+      "evaluate-inmind-plain-61",
+      "retrieve-inmind-hyde-",
+      "evaluate-inmind-hyde-61",
+      "retrieve-inmind-rerank-",
+      "evaluate-inmind-rerank-61",
+      "evaluate-inmind-mem0-125",
+      "evaluate-inmind-amem-125",
+      "evaluate-inmind-plain-125",
+      "evaluate-inmind-hyde-125",
+      "evaluate-inmind-rerank-125",
+      "evaluate-inmind-full-125"
+    ],
+    "failed": [
+      {
+        "spec": {
+          "stage": "retrieve",
+          "bed": "inmind",
+          "method": "rootmem"
+        },
+        "code": 1
+      },
+      {
+        "spec": {
+          "stage": "retrieve",
+          "bed": "implex",
+          "method": "mem0"
+        },
+        "code": 1
+      },
+      {
+        "spec": {
+          "stage": "retrieve",
+          "bed": "implex",
+          "method": "amem"
+        },
+        "code": 1
+      }
+    ],
+    "current": {
+      "stage": "retrieve",
+      "bed": "implex",
+      "method": "rootmem"
+    },
+    "full_benchmark": "inmind",
+    "no_other_full_benchmarks": true,
+    "validated_native_methods": [
+      "mem0",
+      "amem",
+      "rootmem"
+    ]
+  },
+  "diagnostics": {
+    "calls": 9100,
+    "truncated": 3,
+    "thinking": 0,
+    "rejected_attempts": 3,
+    "failed_jobs": 3
+  },
+  "latest_progress": {
+    "smoke--mem0-": {
+      "time": "2026-11-22 12:55:30",
+      "job": "smoke--mem0-",
+      "kind": "ingest",
+      "method": "mem0",
+      "done": 1,
+      "total": 4
+    },
+    "smoke--amem-": {
+      "time": "2026-11-22 12:55:54",
+      "job": "smoke--amem-",
+      "kind": "ingest",
+      "method": "amem",
+      "done": 1,
+      "total": 4
+    },
+    "smoke--rootmem-": {
+      "time": "2026-11-22 12:56:21",
+      "job": "smoke--rootmem-",
+      "kind": "ingest",
+      "method": "rootmem",
+      "done": 4,
+      "total": 4
+    },
+    "retrieve-inmind-mem0-": {
+      "time": "2026-11-22 13:32:36",
+      "job": "retrieve-inmind-mem0-",
+      "kind": "retrieved",
+      "bed": "inmind",
+      "method": "mem0",
+      "query": 124,
+      "completed": 125,
+      "total": 125
+    },
+    "evaluate-inmind-mem0-61": {
+      "time": "2026-11-22 13:40:49",
+      "job": "evaluate-inmind-mem0-61",
+      "kind": "judged",
+      "bed": "inmind",
+      "method": "mem0",
+      "done": 61,
+      "requested": 61
+    },
+    "retrieve-inmind-amem-": {
+      "time": "2026-11-22 14:28:27",
+      "job": "retrieve-inmind-amem-",
+      "kind": "retrieved",
+      "bed": "inmind",
+      "method": "amem",
+      "query": 124,
+      "completed": 125,
+      "total": 125
+    },
+    "evaluate-inmind-full-61": {
+      "time": "2026-11-22 14:18:02",
+      "job": "evaluate-inmind-full-61",
+      "kind": "judged",
+      "bed": "inmind",
+      "method": "full",
+      "done": 61,
+      "requested": 61
+    },
+    "evaluate-inmind-amem-61": {
+      "time": "2026-11-22 14:30:15",
+      "job": "evaluate-inmind-amem-61",
+      "kind": "judged",
+      "bed": "inmind",
+      "method": "amem",
+      "done": 61,
+      "requested": 61
+    },
+    "retrieve-inmind-rootmem-": {
+      "time": "2026-11-22 14:33:42",
+      "job": "retrieve-inmind-rootmem-",
+      "kind": "ingest",
+      "method": "rootmem",
+      "done": 300,
+      "total": 365
+    },
+    "evaluate-inmind-plain-61": {
+      "time": "2026-11-22 14:40:49",
+      "job": "evaluate-inmind-plain-61",
+      "kind": "judged",
+      "bed": "inmind",
+      "method": "plain",
+      "done": 61,
+      "requested": 61
+    },
+    "evaluate-inmind-hyde-61": {
+      "time": "2026-11-22 14:42:21",
+      "job": "evaluate-inmind-hyde-61",
+      "kind": "judged",
+      "bed": "inmind",
+      "method": "hyde",
+      "done": 61,
+      "requested": 61
+    },
+    "evaluate-inmind-rerank-61": {
+      "time": "2026-11-22 14:44:07",
+      "job": "evaluate-inmind-rerank-61",
+      "kind": "judged",
+      "bed": "inmind",
+      "method": "rerank",
+      "done": 61,
+      "requested": 61
+    },
+    "evaluate-inmind-mem0-125": {
+      "time": "2026-11-22 14:46:03",
+      "job": "evaluate-inmind-mem0-125",
+      "kind": "judged",
+      "bed": "inmind",
+      "method": "mem0",
+      "done": 125,
+      "requested": 125
+    },
+    "evaluate-inmind-amem-125": {
+      "time": "2026-11-22 14:47:57",
+      "job": "evaluate-inmind-amem-125",
+      "kind": "judged",
+      "bed": "inmind",
+      "method": "amem",
+      "done": 125,
+      "requested": 125
+    },
+    "evaluate-inmind-plain-125": {
+      "time": "2026-11-22 14:49:54",
+      "job": "evaluate-inmind-plain-125",
+      "kind": "judged",
+      "bed": "inmind",
+      "method": "plain",
+      "done": 125,
+      "requested": 125
+    },
+    "evaluate-inmind-hyde-125": {
+      "time": "2026-11-22 14:51:25",
+      "job": "evaluate-inmind-hyde-125",
+      "kind": "judged",
+      "bed": "inmind",
+      "method": "hyde",
+      "done": 125,
+      "requested": 125
+    },
+    "evaluate-inmind-rerank-125": {
+      "time": "2026-11-22 14:53:19",
+      "job": "evaluate-inmind-rerank-125",
+      "kind": "judged",
+      "bed": "inmind",
+      "method": "rerank",
+      "done": 125,
+      "requested": 125
+    },
+    "evaluate-inmind-full-125": {
+      "time": "2026-11-22 14:55:12",
+      "job": "evaluate-inmind-full-125",
+      "kind": "judged",
+      "bed": "inmind",
+      "method": "full",
+      "done": 125,
+      "requested": 125
+    },
+    "retrieve-implex-mem0-": {
+      "time": "2026-11-22 15:05:58",
+      "job": "retrieve-implex-mem0-",
+      "kind": "retrieved",
+      "bed": "implex",
+      "method": "mem0",
+      "query": 2,
+      "completed": 3,
+      "total": 81
+    },
+    "retrieve-implex-amem-": {
+      "time": "2026-11-22 15:50:15",
+      "job": "retrieve-implex-amem-",
+      "kind": "ingest",
+      "method": "amem",
+      "done": 1,
+      "total": 149
+    },
+    "retrieve-implex-rootmem-": {
+      "time": "2026-11-22 16:31:14",
+      "job": "retrieve-implex-rootmem-",
+      "kind": "ingest",
+      "method": "rootmem",
+      "done": 120,
+      "total": 182
+    },
+    "repair-retrieve-inmind-rootmem-": {
+      "time": "2026-11-22 16:05:27",
+      "job": "repair-retrieve-inmind-rootmem-",
+      "kind": "retrieved",
+      "bed": "inmind",
+      "method": "rootmem",
+      "query": 124,
+      "completed": 125,
+      "total": 125
+    },
+    "repair-evaluate-inmind-rootmem-61": {
+      "time": "2026-11-22 16:07:24",
+      "job": "repair-evaluate-inmind-rootmem-61",
+      "kind": "judged",
+      "bed": "inmind",
+      "method": "rootmem",
+      "done": 61,
+      "requested": 61
+    },
+    "repair-evaluate-inmind-rootmem-125": {
+      "time": "2026-11-22 16:09:31",
+      "job": "repair-evaluate-inmind-rootmem-125",
+      "kind": "judged",
+      "bed": "inmind",
+      "method": "rootmem",
+      "done": 125,
+      "requested": 125
+    },
+    "repair-retrieve-implex-mem0-": {
+      "time": "2026-11-22 16:31:06",
+      "job": "repair-retrieve-implex-mem0-",
+      "kind": "ingest",
+      "method": "mem0",
+      "done": 21,
+      "total": 149
+    },
+    "repair-retrieve-implex-amem-": {
+      "time": "2026-11-22 16:31:03",
+      "job": "repair-retrieve-implex-amem-",
+      "kind": "ingest",
+      "method": "amem",
+      "done": 21,
+      "total": 175
+    },
+    "control-evaluate-inmind-none-61": {
+      "time": "2026-11-22 16:14:24",
+      "job": "control-evaluate-inmind-none-61",
+      "kind": "judged",
+      "bed": "inmind",
+      "method": "none",
+      "done": 61,
+      "requested": 61
+    },
+    "control-evaluate-inmind-oracle-61": {
+      "time": "2026-11-22 16:16:51",
+      "job": "control-evaluate-inmind-oracle-61",
+      "kind": "judged",
+      "bed": "inmind",
+      "method": "oracle",
+      "done": 61,
+      "requested": 61
+    },
+    "control-evaluate-inmind-none-125": {
+      "time": "2026-11-22 16:17:35",
+      "job": "control-evaluate-inmind-none-125",
+      "kind": "judged",
+      "bed": "inmind",
+      "method": "none",
+      "done": 125,
+      "requested": 125
+    },
+    "control-evaluate-inmind-oracle-125": {
+      "time": "2026-11-22 16:19:22",
+      "job": "control-evaluate-inmind-oracle-125",
+      "kind": "judged",
+      "bed": "inmind",
+      "method": "oracle",
+      "done": 125,
+      "requested": 125
+    },
+    "strict241-mem0": {
+      "time": "2026-11-22 16:32:29",
+      "job": "strict241-mem0",
+      "kind": "ingest",
+      "method": "mem0",
+      "done": 241,
+      "total": 241
+    },
+    "strict241-amem": {
+      "time": "2026-11-22 16:32:38",
+      "job": "strict241-amem",
+      "kind": "ingest",
+      "method": "amem",
+      "done": 241,
+      "total": 241
+    },
+    "strict241-rootmem": {
+      "time": "2026-11-22 16:35:35",
+      "job": "strict241-rootmem",
+      "kind": "ingest",
+      "method": "rootmem",
+      "done": 241,
+      "total": 241
+    }
+  },
+  "complete_results": [
+    {
+      "bed": "inmind",
+      "method": "amem",
+      "n": 125,
+      "correct": 28,
+      "metric": "same-backbone answer uses hidden fact; not raw retrieval hit",
+      "protocol": "original 365-line shared dense pool; not per-query 241-line official-style pool",
+      "heldout_n": 61,
+      "raw_hit6": null,
+      "complete": true
+    },
+    {
+      "bed": "inmind",
+      "method": "amem",
+      "n": 61,
+      "correct": 18,
+      "metric": "same-backbone answer uses hidden fact; not raw retrieval hit",
+      "protocol": "original 365-line shared dense pool; not per-query 241-line official-style pool",
+      "heldout_n": 61,
+      "raw_hit6": null,
+      "complete": true
+    },
+    {
+      "bed": "inmind",
+      "method": "full",
+      "n": 125,
+      "correct": 60,
+      "metric": "same-backbone answer uses hidden fact; not raw retrieval hit",
+      "protocol": "original 365-line shared dense pool; not per-query 241-line official-style pool",
+      "heldout_n": 61,
+      "raw_hit6": 16,
+      "complete": true
+    },
+    {
+      "bed": "inmind",
+      "method": "full",
+      "n": 61,
+      "correct": 27,
+      "metric": "same-backbone answer uses hidden fact; not raw retrieval hit",
+      "protocol": "original 365-line shared dense pool; not per-query 241-line official-style pool",
+      "heldout_n": 61,
+      "raw_hit6": 8,
+      "complete": true
+    },
+    {
+      "bed": "inmind",
+      "method": "hyde",
+      "n": 125,
+      "correct": 58,
+      "metric": "same-backbone answer uses hidden fact; not raw retrieval hit",
+      "protocol": "original 365-line shared dense pool; not per-query 241-line official-style pool",
+      "heldout_n": 61,
+      "raw_hit6": 3,
+      "complete": true
+    },
+    {
+      "bed": "inmind",
+      "method": "hyde",
+      "n": 61,
+      "correct": 27,
+      "metric": "same-backbone answer uses hidden fact; not raw retrieval hit",
+      "protocol": "original 365-line shared dense pool; not per-query 241-line official-style pool",
+      "heldout_n": 61,
+      "raw_hit6": 2,
+      "complete": true
+    },
+    {
+      "bed": "inmind",
+      "method": "mem0",
+      "n": 125,
+      "correct": 38,
+      "metric": "same-backbone answer uses hidden fact; not raw retrieval hit",
+      "protocol": "original 365-line shared dense pool; not per-query 241-line official-style pool",
+      "heldout_n": 61,
+      "raw_hit6": null,
+      "complete": true
+    },
+    {
+      "bed": "inmind",
+      "method": "mem0",
+      "n": 61,
+      "correct": 19,
+      "metric": "same-backbone answer uses hidden fact; not raw retrieval hit",
+      "protocol": "original 365-line shared dense pool; not per-query 241-line official-style pool",
+      "heldout_n": 61,
+      "raw_hit6": null,
+      "complete": true
+    },
+    {
+      "bed": "inmind",
+      "method": "none",
+      "n": 125,
+      "correct": 38,
+      "metric": "same-backbone answer uses hidden fact; not raw retrieval hit",
+      "protocol": "original 365-line shared dense pool; not per-query 241-line official-style pool",
+      "heldout_n": 61,
+      "raw_hit6": null,
+      "complete": true
+    },
+    {
+      "bed": "inmind",
+      "method": "none",
+      "n": 61,
+      "correct": 16,
+      "metric": "same-backbone answer uses hidden fact; not raw retrieval hit",
+      "protocol": "original 365-line shared dense pool; not per-query 241-line official-style pool",
+      "heldout_n": 61,
+      "raw_hit6": null,
+      "complete": true
+    },
+    {
+      "bed": "inmind",
+      "method": "oracle",
+      "n": 125,
+      "correct": 110,
+      "metric": "same-backbone answer uses hidden fact; not raw retrieval hit",
+      "protocol": "original 365-line shared dense pool; not per-query 241-line official-style pool",
+      "heldout_n": 61,
+      "raw_hit6": null,
+      "complete": true
+    },
+    {
+      "bed": "inmind",
+      "method": "oracle",
+      "n": 61,
+      "correct": 52,
+      "metric": "same-backbone answer uses hidden fact; not raw retrieval hit",
+      "protocol": "original 365-line shared dense pool; not per-query 241-line official-style pool",
+      "heldout_n": 61,
+      "raw_hit6": null,
+      "complete": true
+    },
+    {
+      "bed": "inmind",
+      "method": "plain",
+      "n": 125,
+      "correct": 45,
+      "metric": "same-backbone answer uses hidden fact; not raw retrieval hit",
+      "protocol": "original 365-line shared dense pool; not per-query 241-line official-style pool",
+      "heldout_n": 61,
+      "raw_hit6": 2,
+      "complete": true
+    },
+    {
+      "bed": "inmind",
+      "method": "plain",
+      "n": 61,
+      "correct": 18,
+      "metric": "same-backbone answer uses hidden fact; not raw retrieval hit",
+      "protocol": "original 365-line shared dense pool; not per-query 241-line official-style pool",
+      "heldout_n": 61,
+      "raw_hit6": 1,
+      "complete": true
+    },
+    {
+      "bed": "inmind",
+      "method": "rerank",
+      "n": 125,
+      "correct": 57,
+      "metric": "same-backbone answer uses hidden fact; not raw retrieval hit",
+      "protocol": "original 365-line shared dense pool; not per-query 241-line official-style pool",
+      "heldout_n": 61,
+      "raw_hit6": 8,
+      "complete": true
+    },
+    {
+      "bed": "inmind",
+      "method": "rerank",
+      "n": 61,
+      "correct": 24,
+      "metric": "same-backbone answer uses hidden fact; not raw retrieval hit",
+      "protocol": "original 365-line shared dense pool; not per-query 241-line official-style pool",
+      "heldout_n": 61,
+      "raw_hit6": 5,
+      "complete": true
+    },
+    {
+      "bed": "inmind",
+      "method": "rootmem",
+      "n": 125,
+      "correct": 61,
+      "metric": "same-backbone answer uses hidden fact; not raw retrieval hit",
+      "protocol": "original 365-line shared dense pool; not per-query 241-line official-style pool",
+      "heldout_n": 61,
+      "raw_hit6": null,
+      "complete": true
+    },
+    {
+      "bed": "inmind",
+      "method": "rootmem",
+      "n": 61,
+      "correct": 37,
+      "metric": "same-backbone answer uses hidden fact; not raw retrieval hit",
+      "protocol": "original 365-line shared dense pool; not per-query 241-line official-style pool",
+      "heldout_n": 61,
+      "raw_hit6": null,
+      "complete": true
+    }
+  ],
+  "metric_warning": "Common reader hidden-fact application, not raw Hit@6. InMind is365-line shared-pool protocol;125 includes development questions."
+}

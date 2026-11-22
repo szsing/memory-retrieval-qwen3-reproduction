@@ -1,0 +1,37 @@
+[
+  {
+    "source_matrix_sha256": "7c663a9f3d77624edb59c7ea36fb73034b848f3657e77233c7e65ceed2d95db9",
+    "duplicate_entries": [
+      {
+        "Skill_Domain": "Technical & Networking Knowledge",
+        "Execution_Rules": "All technical queries must be addressed with a focus on clarity and practicality. When explaining concepts like fiber optics, prioritize straightforward explanations and real-world applications. If the user expresses a need for optimization or performance tuning, ensure recommendations are grounded in current best practices and avoid overly complex solutions. For networking, emphasize tools and best practices for integration into infrastructure.",
+        "Logic_Aware_Decision_Region": "STATE_ANCHORS: [Technical Trajectory: General knowledge (2023) -> Increased interest in networking, optimization, and technical fields (2024) -> Current focus on practical applications (2025). Current focus: Fiber optics, telecommunications, and network infrastructure.] HARD_FACTS: [Preference for clear, actionable information; no preference for overly complex solutions; emphasis on practical integration and real-world applications.]"
+      },
+      {
+        "Skill_Domain": "Urban & Economic Development",
+        "Execution_Rules": "All queries related to urbanization, economic development, and job market trends must be addressed with a focus on practical, data-driven insights. When discussing job market changes, emphasize the impact of technological advancements, startup growth, and infrastructure development. If the user expresses a need for optimization or performance tuning, ensure recommendations are grounded in current best practices and avoid overly complex solutions. For urban planning, prioritize sustainable, inclusive, and scalable strategies.",
+        "Logic_Aware_Decision_Region": "STATE_ANCHORS: [Urban & Economic Trajectory: General knowledge (2023) -> Increased focus on urbanization, job market, and economic development (2024) -> Current focus on practical, data-driven insights (2025). Current activity: Research on urbanization trends, job market changes, and startup growth in Lagos.] HARD_FACTS: [Preference for clear, actionable information; no preference for overly complex solutions; emphasis on sustainable, inclusive urban planning.]"
+      },
+      {
+        "Skill_Domain": "Vehicle & Safety Compliance",
+        "Execution_Rules": "All queries related to vehicle safety, compliance, and regulations must be addressed with a focus on practical, data-driven insights. When discussing safety standards, emphasize the importance of compliance and the consequences of non-compliance. If the user expresses a need for optimization or performance tuning, ensure recommendations are grounded in current best practices and avoid overly complex solutions. For vehicle topics, prioritize real-world applications and ethical considerations.",
+        "Logic_Aware_Decision_Region": "STATE_ANCHORS: [Vehicle & Safety Trajectory: General knowledge (2023) -> Increased focus on vehicle safety and compliance (2024) -> Current focus on practical, data-driven insights (2025). Current activity: Research on vehicle safety standards, compliance, and penalties.] HARD_FACTS: [Preference for clear, actionable information; no preference for overly complex solutions; emphasis on real-world relevance and ethical considerations.]"
+      },
+      {
+        "Skill_Domain": "Technical & Networking Knowledge",
+        "Execution_Rules": "All technical queries must be addressed with a focus on clarity and practicality. When explaining concepts like fiber optics, prioritize straightforward explanations and real-world applications. If the user expresses a need for optimization or performance tuning, ensure recommendations are grounded in current best practices and avoid overly complex solutions. For networking, emphasize tools and best practices for integration into infrastructure.",
+        "Logic_Aware_Decision_Region": "STATE_ANCHORS: [Technical Trajectory: General knowledge (2023) -> Increased interest in networking, optimization, and technical fields (2024) -> Current focus on practical applications (2025). Current focus: Fiber optics, telecommunications, and network infrastructure.] HARD_FACTS: [Preference for clear, actionable information; no preference for overly complex solutions; emphasis on practical integration and real-world applications.]"
+      },
+      {
+        "Skill_Domain": "Urban & Economic Development",
+        "Execution_Rules": "All queries related to urbanization, economic development, and job market trends must be addressed with a focus on practical, data-driven insights. When discussing job market changes, emphasize the impact of technological advancements, startup growth, and infrastructure development. If the user expresses a need for optimization or performance tuning, ensure recommendations are grounded in current best practices and avoid overly complex solutions. For urban planning, prioritize sustainable, inclusive, and scalable strategies.",
+        "Logic_Aware_Decision_Region": "STATE_ANCHORS: [Urban & Economic Trajectory: General knowledge (2023) -> Increased focus on urbanization, job market, and economic development (2024) -> Current focus on practical, data-driven insights (2025). Current activity: Research on urbanization trends, job market changes, and startup growth in Lagos.] HARD_FACTS: [Preference for clear, actionable information; no preference for overly complex solutions; emphasis on sustainable, inclusive urban planning.]"
+      },
+      {
+        "Skill_Domain": "Vehicle & Safety Compliance",
+        "Execution_Rules": "All queries related to vehicle safety, compliance, and regulations must be addressed with a focus on practical, data-driven insights. When discussing safety standards, emphasize the importance of compliance and the consequences of non-compliance. If the user expresses a need for optimization or performance tuning, ensure recommendations are grounded in current best practices and avoid overly complex solutions. For vehicle topics, prioritize real-world applications and ethical considerations.",
+        "Logic_Aware_Decision_Region": "STATE_ANCHORS: [Vehicle & Safety Trajectory: General knowledge (2023) -> Increased focus on vehicle safety and compliance (2024) -> Current focus on practical, data-driven insights (2025). Current activity: Research on vehicle safety standards, compliance, and penalties.] HARD_FACTS: [Preference for clear, actionable information; no preference for overly complex solutions; emphasis on real-world relevance and ethical considerations.]"
+      }
+    ]
+  }
+]

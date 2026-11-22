@@ -1,0 +1,15 @@
+{
+  "experiments/native-source-aligned-v3/transport.py": "a38ca88f41bdf88806308d0049b1fe05d7feeeb5ce1d9ee3eaa33e14e4241491",
+  "experiments/native-source-aligned-v3/native.py": "9cf80962413c42eec246d0b5b2e71d94165e5024f58fdd434a63db9c8c2fe252",
+  "experiments/native-source-aligned-v3/worker.py": "2e65634491b132e894667bdcf91a84f17b8cd3547d8457e8fdcc210353f2c9df",
+  "experiments/native-source-aligned-v3/supervisor.py": "039138c74ea3b4f2d86b33afb6bd07b883ca0f317de005f784843cf27bc9fa07",
+  "experiments/native-source-aligned-v3/report.py": "3e6c7631359559a4c2aeb52db7801c594bbea6a478c1010944dcc6a695c8467b",
+  "experiments/native-source-aligned-v3/run.sh": "546a65641f1b462fe8f39a7e01d89d95dbe9d80d301711bce0188bbc2ad7c70b",
+  "experiments/native-source-aligned-v3/README.zh.md": "836b21eafe396bfb9d4d2b47d7df76a5d9f2f354f76a62291d4ae7e6bcdb2615",
+  "experiments/native-source-aligned-v3/REPORT.zh.md": "07ae0b2cfa4e2b7b56403cede66f617d5954fd24c12cbf92d2229c4940b997f3",
+  "experiments/full-run-v2/vendor/A-mem-main/memory_layer.py": "dd8f871da00a57a2218de63ba9792336dd5bf040ec4502beaea22739bd865d3c",
+  "experiments/full-run-v2/vendor/A-mem-main/llm_text_parsers.py": "c4106de7dfddf36ea1e397c2146579e223fc05d1758d3845582c7af73f5827a6",
+  "experiments/full-run-v2/vendor/A-mem-main/test_advanced.py": "e6c7bc249f5f57aba4c62fe3b96dfa95fb77e1540008726f937fc1c136aedcee",
+  "experiments/full-run-v2/vendor/IMLogic-main/rootmem/build_rootmem.py": "9f5a5f4fbf979ca9aba1eda508751a874aa1587ecb483db251f73bf1c6a23940",
+  "experiments/full-run-v2/vendor/IMLogic-main/rootmem/use_rootmem.py": "a5144903168d63e40d5417834b93616587e2126bfa510b44f861761885be1896"
+}

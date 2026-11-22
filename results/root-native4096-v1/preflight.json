@@ -1,0 +1,8 @@
+{
+  "n": 8,
+  "original_clipped_notes_reconstructed_exactly": true,
+  "same_frozen_rootmem_matrices_and_routes": true,
+  "no_memory_build_or_router_calls": true,
+  "reader_model_unchanged": true,
+  "changed_readout_budget": "whole units up to4096 tokens, versus6 units*400 chars"
+}

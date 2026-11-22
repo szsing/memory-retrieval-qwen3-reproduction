@@ -1,0 +1,25 @@
+{
+  "files": {
+    "IMLogic-main/rootmem/use_rootmem.py": "a5144903168d63e40d5417834b93616587e2126bfa510b44f861761885be1896",
+    "IMLogic-main/rootmem/build_rootmem.py": "9f5a5f4fbf979ca9aba1eda508751a874aa1587ecb483db251f73bf1c6a23940",
+    "IMLogic-main/rootmem/README.md": "d0b451034135e7473b3578ce848dd967357aa04c2e083d5c50e183aa95124b45",
+    "IMLogic-main/README.md": "9b4ea889b82192706de1e68c522b0004c175fa43654032b41a42e6d3dc87d929",
+    "IMLogic-main/LICENSE": "647092beb491c140e1b91b188d5604fca887b833754fef83fd5516cf10fa208a",
+    "LUCid-main/src/evaluation/aggregate_eval_results.py": "bdc988fa3c3545a2de9da0dc0591f6f5b32b19b4f1d4062160b9631aa79f1187",
+    "LUCid-main/src/evaluation/aggregate.py": "bb67ba10cc53ff3f8a356fa94ad05d499dcbbbb7f5145fdb2b9a0c781b0f1315",
+    "LUCid-main/src/evaluation/runner.py": "2caf2416efd1444982e2b3a27bb32ae089fe677abd732fe8ba110fa93c3177e7",
+    "LUCid-main/src/evaluation/evaluate_qa.py": "78bcb6d019bab5ceb8efef31c87b7d10c04ed01d737a45a7b97a871adc62d5ae",
+    "LUCid-main/src/evaluation/evaluation.py": "333ca36cb58da7642655c8102697cd825bcb426fe420f8e9022a8e88ff5a0868",
+    "LUCid-main/src/evaluation/prompts.py": "626b7259977e95d1ffb5d5042e60c840b679fcef288dc2ed7aa8b8739008bfd8",
+    "LUCid-main/src/evaluation/evaluate_directory.py": "4d24618e65f56dbc7a79abbf868d1dd42102ee0ca8612a39210890470c3782dd",
+    "LUCid-main/src/evaluation/utils.py": "17909f5c671372874b7f62f25ffa489957695485dfc4352dff591f3970bd940d",
+    "LUCid-main/README.md": "ee2d4d888cd7c98670a8cad8bd977cf36e812a58e6032056bde7e649cf577f1d",
+    "ImplexConv-main/evaluate/get_baseline_scores.py": "99047e76be20d988525cee1abfa8f9f31154338e7c7ea0017f3c99895ef92da2",
+    "ImplexConv-main/README.md": "45d8d9d0cb4f6f4dcf505bd60041b42a88a0982b31cd1c2c03f79f72cd7cb664"
+  },
+  "archive_commits": {
+    "IMLogic-complete.tar.gz": "8823defc18ec94e377a835695ce9180678eb2b0e",
+    "LUCid-code.tar.gz": "092cbf9c95c05377bc0f4a5f644db1dd2b057442",
+    "ImplexConv-code.tar.gz": "202c446bfb1205e981405d44eed3416f52d3b375"
+  }
+}

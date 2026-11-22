@@ -1,0 +1,6 @@
+{
+  "background_sha256": "fde3dcc239671a04559be54cd7da64c6a310ad56b0e38aa193ce0d1086e9e371",
+  "input_lines": 240,
+  "canonical_state_sha256": "2b68cfd9f67c3f806bff0104acc526179228ba3cdb7a25836581b4f25089a16b",
+  "built_without_queries_or_target_facts": true
+}

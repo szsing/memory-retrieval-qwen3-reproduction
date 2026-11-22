@@ -1,0 +1,26 @@
+{
+  "all125_timelines": true,
+  "no_gold_fields_in_ingestion": true,
+  "no_other_task_target_origin_in_state": true,
+  "duplicate_personal_fact_groups": [
+    [
+      115,
+      118
+    ],
+    [
+      102,
+      104
+    ],
+    [
+      12,
+      13
+    ]
+  ],
+  "all488_turns_preserved": true,
+  "interaction_chunk_counts": [
+    247
+  ],
+  "dev": 40,
+  "disjoint": 85,
+  "context_whole_note_budget_test": true
+}

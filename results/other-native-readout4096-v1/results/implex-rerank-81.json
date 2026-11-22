@@ -1,0 +1,9 @@
+{
+  "bed": "implex",
+  "method": "rerank",
+  "n": 81,
+  "complete": true,
+  "diagnostic_source_judge_correct": 32,
+  "metric_warning": "Original simplified judge only; not official benchmark accuracy. Implex/LUCid source subsets are not full benchmarks.",
+  "raw_hit6": 25
+}

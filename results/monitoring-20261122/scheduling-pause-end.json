@@ -1,0 +1,5 @@
+{
+  "pid": 68554,
+  "resumed": "2026-11-22 19:53:23",
+  "reason": "restore temporarily deprioritized A-Mem process for normal budget shutdown; preserve original parameters"
+}

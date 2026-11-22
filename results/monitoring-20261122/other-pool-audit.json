@@ -1,0 +1,23 @@
+{
+  "created": "2026-11-22 18:54:20",
+  "dataset_sha256": "1fde49d446a1e6491e9b59202ab66407e37fbd1bac5970d3f39dafe07480de34",
+  "warning": "Source-script diagnostic subsets, not official full-conversation benchmark protocols. Common suffix cannot be reused as native prefix without changing construction order.",
+  "implex": {
+    "tasks": 81,
+    "distinct_ordered_pools": 30,
+    "min_lines": 149,
+    "max_lines": 233,
+    "common_ids_all_pools": 0,
+    "common_ordered_suffix": 0,
+    "target_indices_all_within_pool": true
+  },
+  "lucid": {
+    "tasks": 240,
+    "distinct_ordered_pools": 240,
+    "min_lines": 546,
+    "max_lines": 581,
+    "common_ids_all_pools": 543,
+    "common_ordered_suffix": 543,
+    "target_indices_all_within_pool": true
+  }
+}

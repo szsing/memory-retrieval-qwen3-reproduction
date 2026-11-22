@@ -1,0 +1,402 @@
+[
+  [
+    "complexity of design",
+    "target audience",
+    "color contrast",
+    "symbolism",
+    "cultural context",
+    "scalability",
+    "file format",
+    "licensing"
+  ],
+  [
+    "company policy",
+    "attendance policy",
+    "workplace culture",
+    "manager expectations",
+    "legal implications",
+    "performance impact",
+    "compensation",
+    "leave of absence"
+  ],
+  [
+    "avocado ripeness",
+    "toast type",
+    "seasoning",
+    "bread type",
+    "allergies",
+    "nutritional value",
+    "cooking time",
+    "serving size"
+  ],
+  [
+    "ingredients",
+    "dietary restrictions",
+    "allergies",
+    "flavor balance",
+    "preparation time",
+    "storage",
+    "cost",
+    "health impact"
+  ],
+  [
+    "vitamin C content",
+    "sugar content",
+    "allergies",
+    "digestive effects",
+    "interactions",
+    "nutritional value",
+    "availability",
+    "taste"
+  ],
+  [
+    "vaccine type",
+    "medical history",
+    "allergies",
+    "side effects",
+    "immunization schedule",
+    "contraindications",
+    "healthcare provider",
+    "travel requirements"
+  ],
+  [
+    "destination",
+    "visa requirements",
+    "travel documents",
+    "health precautions",
+    "weather",
+    "budget",
+    "insurance",
+    "accommodation"
+  ],
+  [
+    "weather conditions",
+    "sun protection",
+    "swimming safety",
+    "first aid",
+    "local regulations",
+    "environmental impact",
+    "health precautions",
+    "packaging"
+  ],
+  [
+    "mold growth",
+    "high sodium content",
+    "lactose intolerance risk",
+    "shelf life",
+    "storage requirements",
+    "allergen potential",
+    "pairing compatibility",
+    "cultural preferences"
+  ],
+  [
+    "high cholesterol content",
+    "high sodium content",
+    "high fat content",
+    "digestive discomfort",
+    "nutrient density",
+    "caloric intake",
+    "dietary restrictions",
+    "allergen potential"
+  ],
+  [
+    "almond flour sensitivity",
+    "egg allergy risk",
+    "baking temperature",
+    "dough consistency",
+    "shelf life",
+    "storage requirements",
+    "allergen potential",
+    "equipment needed"
+  ],
+  [
+    "pregnancy complications",
+    "nutrient deficiencies",
+    "folic acid intake",
+    "iron requirements",
+    "blood pressure",
+    "gestational diabetes",
+    "allergen potential",
+    "dietary restrictions"
+  ],
+  [
+    "citrus fruit acidity",
+    "drug interactions",
+    "digestive discomfort",
+    "nutrient content",
+    "shelf life",
+    "storage requirements",
+    "allergen potential",
+    "dietary restrictions"
+  ],
+  [
+    "visa requirements",
+    "health insurance",
+    "language barriers",
+    "cultural differences",
+    "legal restrictions",
+    "travel insurance",
+    "health considerations",
+    "allergen potential"
+  ],
+  [
+    "air pressure changes",
+    "hydration needs",
+    "comfort items",
+    "entertainment",
+    "sleep patterns",
+    "dietary adjustments",
+    "allergen potential",
+    "health considerations"
+  ],
+  [
+    "work-life balance",
+    "contract terms",
+    "payment structure",
+    "project scope",
+    "client reliability",
+    "tax implications",
+    "legal agreements",
+    "skill requirements"
+  ],
+  [
+    "username uniqueness",
+    "password security",
+    "account privacy",
+    "email verification",
+    "terms of service",
+    "data privacy",
+    "account recovery",
+    "username restrictions"
+  ],
+  [
+    "sugar content",
+    "vitamin C",
+    "urinary tract health",
+    "blood sugar levels",
+    "interactions with medications",
+    "digestive issues",
+    "overconsumption risks",
+    "nutrient balance"
+  ],
+  [
+    "natural ingredients",
+    "non-toxic",
+    "eco-friendly",
+    "cost-effective",
+    "ease of use",
+    "scent preferences",
+    "surface compatibility",
+    "cleaning effectiveness"
+  ],
+  [
+    "visa requirements",
+    "passport validity",
+    "health insurance",
+    "currency exchange",
+    "language barriers",
+    "travel restrictions",
+    "local laws",
+    "weather conditions"
+  ],
+  [
+    "technical specifications",
+    "design preferences",
+    "budget constraints",
+    "development timeline",
+    "platform requirements",
+    "security protocols",
+    "user experience",
+    "project scope"
+  ],
+  [
+    "medical diagnosis",
+    "treatment plan",
+    "dietary restrictions",
+    "medication use",
+    "doctor's recommendations",
+    "activity limitations",
+    "emergency protocols",
+    "special care needs"
+  ],
+  [
+    "allergen identification",
+    "symptoms recognition",
+    "cross-contamination risks",
+    "dietary adjustments",
+    "medical history",
+    "avoidance strategies",
+    "emergency response",
+    "testing methods"
+  ],
+  [
+    "allergen sources",
+    "symptoms tracking",
+    "dietary restrictions",
+    "cross-contamination",
+    "medical history",
+    "avoidance strategies",
+    "emergency response",
+    "testing methods"
+  ],
+  [
+    "personal health information",
+    "privacy concerns",
+    "medical confidentiality",
+    "prescription details",
+    "doctor-patient relationship",
+    "legal implications",
+    "health insurance coverage",
+    "medical history"
+  ],
+  [
+    "family dynamics",
+    "childcare needs",
+    "home environment",
+    "emotional support",
+    "social interactions",
+    "parental responsibilities",
+    "new responsibilities",
+    "adjustment period"
+  ],
+  [
+    "health status",
+    "medical history",
+    "chronic conditions",
+    "diagnosis",
+    "treatment plans",
+    "doctor-patient relationship",
+    "health insurance coverage",
+    "privacy concerns"
+  ],
+  [
+    "skin condition",
+    "medical history",
+    "treatment plans",
+    "allergies",
+    "skin care routine",
+    "doctor-patient relationship",
+    "health insurance coverage",
+    "privacy concerns"
+  ],
+  [
+    "mental health",
+    "prescription details",
+    "doctor-patient relationship",
+    "health insurance coverage",
+    "privacy concerns",
+    "medical history",
+    "treatment plans",
+    "side effects"
+  ],
+  [
+    "healthcare schedule",
+    "medical appointments",
+    "doctor-patient relationship",
+    "health insurance coverage",
+    "privacy concerns",
+    "medical history",
+    "treatment plans",
+    "health status"
+  ],
+  [
+    "allergies",
+    "medical history",
+    "health insurance coverage",
+    "privacy concerns",
+    "doctor-patient relationship",
+    "treatment plans",
+    "dietary restrictions",
+    "health status"
+  ],
+  [
+    "blood type",
+    "medical history",
+    "health insurance coverage",
+    "privacy concerns",
+    "doctor-patient relationship",
+    "health status",
+    "treatment plans",
+    "blood transfusion compatibility"
+  ],
+  [
+    "prescription requirements",
+    "doctor's approval",
+    "drug interactions",
+    "side effects",
+    "cost",
+    "insurance coverage",
+    "medical monitoring",
+    "contraindications"
+  ],
+  [
+    "legal implications",
+    "privacy concerns",
+    "document verification",
+    "eligibility for services",
+    "travel restrictions",
+    "employment restrictions",
+    "visa implications",
+    "data security"
+  ],
+  [
+    "medical history",
+    "blood clotting risk",
+    "previous treatments",
+    "family history",
+    "lifestyle factors",
+    "diagnostic tests",
+    "treatment options",
+    "complications"
+  ],
+  [
+    "legal status",
+    "work authorization",
+    "travel restrictions",
+    "residency requirements",
+    "visa renewal",
+    "employment eligibility",
+    "public benefits",
+    "immigration law changes"
+  ],
+  [
+    "disability type",
+    "legal protections",
+    "accommodations",
+    "medical documentation",
+    "employment restrictions",
+    "public services access",
+    "insurance coverage",
+    "legal definitions"
+  ],
+  [
+    "heart condition type",
+    "prescription requirements",
+    "drug interactions",
+    "side effects",
+    "cost",
+    "insurance coverage",
+    "medical monitoring",
+    "contraindications"
+  ],
+  [
+    "material type",
+    "durability",
+    "cleaning requirements",
+    "toxicity",
+    "allergens",
+    "cost",
+    "installation",
+    "maintenance"
+  ],
+  [
+    "legal implications",
+    "privacy concerns",
+    "document verification",
+    "eligibility for services",
+    "travel restrictions",
+    "employment restrictions",
+    "visa implications",
+    "data security"
+  ]
+]

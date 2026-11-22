@@ -1,0 +1,49 @@
+{
+  "diagnostic_only": true,
+  "original_scores_not_replaced": true,
+  "normalization": "whitespace only; exact full fact text",
+  "result": {
+    "61": {
+      "questions_with_duplicate_fact_lines": 6,
+      "metrics": {
+        "plain": {
+          "original_exact_index_hit6": 1,
+          "equivalent_identical_fact_hit6": 1
+        },
+        "hyde": {
+          "original_exact_index_hit6": 2,
+          "equivalent_identical_fact_hit6": 2
+        },
+        "rerank": {
+          "original_exact_index_hit6": 5,
+          "equivalent_identical_fact_hit6": 5
+        },
+        "full": {
+          "original_exact_index_hit6": 8,
+          "equivalent_identical_fact_hit6": 8
+        }
+      }
+    },
+    "125": {
+      "questions_with_duplicate_fact_lines": 6,
+      "metrics": {
+        "plain": {
+          "original_exact_index_hit6": 2,
+          "equivalent_identical_fact_hit6": 2
+        },
+        "hyde": {
+          "original_exact_index_hit6": 3,
+          "equivalent_identical_fact_hit6": 3
+        },
+        "rerank": {
+          "original_exact_index_hit6": 8,
+          "equivalent_identical_fact_hit6": 8
+        },
+        "full": {
+          "original_exact_index_hit6": 16,
+          "equivalent_identical_fact_hit6": 16
+        }
+      }
+    }
+  }
+}

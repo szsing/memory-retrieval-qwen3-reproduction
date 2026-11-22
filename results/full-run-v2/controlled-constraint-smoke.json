@@ -1,0 +1,92 @@
+[
+  {
+    "group": "home",
+    "fact_sha256": "740e53684515fb9ec9616059602c46cf2293e008ab61657b8dd0890572cb06e5",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "home",
+    "fact_sha256": "82410313ead44e0323225a07a9b7b6cabe3d969e4f6fd0d5b5a9b62b3cb9b5b9",
+    "fact_omitted": true,
+    "properties": [
+      "new electrical wiring",
+      "rental contract restrictions",
+      "electrical installation",
+      "property modification",
+      "rental agreement violations",
+      "home improvement",
+      "electrical work",
+      "lease agreement compliance"
+    ]
+  },
+  {
+    "group": "home",
+    "fact_sha256": "acc8f9807c0ce0119f514c54b3ee983ce12ee2526d691eb298f8da04d1b265b1",
+    "fact_omitted": true,
+    "properties": [
+      "pets",
+      "animal ownership",
+      "household pets",
+      "pet care",
+      "pet registration",
+      "pet insurance",
+      "pet adoption",
+      "pet-related activities"
+    ]
+  },
+  {
+    "group": "tech",
+    "fact_sha256": "94437066b52e3452c8455e1d5588ec1a5d63d406c3a578ee037090f09facaee3",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "tech",
+    "fact_sha256": "65be09f7b8cdac1c2d06247d278dd95f8108428be718d70ca259ae13376cc554",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "tech",
+    "fact_sha256": "48dd3da4414acec9126d02ae94f746875f8a6cb6c0e9a3db1961df7724003868",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "hobby",
+    "fact_sha256": "57035b6857a851950f4573e461e70648e062f3ae9cfc021c0a3164bc983a947d",
+    "fact_omitted": true,
+    "properties": [
+      "lead-containing materials",
+      "lead-based paints",
+      "lead-glazed ceramics",
+      "lead-free alternatives",
+      "lead-safe environments",
+      "lead-contaminated soil",
+      "lead-exposed workspaces",
+      "lead-free glaze suppliers"
+    ]
+  },
+  {
+    "group": "hobby",
+    "fact_sha256": "18201b969a98cde333f71355d0c5b9b5b9647babeadc115263d6360ab90042eb",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "hobby",
+    "fact_sha256": "abdf6181dca7e7545108851c066d4e1ec51a3da208a659132aad639bfbd74b2f",
+    "fact_omitted": true,
+    "properties": [
+      "PVC materials",
+      "laser cutter",
+      "makerspace agreement",
+      "cutting restrictions",
+      "material restrictions",
+      "laser cutting",
+      "PVC cutting",
+      "makerspace rules"
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "connection_contexts": 6003,
+  "garbage_collection_disabled": true,
+  "descriptors_before": 4,
+  "descriptors_after": 4,
+  "rollback_preserved": true
+}

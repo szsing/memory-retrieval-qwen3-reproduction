@@ -1,0 +1,107 @@
+{
+  "updated": "2026-11-22 17:56:44",
+  "primary": "unseen61",
+  "expanded125_includes_development_domains": true,
+  "model_judge": "Qwen3-8B; official prompt text, local judge",
+  "rows": [
+    {
+      "method": "full",
+      "answer61": 3,
+      "answer125": 15,
+      "grounded61": 4,
+      "grounded125": 7,
+      "answer_evaluated": 125,
+      "grounded_evaluated": 125
+    },
+    {
+      "method": "write_only_attr",
+      "answer61": 4,
+      "answer125": 11,
+      "grounded61": 5,
+      "grounded125": 7,
+      "answer_evaluated": 125,
+      "grounded_evaluated": 125
+    },
+    {
+      "method": "fact_presence",
+      "answer61": 5,
+      "answer125": 13,
+      "grounded61": 4,
+      "grounded125": 5,
+      "answer_evaluated": 125,
+      "grounded_evaluated": 125
+    },
+    {
+      "method": "mem0",
+      "answer61": 4,
+      "answer125": 11,
+      "grounded61": 1,
+      "grounded125": 1,
+      "answer_evaluated": 125,
+      "grounded_evaluated": 125
+    },
+    {
+      "method": "amem",
+      "answer61": 5,
+      "answer125": 13,
+      "grounded61": 1,
+      "grounded125": 2,
+      "answer_evaluated": 125,
+      "grounded_evaluated": 125
+    },
+    {
+      "method": "rootmem",
+      "answer61": 4,
+      "answer125": null,
+      "grounded61": 1,
+      "grounded125": null,
+      "answer_evaluated": 103,
+      "grounded_evaluated": 103
+    },
+    {
+      "method": "hyde",
+      "answer61": 3,
+      "answer125": 11,
+      "grounded61": 3,
+      "grounded125": 5,
+      "answer_evaluated": 125,
+      "grounded_evaluated": 125
+    },
+    {
+      "method": "rerank",
+      "answer61": 4,
+      "answer125": 11,
+      "grounded61": 4,
+      "grounded125": 5,
+      "answer_evaluated": 125,
+      "grounded_evaluated": 125
+    },
+    {
+      "method": "plain",
+      "answer61": 0,
+      "answer125": 6,
+      "grounded61": 0,
+      "grounded125": 1,
+      "answer_evaluated": 125,
+      "grounded_evaluated": 125
+    },
+    {
+      "method": "none",
+      "answer61": 3,
+      "answer125": 12,
+      "grounded61": 0,
+      "grounded125": 0,
+      "answer_evaluated": 125,
+      "grounded_evaluated": 125
+    },
+    {
+      "method": "oracle",
+      "answer61": 44,
+      "answer125": 89,
+      "grounded61": 44,
+      "grounded125": 85,
+      "answer_evaluated": 125,
+      "grounded_evaluated": 125
+    }
+  ]
+}

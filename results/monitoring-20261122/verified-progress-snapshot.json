@@ -1,0 +1,658 @@
+{
+  "captured": "2026-11-22 20:01:52",
+  "deadline_beijing": "2026-11-22 19:55:21",
+  "primary": {
+    "full": {
+      "answer": {
+        "evaluated": 125,
+        "correct_evaluated": 15,
+        "heldout61_complete": true,
+        "all125_complete": true,
+        "correct61": 3,
+        "correct125": 15
+      },
+      "grounded": {
+        "evaluated": 125,
+        "correct_evaluated": 7,
+        "heldout61_complete": true,
+        "all125_complete": true,
+        "correct61": 4,
+        "correct125": 7
+      }
+    },
+    "write_only_attr": {
+      "answer": {
+        "evaluated": 125,
+        "correct_evaluated": 11,
+        "heldout61_complete": true,
+        "all125_complete": true,
+        "correct61": 4,
+        "correct125": 11
+      },
+      "grounded": {
+        "evaluated": 125,
+        "correct_evaluated": 7,
+        "heldout61_complete": true,
+        "all125_complete": true,
+        "correct61": 5,
+        "correct125": 7
+      }
+    },
+    "fact_presence": {
+      "answer": {
+        "evaluated": 125,
+        "correct_evaluated": 13,
+        "heldout61_complete": true,
+        "all125_complete": true,
+        "correct61": 5,
+        "correct125": 13
+      },
+      "grounded": {
+        "evaluated": 125,
+        "correct_evaluated": 5,
+        "heldout61_complete": true,
+        "all125_complete": true,
+        "correct61": 4,
+        "correct125": 5
+      }
+    },
+    "mem0": {
+      "answer": {
+        "evaluated": 125,
+        "correct_evaluated": 11,
+        "heldout61_complete": true,
+        "all125_complete": true,
+        "correct61": 4,
+        "correct125": 11
+      },
+      "grounded": {
+        "evaluated": 125,
+        "correct_evaluated": 1,
+        "heldout61_complete": true,
+        "all125_complete": true,
+        "correct61": 1,
+        "correct125": 1
+      }
+    },
+    "amem": {
+      "answer": {
+        "evaluated": 125,
+        "correct_evaluated": 13,
+        "heldout61_complete": true,
+        "all125_complete": true,
+        "correct61": 5,
+        "correct125": 13
+      },
+      "grounded": {
+        "evaluated": 125,
+        "correct_evaluated": 2,
+        "heldout61_complete": true,
+        "all125_complete": true,
+        "correct61": 1,
+        "correct125": 2
+      }
+    },
+    "rootmem": {
+      "answer": {
+        "evaluated": 125,
+        "correct_evaluated": 16,
+        "heldout61_complete": true,
+        "all125_complete": true,
+        "correct61": 4,
+        "correct125": 16
+      },
+      "grounded": {
+        "evaluated": 125,
+        "correct_evaluated": 10,
+        "heldout61_complete": true,
+        "all125_complete": true,
+        "correct61": 1,
+        "correct125": 10
+      }
+    },
+    "hyde": {
+      "answer": {
+        "evaluated": 125,
+        "correct_evaluated": 11,
+        "heldout61_complete": true,
+        "all125_complete": true,
+        "correct61": 3,
+        "correct125": 11
+      },
+      "grounded": {
+        "evaluated": 125,
+        "correct_evaluated": 5,
+        "heldout61_complete": true,
+        "all125_complete": true,
+        "correct61": 3,
+        "correct125": 5
+      }
+    },
+    "rerank": {
+      "answer": {
+        "evaluated": 125,
+        "correct_evaluated": 11,
+        "heldout61_complete": true,
+        "all125_complete": true,
+        "correct61": 4,
+        "correct125": 11
+      },
+      "grounded": {
+        "evaluated": 125,
+        "correct_evaluated": 5,
+        "heldout61_complete": true,
+        "all125_complete": true,
+        "correct61": 4,
+        "correct125": 5
+      }
+    },
+    "plain": {
+      "answer": {
+        "evaluated": 125,
+        "correct_evaluated": 6,
+        "heldout61_complete": true,
+        "all125_complete": true,
+        "correct61": 0,
+        "correct125": 6
+      },
+      "grounded": {
+        "evaluated": 125,
+        "correct_evaluated": 1,
+        "heldout61_complete": true,
+        "all125_complete": true,
+        "correct61": 0,
+        "correct125": 1
+      }
+    },
+    "none": {
+      "answer": {
+        "evaluated": 125,
+        "correct_evaluated": 12,
+        "heldout61_complete": true,
+        "all125_complete": true,
+        "correct61": 3,
+        "correct125": 12
+      },
+      "grounded": {
+        "evaluated": 125,
+        "correct_evaluated": 0,
+        "heldout61_complete": true,
+        "all125_complete": true,
+        "correct61": 0,
+        "correct125": 0
+      }
+    },
+    "oracle": {
+      "answer": {
+        "evaluated": 125,
+        "correct_evaluated": 89,
+        "heldout61_complete": true,
+        "all125_complete": true,
+        "correct61": 44,
+        "correct125": 89
+      },
+      "grounded": {
+        "evaluated": 125,
+        "correct_evaluated": 85,
+        "heldout61_complete": true,
+        "all125_complete": true,
+        "correct61": 44,
+        "correct125": 85
+      }
+    }
+  },
+  "supplemental_coverage": {
+    "implex": {
+      "full": {
+        "retrieved": 81,
+        "answered": 81,
+        "total": 81
+      },
+      "mem0": {
+        "retrieved": 21,
+        "answered": 20,
+        "total": 81
+      },
+      "amem": {
+        "retrieved": 20,
+        "answered": 20,
+        "total": 81
+      },
+      "rootmem": {
+        "retrieved": 81,
+        "answered": 81,
+        "total": 81
+      },
+      "hyde": {
+        "retrieved": 81,
+        "answered": 81,
+        "total": 81
+      },
+      "rerank": {
+        "retrieved": 81,
+        "answered": 81,
+        "total": 81
+      },
+      "plain": {
+        "retrieved": 81,
+        "answered": 81,
+        "total": 81
+      }
+    },
+    "lucid": {
+      "full": {
+        "retrieved": 240,
+        "answered": 240,
+        "total": 240
+      },
+      "mem0": {
+        "retrieved": 3,
+        "answered": 0,
+        "total": 240
+      },
+      "amem": {
+        "retrieved": 0,
+        "answered": 0,
+        "total": 240
+      },
+      "rootmem": {
+        "retrieved": 5,
+        "answered": 0,
+        "total": 240
+      },
+      "hyde": {
+        "retrieved": 240,
+        "answered": 240,
+        "total": 240
+      },
+      "rerank": {
+        "retrieved": 240,
+        "answered": 240,
+        "total": 240
+      },
+      "plain": {
+        "retrieved": 240,
+        "answered": 240,
+        "total": 240
+      }
+    }
+  },
+  "supplemental_diagnostic_results": {
+    "implex": {
+      "full": {
+        "bed": "implex",
+        "method": "full",
+        "n": 81,
+        "complete": true,
+        "diagnostic_source_judge_correct": 33,
+        "metric_warning": "Original simplified judge only; not official benchmark accuracy. Implex/LUCid source subsets are not full benchmarks.",
+        "raw_hit6": 29
+      },
+      "rootmem": {
+        "bed": "implex",
+        "method": "rootmem",
+        "n": 81,
+        "complete": true,
+        "diagnostic_source_judge_correct": 60,
+        "metric_warning": "Original simplified judge only; not official benchmark accuracy. Implex/LUCid source subsets are not full benchmarks.",
+        "raw_hit6": null
+      },
+      "hyde": {
+        "bed": "implex",
+        "method": "hyde",
+        "n": 81,
+        "complete": true,
+        "diagnostic_source_judge_correct": 28,
+        "metric_warning": "Original simplified judge only; not official benchmark accuracy. Implex/LUCid source subsets are not full benchmarks.",
+        "raw_hit6": 22
+      },
+      "rerank": {
+        "bed": "implex",
+        "method": "rerank",
+        "n": 81,
+        "complete": true,
+        "diagnostic_source_judge_correct": 32,
+        "metric_warning": "Original simplified judge only; not official benchmark accuracy. Implex/LUCid source subsets are not full benchmarks.",
+        "raw_hit6": 25
+      },
+      "plain": {
+        "bed": "implex",
+        "method": "plain",
+        "n": 81,
+        "complete": true,
+        "diagnostic_source_judge_correct": 36,
+        "metric_warning": "Original simplified judge only; not official benchmark accuracy. Implex/LUCid source subsets are not full benchmarks.",
+        "raw_hit6": 15
+      }
+    },
+    "lucid": {
+      "full": {
+        "bed": "lucid",
+        "method": "full",
+        "n": 240,
+        "complete": true,
+        "diagnostic_source_judge_correct": 43,
+        "metric_warning": "Original simplified judge only; not official benchmark accuracy. Implex/LUCid source subsets are not full benchmarks.",
+        "raw_hit6": 45
+      },
+      "hyde": {
+        "bed": "lucid",
+        "method": "hyde",
+        "n": 240,
+        "complete": true,
+        "diagnostic_source_judge_correct": 42,
+        "metric_warning": "Original simplified judge only; not official benchmark accuracy. Implex/LUCid source subsets are not full benchmarks.",
+        "raw_hit6": 40
+      },
+      "rerank": {
+        "bed": "lucid",
+        "method": "rerank",
+        "n": 240,
+        "complete": true,
+        "diagnostic_source_judge_correct": 51,
+        "metric_warning": "Original simplified judge only; not official benchmark accuracy. Implex/LUCid source subsets are not full benchmarks.",
+        "raw_hit6": 42
+      },
+      "plain": {
+        "bed": "lucid",
+        "method": "plain",
+        "n": 240,
+        "complete": true,
+        "diagnostic_source_judge_correct": 44,
+        "metric_warning": "Original simplified judge only; not official benchmark accuracy. Implex/LUCid source subsets are not full benchmarks.",
+        "raw_hit6": 42
+      }
+    }
+  },
+  "priority": {
+    "deadline": 1795348521.0,
+    "paused_parent": 63041,
+    "paused_child": 68554,
+    "completed": [
+      "hyde",
+      "rerank",
+      "plain"
+    ],
+    "errors": [
+      {
+        "method": "rootmem",
+        "stage": "retrieve",
+        "code": 1
+      }
+    ],
+    "phase": "finished_or_budget",
+    "current": "rootmem",
+    "ended": "2026-11-22 19:57:17"
+  },
+  "controller": {
+    "phase": "finished_or_budget",
+    "deadline": 1795348521.0,
+    "completed": [
+      {
+        "label": "implex-full",
+        "status": "complete"
+      },
+      {
+        "label": "implex-hyde",
+        "status": "complete"
+      },
+      {
+        "label": "implex-rerank",
+        "status": "complete"
+      },
+      {
+        "label": "implex-plain",
+        "status": "complete"
+      },
+      {
+        "label": "lucid-full",
+        "status": "complete"
+      },
+      {
+        "label": "implex-rootmem",
+        "status": "complete"
+      },
+      {
+        "label": "lucid-hyde",
+        "status": "already_complete"
+      },
+      {
+        "label": "lucid-rerank",
+        "status": "already_complete"
+      },
+      {
+        "label": "lucid-plain",
+        "status": "already_complete"
+      }
+    ],
+    "failed": [
+      {
+        "label": "lucid-amem",
+        "status": "budget_or_error",
+        "code": 1
+      },
+      {
+        "label": "lucid-rootmem",
+        "status": "budget"
+      },
+      {
+        "label": "implex-amem",
+        "status": "budget_or_error",
+        "code": 1
+      },
+      {
+        "label": "implex-mem0",
+        "status": "budget_or_error",
+        "code": -15
+      },
+      {
+        "label": "lucid-mem0",
+        "status": "budget_or_error",
+        "code": -15
+      }
+    ],
+    "active": [],
+    "replaced_paused_supervisors": [
+      24573,
+      34920,
+      35245
+    ],
+    "ended": "2026-11-22 19:59:02"
+  },
+  "primary_score_provenance": {
+    "updated": "2026-11-22 19:17:15",
+    "rows_checked": 2750,
+    "mismatches": [],
+    "all_125_each_method_both_metrics": true,
+    "primary_outputs_unchanged": true
+  },
+  "root_truncation_recovery": {
+    "finish": "stop",
+    "usage": {
+      "prompt_tokens": 7012,
+      "total_tokens": 12394,
+      "completion_tokens": 5382,
+      "prompt_tokens_details": null
+    },
+    "seconds": 117.31706404685974,
+    "skill_entries": 34,
+    "unique_domains": 34,
+    "failed_attempt_tokens": {
+      "prompt_tokens": 7012,
+      "total_tokens": 23396,
+      "completion_tokens": 16384,
+      "prompt_tokens_details": null
+    },
+    "exact_same_request": true
+  },
+  "pool_audit": {
+    "created": "2026-11-22 18:54:20",
+    "dataset_sha256": "1fde49d446a1e6491e9b59202ab66407e37fbd1bac5970d3f39dafe07480de34",
+    "warning": "Source-script diagnostic subsets, not official full-conversation benchmark protocols. Common suffix cannot be reused as native prefix without changing construction order.",
+    "implex": {
+      "tasks": 81,
+      "distinct_ordered_pools": 30,
+      "min_lines": 149,
+      "max_lines": 233,
+      "common_ids_all_pools": 0,
+      "common_ordered_suffix": 0,
+      "target_indices_all_within_pool": true
+    },
+    "lucid": {
+      "tasks": 240,
+      "distinct_ordered_pools": 240,
+      "min_lines": 546,
+      "max_lines": 581,
+      "common_ids_all_pools": 543,
+      "common_ordered_suffix": 543,
+      "target_indices_all_within_pool": true
+    }
+  },
+  "official_full_timeline_or_LUCid_S_claimed_complete": false,
+  "continuation_native_attempt_failures": [
+    {
+      "time": "2026-11-22 19:01:38",
+      "job": "continuation-priority-lucid-rootmem-retrieve",
+      "kind": "attempt_failed",
+      "attempt": 0,
+      "error": "ValueError('Truncated/non-stop response')"
+    },
+    {
+      "time": "2026-11-22 19:57:05",
+      "job": "continuation-priority-lucid-rootmem-retrieve",
+      "kind": "attempt_failed",
+      "attempt": 0,
+      "error": "TimeoutError('timed out')"
+    }
+  ],
+  "common_prefix10": {
+    "completed": "2026-11-22 19:29:58",
+    "metric": "source simplified judge only; not official accuracy or full81 results",
+    "rows": {
+      "full": {
+        "n": 10,
+        "source_diagnostic_correct": 5,
+        "raw_hit6": 5
+      },
+      "hyde": {
+        "n": 10,
+        "source_diagnostic_correct": 3,
+        "raw_hit6": 3
+      },
+      "rerank": {
+        "n": 10,
+        "source_diagnostic_correct": 8,
+        "raw_hit6": 4
+      },
+      "plain": {
+        "n": 10,
+        "source_diagnostic_correct": 3,
+        "raw_hit6": 2
+      },
+      "rootmem": {
+        "n": 10,
+        "source_diagnostic_correct": 7,
+        "raw_hit6": null
+      },
+      "mem0": {
+        "n": 10,
+        "source_diagnostic_correct": 5,
+        "raw_hit6": null
+      },
+      "amem": {
+        "n": 10,
+        "source_diagnostic_correct": 6,
+        "raw_hit6": null
+      }
+    }
+  },
+  "common_prefix20": {
+    "completed": "2026-11-22 19:51:05",
+    "metric": "source simplified judge only; not official accuracy or full81 results",
+    "rows": {
+      "full": {
+        "n": 20,
+        "source_diagnostic_correct": 8,
+        "raw_hit6": 8
+      },
+      "hyde": {
+        "n": 20,
+        "source_diagnostic_correct": 5,
+        "raw_hit6": 6
+      },
+      "rerank": {
+        "n": 20,
+        "source_diagnostic_correct": 9,
+        "raw_hit6": 8
+      },
+      "plain": {
+        "n": 20,
+        "source_diagnostic_correct": 5,
+        "raw_hit6": 3
+      },
+      "rootmem": {
+        "n": 20,
+        "source_diagnostic_correct": 16,
+        "raw_hit6": null
+      },
+      "mem0": {
+        "n": 20,
+        "source_diagnostic_correct": 10,
+        "raw_hit6": null
+      },
+      "amem": {
+        "n": 20,
+        "source_diagnostic_correct": 9,
+        "raw_hit6": null
+      }
+    }
+  },
+  "final_exit_audit": {
+    "time": "2026-11-22 19:59:33",
+    "native_rejected_link_warnings": [
+      {
+        "time": "2026-11-22 19:42:24",
+        "job": "continuation-implex-amem-retrieve",
+        "kind": "native_rejected_link",
+        "method": "amem",
+        "count": 1,
+        "policy": "native invalid-link guard retained; no invalid edge inserted"
+      }
+    ],
+    "job_exits": [
+      {
+        "job": "continuation-lucid-amem-retrieve",
+        "time": "2026-11-22 19:55:24",
+        "error": "BudgetEnd()"
+      },
+      {
+        "job": "continuation-implex-amem-retrieve",
+        "time": "2026-11-22 19:55:29",
+        "error": "BudgetEnd()"
+      },
+      {
+        "job": "continuation-priority-lucid-rootmem-retrieve",
+        "time": "2026-11-22 19:57:05",
+        "error": "BudgetEnd()"
+      }
+    ],
+    "manual_budget_cleanup": {
+      "time": "2026-11-22 19:59:01",
+      "reason": "Authorized window expired; no in-flight model requests. Mem0 workers did not exit after budget; terminate only incomplete workers, preserve all completed outputs/caches.",
+      "signal": "SIGTERM",
+      "terminated": [
+        63226,
+        68121
+      ],
+      "partial_dirty_stores_not_used_for_scores": true
+    }
+  },
+  "root_matrix_audit": {
+    "updated": "2026-11-22 20:00:35",
+    "completed_matrices_checked": 161,
+    "exact_duplicate_skill_domain_matrices": [
+      "experiments/native-source-aligned-v3/states/lucid/e58d77188d3a3a45266b5ce7faf4c35bc824aa9d00eb5db44732d0ea25d0d041/rootmem/matrix.json"
+    ],
+    "diagnostic_only_no_outputs_or_scores_changed": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "full": {
+    "retrieval_hit6_but_literal_fact_absent_after_budget": [],
+    "budget_reduced_units": []
+  },
+  "hyde": {
+    "retrieval_hit6_but_literal_fact_absent_after_budget": [],
+    "budget_reduced_units": []
+  },
+  "rerank": {
+    "retrieval_hit6_but_literal_fact_absent_after_budget": [],
+    "budget_reduced_units": []
+  },
+  "plain": {
+    "retrieval_hit6_but_literal_fact_absent_after_budget": [],
+    "budget_reduced_units": []
+  },
+  "write_only_attr": {
+    "retrieval_hit6_but_literal_fact_absent_after_budget": [],
+    "budget_reduced_units": []
+  },
+  "fact_presence": {
+    "retrieval_hit6_but_literal_fact_absent_after_budget": [],
+    "budget_reduced_units": []
+  }
+}

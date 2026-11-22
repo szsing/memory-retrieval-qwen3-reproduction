@@ -1,0 +1,190 @@
+{
+  "n_answers": 24,
+  "agreement": 17,
+  "qwen_yes_review_no": 7,
+  "qwen_no_review_yes": 0,
+  "counts_by_method": {
+    "none": {
+      "review_yes": 0,
+      "qwen_yes": 3
+    },
+    "full": {
+      "review_yes": 2,
+      "qwen_yes": 4
+    },
+    "rootmem": {
+      "review_yes": 2,
+      "qwen_yes": 4
+    }
+  },
+  "details": [
+    {
+      "i": 15,
+      "method": "full",
+      "review": 0,
+      "qwen": 0,
+      "agree": true
+    },
+    {
+      "i": 15,
+      "method": "none",
+      "review": 0,
+      "qwen": 0,
+      "agree": true
+    },
+    {
+      "i": 15,
+      "method": "rootmem",
+      "review": 0,
+      "qwen": 1,
+      "agree": false
+    },
+    {
+      "i": 32,
+      "method": "none",
+      "review": 0,
+      "qwen": 0,
+      "agree": true
+    },
+    {
+      "i": 32,
+      "method": "full",
+      "review": 1,
+      "qwen": 1,
+      "agree": true
+    },
+    {
+      "i": 32,
+      "method": "rootmem",
+      "review": 1,
+      "qwen": 1,
+      "agree": true
+    },
+    {
+      "i": 36,
+      "method": "none",
+      "review": 0,
+      "qwen": 0,
+      "agree": true
+    },
+    {
+      "i": 36,
+      "method": "full",
+      "review": 0,
+      "qwen": 0,
+      "agree": true
+    },
+    {
+      "i": 36,
+      "method": "rootmem",
+      "review": 0,
+      "qwen": 0,
+      "agree": true
+    },
+    {
+      "i": 40,
+      "method": "rootmem",
+      "review": 0,
+      "qwen": 1,
+      "agree": false
+    },
+    {
+      "i": 40,
+      "method": "none",
+      "review": 0,
+      "qwen": 1,
+      "agree": false
+    },
+    {
+      "i": 40,
+      "method": "full",
+      "review": 0,
+      "qwen": 1,
+      "agree": false
+    },
+    {
+      "i": 72,
+      "method": "full",
+      "review": 1,
+      "qwen": 1,
+      "agree": true
+    },
+    {
+      "i": 72,
+      "method": "rootmem",
+      "review": 0,
+      "qwen": 0,
+      "agree": true
+    },
+    {
+      "i": 72,
+      "method": "none",
+      "review": 0,
+      "qwen": 0,
+      "agree": true
+    },
+    {
+      "i": 81,
+      "method": "none",
+      "review": 0,
+      "qwen": 1,
+      "agree": false
+    },
+    {
+      "i": 81,
+      "method": "rootmem",
+      "review": 0,
+      "qwen": 0,
+      "agree": true
+    },
+    {
+      "i": 81,
+      "method": "full",
+      "review": 0,
+      "qwen": 0,
+      "agree": true
+    },
+    {
+      "i": 83,
+      "method": "none",
+      "review": 0,
+      "qwen": 0,
+      "agree": true
+    },
+    {
+      "i": 83,
+      "method": "rootmem",
+      "review": 0,
+      "qwen": 0,
+      "agree": true
+    },
+    {
+      "i": 83,
+      "method": "full",
+      "review": 0,
+      "qwen": 0,
+      "agree": true
+    },
+    {
+      "i": 124,
+      "method": "rootmem",
+      "review": 1,
+      "qwen": 1,
+      "agree": true
+    },
+    {
+      "i": 124,
+      "method": "full",
+      "review": 0,
+      "qwen": 1,
+      "agree": false
+    },
+    {
+      "i": 124,
+      "method": "none",
+      "review": 0,
+      "qwen": 1,
+      "agree": false
+    }
+  ]
+}

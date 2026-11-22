@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "truncated_prose_not_cached": true,
+  "prompts_never_mutated": true,
+  "no_json_retry_for_prose": true,
+  "deadline_exit75": true
+}

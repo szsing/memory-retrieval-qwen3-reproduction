@@ -1,0 +1,120 @@
+{
+  "61": {
+    "scores": {
+      "plain": {
+        "applied": 18,
+        "raw_hit6": 1
+      },
+      "hyde": {
+        "applied": 27,
+        "raw_hit6": 2
+      },
+      "rerank": {
+        "applied": 24,
+        "raw_hit6": 5
+      },
+      "full": {
+        "applied": 27,
+        "raw_hit6": 8
+      },
+      "mem0": {
+        "applied": 19,
+        "raw_hit6": null
+      },
+      "amem": {
+        "applied": 18,
+        "raw_hit6": null
+      },
+      "rootmem": {
+        "applied": 37,
+        "raw_hit6": null
+      }
+    },
+    "paired_full_vs": {
+      "hyde": {
+        "full_wins": 9,
+        "full_losses": 9,
+        "same": 43
+      },
+      "rerank": {
+        "full_wins": 9,
+        "full_losses": 6,
+        "same": 46
+      },
+      "mem0": {
+        "full_wins": 14,
+        "full_losses": 6,
+        "same": 41
+      },
+      "amem": {
+        "full_wins": 13,
+        "full_losses": 4,
+        "same": 44
+      },
+      "rootmem": {
+        "full_wins": 6,
+        "full_losses": 16,
+        "same": 39
+      }
+    }
+  },
+  "125": {
+    "scores": {
+      "plain": {
+        "applied": 45,
+        "raw_hit6": 2
+      },
+      "hyde": {
+        "applied": 58,
+        "raw_hit6": 3
+      },
+      "rerank": {
+        "applied": 57,
+        "raw_hit6": 8
+      },
+      "full": {
+        "applied": 60,
+        "raw_hit6": 16
+      },
+      "mem0": {
+        "applied": 38,
+        "raw_hit6": null
+      },
+      "amem": {
+        "applied": 28,
+        "raw_hit6": null
+      },
+      "rootmem": {
+        "applied": 61,
+        "raw_hit6": null
+      }
+    },
+    "paired_full_vs": {
+      "hyde": {
+        "full_wins": 21,
+        "full_losses": 19,
+        "same": 85
+      },
+      "rerank": {
+        "full_wins": 18,
+        "full_losses": 15,
+        "same": 92
+      },
+      "mem0": {
+        "full_wins": 33,
+        "full_losses": 11,
+        "same": 81
+      },
+      "amem": {
+        "full_wins": 39,
+        "full_losses": 7,
+        "same": 79
+      },
+      "rootmem": {
+        "full_wins": 20,
+        "full_losses": 21,
+        "same": 84
+      }
+    }
+  }
+}

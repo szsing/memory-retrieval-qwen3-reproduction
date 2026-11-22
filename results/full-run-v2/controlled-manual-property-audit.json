@@ -1,0 +1,317 @@
+[
+  {
+    "group": "home",
+    "fact_sha256": "62274ffb966ce848964ba0a42b4b3239f497f784327c6ebdbba8185f1fe2c8e6",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "home",
+    "fact_sha256": "03ebac04eaf0f5ce0feb0355386fd49814933317cd85af80d66a4b77bd087197",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "home",
+    "fact_sha256": "7e7f39a7d84a83e0ce9f0e08a1b71f75ea85bb989ec6b7b51e75875064032df7",
+    "fact_omitted": true,
+    "properties": [
+      "acidic cleaners",
+      "marble floor",
+      "floor cleaning products",
+      "acidic substances",
+      "floor care products",
+      "marble surface cleaners",
+      "acid-based cleaners",
+      "cleaning solutions for marble"
+    ]
+  },
+  {
+    "group": "home",
+    "fact_sha256": "d0c4bd1246c61a3c263e9d1fc62912fc0aa60419578bd1c2b2e67d88873047b4",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "home",
+    "fact_sha256": "630dfa95140c93079524c1bebe0bc89bcea73797b6aee31691aefd2476235be5",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "home",
+    "fact_sha256": "3bf5ad5aed13f5bac9fbba533f850b1aae30564e4931c975851adc539845a2a6",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "home",
+    "fact_sha256": "29ea11c898c838bf0bd56d66425cacd2c43c09066f9a62c35db0b7ee20c925e3",
+    "fact_omitted": true,
+    "properties": [
+      "water",
+      "liquid",
+      "soaking",
+      "moisture",
+      "wetness",
+      "dampness",
+      "water-based cleaners",
+      "water exposure"
+    ]
+  },
+  {
+    "group": "home",
+    "fact_sha256": "3249fd6d03c0cf4169adb26c82e577c29d1f7f6214ce967099720ec3755eb960",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "home",
+    "fact_sha256": "3c0cb4c8cd67d16f83277859af95cb4af3f40b1ddc3a2a96018834091c508844",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "home",
+    "fact_sha256": "3ae61dd518bd1297c05f32f5320bc92b246dfbb171f23e5122dbd4497f23f482",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "home",
+    "fact_sha256": "d343d09c80aff0af0acbcd744fe73f44a36e6966e8d0f6a6b490ad9edec7015a",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "home",
+    "fact_sha256": "8dafe4d1e674052b135a4d5af5c6ddc6bd635f5b58070c7dd5f85e3b02a63ec1",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "home",
+    "fact_sha256": "fbc230ce80f9df05b5ca53b3593db582a68d4745ee5d4dbb647c80d4e0dd6d01",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "home",
+    "fact_sha256": "d2c158652631382b557c91efeba799229d58f6b6bda8b73410870edb70b72b0e",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "home",
+    "fact_sha256": "173884b1c4c95be1ace23c66b7fad6d6663949d17f1c78f8822117c5f1974172",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "home",
+    "fact_sha256": "e4cb99eacf520e0c8d6d9d300694d333da1bb7d8f1ca7227d1e024750d89657a",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "tech",
+    "fact_sha256": "0cd3b8e4b82b7f4b76fdd02f88818a3d4a94ace3f3090c1c89bc55d82cfec238",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "tech",
+    "fact_sha256": "384960afbf2a9576cb72d640dea931a49b4e3a4b9ea355a79931f58422783afd",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "tech",
+    "fact_sha256": "3e14ba23ca06192ac74d2e6cc5c27003113757e612d792b8a65bccf129170021",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "tech",
+    "fact_sha256": "1e539cd1e40822ffa688542440edebd13a8a61ae98f8d3681f22f83bd367a8ee",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "tech",
+    "fact_sha256": "75e548635832bfae1ca634ffe1b270b249d38f351de3d5df400b576413bbb7bb",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "tech",
+    "fact_sha256": "400b75bc93863f7d9d92f247397f1e476d0bfb5bbe338b133258f5b7dd009677",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "tech",
+    "fact_sha256": "e47081904c115883cbb31f2d1fd3c4cdb222c8583626cd4c868a02de810983fb",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "tech",
+    "fact_sha256": "fa30e832688cd6fdae2e0b11c03fb8d71174e456fffc6bd91525e64e1c3a5a15",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "tech",
+    "fact_sha256": "73474089c03eea3f72bbeff5e2113fb31e85eb496f1214ce1230365ceeef6c4f",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "tech",
+    "fact_sha256": "dc6fe81fd98e60e14fb0d10d70b64a944686ae712ede88a339037b0443b680a1",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "tech",
+    "fact_sha256": "c2a421e64e9105943982c64006058a03c1c7fce55b8be1184ad5598817109e32",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "tech",
+    "fact_sha256": "031eaaa7248940fd9016e660eef327b750d683544985c71e9d079074599c44ef",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "tech",
+    "fact_sha256": "233d4daaf4cbcd03e40049b0ec01d290862372722a6b0c69e5cc49c0ecd541ce",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "tech",
+    "fact_sha256": "105d5fb76e96efd429bcb6971c2e560ae96441b2915e1c8d01e4e73442f80940",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "tech",
+    "fact_sha256": "0e343562564a1c5d0f8b5eb8abcac9d11f991e675025daa969e7b17d8c26f6be",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "tech",
+    "fact_sha256": "cc8806fbff5d0a4ca337c23213fb8339da4486bb2c73f3b8e2f8ddec9998c5d1",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "hobby",
+    "fact_sha256": "20dfd3c32a5d1687c6d6a38cbeb4337447b64e5bc7bbd23f2fc959ae1576a33b",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "hobby",
+    "fact_sha256": "6a4abbab7f9f24075b0740a404054b308247e78d9088a2315fb9de70ce504466",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "hobby",
+    "fact_sha256": "ac240cca5436bb3258586cb3e56e69907226c4648f0c1fe215b0f1f4a1f63ede",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "hobby",
+    "fact_sha256": "e47f6a62b1f96bfeb6055985b6a27eae1abb887e40549e1143f39c9ccfde9a0f",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "hobby",
+    "fact_sha256": "d6f84f4a97f986fdeae1bace71939bcaa4f131d6b491ca3d79602c3b2cc47fcb",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "hobby",
+    "fact_sha256": "f1b903612c0d478861e01bde066c74bb0efbe688c5a2a0786fcd10fd20a59484",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "hobby",
+    "fact_sha256": "78e95764efddb1a0f34caff171055d71891138fffaf20ff02c2ae7a856c9f2c6",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "hobby",
+    "fact_sha256": "05cf3328145dea5f8b90fdf390a9b4daead2ebda9cd076ab4e7479d50927dc85",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "hobby",
+    "fact_sha256": "24027319b448292d285348e405b377bbf7c712ea3d45b803e2348bdf8a037658",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "hobby",
+    "fact_sha256": "7082ee0a86f81155c9740ad0b081e35c50ae5827199bd23720c4f3c3d5a0a3d4",
+    "fact_omitted": true,
+    "properties": [
+      "high-temperature porcelain",
+      "kiln with temperature control",
+      "ceramic glazes",
+      "firing schedule",
+      "clay body",
+      "firing temperature",
+      "kiln insulation",
+      "firing time"
+    ]
+  },
+  {
+    "group": "hobby",
+    "fact_sha256": "71e2aa3cc1fdf2509429323ed48d50878e48d7afabb5bb8c31745cdfb8cace32",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "hobby",
+    "fact_sha256": "bcf9fe6ab048be2538bf73d2fe77167f3792f045f5273f41bca693265dd81945",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "hobby",
+    "fact_sha256": "3dd8cdd444e6000874c2f58b3080de359ce21a6cfbd6db84d5bbe6dce9528ece",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "hobby",
+    "fact_sha256": "07853a90e529410aaefd2f40eb306789be33246573989c75d73ac9ea511c5924",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "hobby",
+    "fact_sha256": "e1b266d6cb6fcea0aa7af56de876cf12e8d1c965b110e19e2b804be0924f35cb",
+    "fact_omitted": true,
+    "properties": []
+  },
+  {
+    "group": "hobby",
+    "fact_sha256": "e7c6c9847247241085c6ab77d82dd9522aeb25726930715cc93455a7b6d9e88e",
+    "fact_omitted": true,
+    "properties": []
+  }
+]

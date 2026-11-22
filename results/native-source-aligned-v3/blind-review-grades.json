@@ -1,0 +1,58 @@
+{
+  "reviewer": "Codex independent text review, not human adjudication",
+  "sampling_fixed_before_review": true,
+  "reviewed_against": "benchmark gold explanation in addition to fact and query",
+  "not_a_primary_score_replacement": true,
+  "grades": {
+    "15": {
+      "A": 0,
+      "B": 0,
+      "C": 0
+    },
+    "32": {
+      "A": 0,
+      "B": 1,
+      "C": 1
+    },
+    "36": {
+      "A": 0,
+      "B": 0,
+      "C": 0
+    },
+    "40": {
+      "A": 0,
+      "B": 0,
+      "C": 0
+    },
+    "72": {
+      "A": 1,
+      "B": 0,
+      "C": 0
+    },
+    "81": {
+      "A": 0,
+      "B": 0,
+      "C": 0
+    },
+    "83": {
+      "A": 0,
+      "B": 0,
+      "C": 0
+    },
+    "124": {
+      "A": 1,
+      "B": 0,
+      "C": 0
+    }
+  },
+  "notes": {
+    "15": "No answer mentions birth/adoption withdrawal exception.",
+    "32": "B and C include concrete location/tagging or monitoring-safety precautions; A is generic.",
+    "36": "No answer connects temporary accommodation to domestic violence shelters.",
+    "40": "No answer mentions veteran-targeted scams or VA loan distinction.",
+    "72": "Only A explicitly adapts to Rh-negative blood type. Additional asserted conditions require separate grounding audit.",
+    "81": "No answer links spice to oral sores or advises avoiding it for that reason.",
+    "83": "No answer considers colonoscopy preparation/diet/timing.",
+    "124": "A explicitly recommends avoiding chemical pesticides; B/C lack a concrete condition-relevant avoidance."
+  }
+}

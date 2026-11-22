@@ -1,0 +1,40 @@
+{
+  "time": "2026-11-22 19:59:33",
+  "native_rejected_link_warnings": [
+    {
+      "time": "2026-11-22 19:42:24",
+      "job": "continuation-implex-amem-retrieve",
+      "kind": "native_rejected_link",
+      "method": "amem",
+      "count": 1,
+      "policy": "native invalid-link guard retained; no invalid edge inserted"
+    }
+  ],
+  "job_exits": [
+    {
+      "job": "continuation-lucid-amem-retrieve",
+      "time": "2026-11-22 19:55:24",
+      "error": "BudgetEnd()"
+    },
+    {
+      "job": "continuation-implex-amem-retrieve",
+      "time": "2026-11-22 19:55:29",
+      "error": "BudgetEnd()"
+    },
+    {
+      "job": "continuation-priority-lucid-rootmem-retrieve",
+      "time": "2026-11-22 19:57:05",
+      "error": "BudgetEnd()"
+    }
+  ],
+  "manual_budget_cleanup": {
+    "time": "2026-11-22 19:59:01",
+    "reason": "Authorized window expired; no in-flight model requests. Mem0 workers did not exit after budget; terminate only incomplete workers, preserve all completed outputs/caches.",
+    "signal": "SIGTERM",
+    "terminated": [
+      63226,
+      68121
+    ],
+    "partial_dirty_stores_not_used_for_scores": true
+  }
+}

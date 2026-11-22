@@ -1,0 +1,37 @@
+{
+  "time": "2026-11-22 16:31:22",
+  "reason": "Prioritize isolated241-pool validation after shared-pool confound and judge calibration findings",
+  "paused_parents": [
+    24573,
+    34920,
+    35245
+  ],
+  "interrupted_workers": [
+    {
+      "pid": 34589,
+      "spec": {
+        "stage": "retrieve",
+        "bed": "implex",
+        "method": "rootmem"
+      }
+    },
+    {
+      "pid": 35354,
+      "spec": {
+        "stage": "retrieve",
+        "bed": "implex",
+        "method": "mem0"
+      }
+    },
+    {
+      "pid": 35373,
+      "spec": {
+        "stage": "retrieve",
+        "bed": "implex",
+        "method": "amem"
+      }
+    }
+  ],
+  "checkpoints_and_valid_llm_cache_preserved": true,
+  "resume_after_strict241": true
+}

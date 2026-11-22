@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "upstream_files_unchanged": 32,
+  "checks": {
+    "properties_30": true,
+    "queries_8": true,
+    "gate_20": true,
+    "hyde_31_global_ids": true,
+    "picker": true,
+    "judge_10_index_mapping": true
+  },
+  "offline_acceptance_cases": 6,
+  "offline_rejection_cases": 5,
+  "live_api_calls": 8,
+  "max_tokens": 2048,
+  "temperature": 0,
+  "prompts_unchanged": true,
+  "prior_llm_outputs_reused": false
+}

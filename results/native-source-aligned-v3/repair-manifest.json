@@ -1,0 +1,12 @@
+{
+  "time": "2026-11-22 16:05:12",
+  "root_build_max_output": 16384,
+  "root_previous_max_output": 8192,
+  "root_prompts_unchanged": true,
+  "root_native_vendor_unchanged": true,
+  "mem0_sdk_storage": "per-pool isolated sdk-internal; primary and telemetry clients explicitly closed",
+  "amem_invalid_links": "native guard still discards invalid proposals; record warning rather than terminating entire job; no invalid edge accepted",
+  "inmind_prior_valid_results_unchanged": true,
+  "before_native_source_reconstructed_hash_matches": true,
+  "before_worker_source_reconstructed_hash_matches": true
+}

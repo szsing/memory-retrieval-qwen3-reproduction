@@ -1,0 +1,11 @@
+{
+  "format_adapter.py": "00462722a1c9a099ed10ff9da337556b07af48348dc049d0e4df39cd1b437401",
+  "instrument.py": "a8438ea6d11cbe07f20a5e8eb347bfc77bfef15469a8cfc30f22f0803c45647f",
+  "job.py": "c7b0e8a7e08737d74c07157662defe3740791b68913fd19bad0fc850a3a21db9",
+  "prepare_full.py": "ca58d24e212605c9acf5e53c238e712545f35bfb9a0916a23eb9b0416d1a91ec",
+  "report.py": "a91e7c7dd00c644506aa2ee2f011e1a44b7cca92fafbd289933a9f93f43877f8",
+  "supervisor.py": "36308726b4b8acf3567115966e93258ff1d328edc5912b96587919a07f8eb078",
+  "preflight.py": "ef044b8dcebd03a2dec96f9673ddcb85655e77e4325b4b058b43e85d495bd4a9",
+  "run_night.sh": "8e7fcfcfc31f3f4e934f59173defce3bdd29e16ab5ed4da1410c897fe3c7f7fd",
+  "README.zh.md": "9d478d155b2db130eebdcbeb665ed0671e92f9cd5b7512394bea715cf65be6c1"
+}

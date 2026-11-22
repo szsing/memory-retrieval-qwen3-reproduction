@@ -1,0 +1,41 @@
+{
+  "spec": {
+    "name": "subset-answer-inmind-plain",
+    "method": "plain",
+    "bed": "inmind",
+    "answer": true
+  },
+  "config": {
+    "design": "plain",
+    "mix": "rrf",
+    "w": 2.0,
+    "pv": 1,
+    "ctrl": ""
+  },
+  "result": {
+    "t": "2026-11-22 00:49",
+    "design": "plain",
+    "mix": "rrf",
+    "ctrl": "",
+    "w": 2.0,
+    "pv": 1,
+    "res": {
+      "inmind": {
+        "recall": 1,
+        "applied": 0,
+        "n": 61,
+        "applied_given_hit": 0
+      }
+    }
+  },
+  "full_data_metadata": {},
+  "seconds": 67.67924070358276,
+  "lm_stats": {
+    "calls": 74,
+    "cached": 0,
+    "tok_in": 36582,
+    "tok_out": 6559
+  },
+  "snapshot_commit": "d62aa408a4e0b9515eed9313663a025a07b08497",
+  "finished": "2026-11-22 00:49:43"
+}

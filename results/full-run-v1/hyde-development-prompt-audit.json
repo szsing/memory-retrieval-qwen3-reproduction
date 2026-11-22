@@ -1,0 +1,74 @@
+[
+  {
+    "task_id": 134,
+    "query_sha256": "f090b99135e1a72b443a9a036d0fab363724a304c17eece158c3d69fe27e6cfc",
+    "query_omitted": true,
+    "original_prompt": [
+      {
+        "id": 0,
+        "note": "I'm trying to make my icons more consistent in style and color."
+      },
+      {
+        "id": 0,
+        "note": "I'm looking for ways to improve the clarity of my icon designs."
+      }
+    ],
+    "schema_prompt": {
+      "id": 0,
+      "note": "I've been working on some icon design lately, do you have any tips?"
+    }
+  },
+  {
+    "task_id": 155,
+    "query_sha256": "5a5e823c1864be0bf1b6edec5fc6732f7f9fb7eb3cbaee3d720bf233ed14e637",
+    "query_omitted": true,
+    "original_prompt": [
+      {
+        "id": 0,
+        "note": "I'm a beginner in baking and need simple instructions."
+      },
+      {
+        "id": 0,
+        "note": "I don't have a lot of baking equipment."
+      }
+    ],
+    "schema_prompt": {
+      "id": 0,
+      "note": "I want to try making macarons this weekend. Any good recipes?"
+    }
+  },
+  {
+    "task_id": 159,
+    "query_sha256": "0bb053c1300cd8f76fd229ebdf0d7d90c2d504584858b760524cfb7d9aec0d77",
+    "query_omitted": true,
+    "original_prompt": [
+      {
+        "id": 0,
+        "note": "I'm on a low-fat diet, so I need a lighter dressing option."
+      }
+    ],
+    "schema_prompt": {
+      "id": 0,
+      "note": "I'm making a Caesar salad for dinner tonight. What dressing do you recommend?"
+    }
+  },
+  {
+    "task_id": 192,
+    "query_sha256": "c06da4c64f841f1ebe93c463b8b3d25ff785336103c9c10574f92350300c35af",
+    "query_omitted": true,
+    "original_prompt": [
+      {
+        "id": 0,
+        "note": "I have kids at home and need safe cleaning options for them."
+      },
+      {
+        "id": 0,
+        "note": "I prefer eco-friendly products that are also affordable."
+      }
+    ],
+    "schema_prompt": {
+      "id": 0,
+      "note": "I want to avoid harsh chemicals."
+    }
+  }
+]

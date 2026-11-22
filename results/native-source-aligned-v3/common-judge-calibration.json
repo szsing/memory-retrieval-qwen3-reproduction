@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "n": 10,
+  "positive_negative_controls": true,
+  "outputs": [
+    {
+      "id": 0,
+      "v": "yes"
+    },
+    {
+      "id": 1,
+      "v": "no"
+    },
+    {
+      "id": 2,
+      "v": "yes"
+    },
+    {
+      "id": 3,
+      "v": "no"
+    },
+    {
+      "id": 4,
+      "v": "yes"
+    },
+    {
+      "id": 5,
+      "v": "no"
+    },
+    {
+      "id": 6,
+      "v": "yes"
+    },
+    {
+      "id": 7,
+      "v": "no"
+    },
+    {
+      "id": 8,
+      "v": "yes"
+    },
+    {
+      "id": 9,
+      "v": "no"
+    }
+  ]
+}

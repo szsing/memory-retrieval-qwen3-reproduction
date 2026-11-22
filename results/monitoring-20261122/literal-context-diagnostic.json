@@ -1,0 +1,50 @@
+{
+  "caveat": "Literal string matching only: compressed or paraphrased native memory is not counted as absent evidence. Not a retrieval-recall metric.",
+  "results": {
+    "full": {
+      "literal_target_present61": 7,
+      "empty_contexts61": 0,
+      "max_context_tokens": 696,
+      "context_unit_counts": {
+        "6": 61
+      }
+    },
+    "mem0": {
+      "literal_target_present61": 0,
+      "empty_contexts61": 0,
+      "max_context_tokens": 90,
+      "context_unit_counts": {
+        "6": 61
+      }
+    },
+    "amem": {
+      "literal_target_present61": 19,
+      "empty_contexts61": 0,
+      "max_context_tokens": 3846,
+      "context_unit_counts": {
+        "23": 2,
+        "21": 4,
+        "16": 4,
+        "15": 6,
+        "25": 1,
+        "11": 5,
+        "14": 5,
+        "13": 5,
+        "19": 5,
+        "20": 1,
+        "17": 6,
+        "18": 6,
+        "12": 5,
+        "10": 6
+      }
+    },
+    "rootmem": {
+      "literal_target_present61": 1,
+      "empty_contexts61": 0,
+      "max_context_tokens": 1506,
+      "context_unit_counts": {
+        "n/a": 61
+      }
+    }
+  }
+}

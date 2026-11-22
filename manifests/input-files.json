@@ -1,0 +1,32 @@
+[
+  {
+    "path": "rsi-memory/inmind_data/benchmark/dataset/inmind.jsonl",
+    "bytes": 163925,
+    "sha256": "4e27c56047d1f7c3eaf21ad5b6662f638f81a434034546be08b85e09876675a4"
+  },
+  {
+    "path": "rsi-memory/inmind_data/evaluation/background/lme_s_background.jsonl",
+    "bytes": 589792,
+    "sha256": "aef51e8a4e606a3ac5ceafdc64d875a7f1f41a051dafd68dce45f9c90d626da1"
+  },
+  {
+    "path": "rsi-memory/inmind_data/evaluation/background/manifest.json",
+    "bytes": 806,
+    "sha256": "14d30226edf82c823b7438bd3943847c1127503204d637ef074f04d815898125"
+  },
+  {
+    "path": "rsi-memory/bench_data/lucid/lucid.json",
+    "bytes": 39912520,
+    "sha256": "7248f5b1bc4be34a9ecb548a3df57543b135d4447f9ae50a39bd6ef519f90970"
+  },
+  {
+    "path": "rsi-memory/bench_data/longmemeval/oracle.json",
+    "bytes": 15388478,
+    "sha256": "821a2034d219ab45846873dd14c14f12cfe7776e73527a483f9dac095d38620c"
+  },
+  {
+    "path": "rsi-memory/bench_data/implexconv/implexconv_opposed_trim.json",
+    "bytes": 1688895,
+    "sha256": "63b7a7618c57b1fcf1a138b827a6e0a3b7e092ea00ad1f0003e3116610042737"
+  }
+]

@@ -1,0 +1,563 @@
+{
+  "inmind both vs dense": {
+    "paired_n": 85,
+    "full_denominator": 85,
+    "complete_pair": true,
+    "clusters": 82,
+    "ours_correct": 26,
+    "baseline_correct": 2,
+    "paired_accuracy_difference": 0.2823529411764706,
+    "cluster_bootstrap_ci95": [
+      0.19047619047619047,
+      0.37808031959629923
+    ],
+    "wins": 24,
+    "losses": 0,
+    "mcnemar_exact_unadjusted": 1.1920928955078125e-07,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "inmind both vs hyde": {
+    "paired_n": 85,
+    "full_denominator": 85,
+    "complete_pair": true,
+    "clusters": 82,
+    "ours_correct": 26,
+    "baseline_correct": 4,
+    "paired_accuracy_difference": 0.25882352941176473,
+    "cluster_bootstrap_ci95": [
+      0.15476190476190477,
+      0.3626623376623375
+    ],
+    "wins": 24,
+    "losses": 2,
+    "mcnemar_exact_unadjusted": 1.049041748046875e-05,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "inmind both vs dense_pick": {
+    "paired_n": 85,
+    "full_denominator": 85,
+    "complete_pair": true,
+    "clusters": 82,
+    "ours_correct": 26,
+    "baseline_correct": 1,
+    "paired_accuracy_difference": 0.29411764705882354,
+    "cluster_bootstrap_ci95": [
+      0.20238095238095238,
+      0.390855911330049
+    ],
+    "wins": 25,
+    "losses": 0,
+    "mcnemar_exact_unadjusted": 5.960464477539063e-08,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "inmind both vs amem": {
+    "paired_n": 10,
+    "full_denominator": 85,
+    "complete_pair": false,
+    "clusters": 9,
+    "ours_correct": 4,
+    "baseline_correct": 0,
+    "paired_accuracy_difference": 0.4,
+    "cluster_bootstrap_ci95": [
+      0.09977272727272729,
+      0.7777777777777778
+    ],
+    "wins": 4,
+    "losses": 0,
+    "mcnemar_exact_unadjusted": 0.125,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "inmind both vs rootmem": {
+    "paired_n": 53,
+    "full_denominator": 85,
+    "complete_pair": false,
+    "clusters": 51,
+    "ours_correct": 15,
+    "baseline_correct": 2,
+    "paired_accuracy_difference": 0.24528301886792453,
+    "cluster_bootstrap_ci95": [
+      0.1320754716981132,
+      0.37254901960784315
+    ],
+    "wins": 13,
+    "losses": 0,
+    "mcnemar_exact_unadjusted": 0.000244140625,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "inmind both vs rootmem_both": {
+    "paired_n": 56,
+    "full_denominator": 85,
+    "complete_pair": false,
+    "clusters": 54,
+    "ours_correct": 15,
+    "baseline_correct": 11,
+    "paired_accuracy_difference": 0.07142857142857142,
+    "cluster_bootstrap_ci95": [
+      -0.01818181818181818,
+      0.17551691729323265
+    ],
+    "wins": 6,
+    "losses": 2,
+    "mcnemar_exact_unadjusted": 0.2890625,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "inmind both vs write_only": {
+    "paired_n": 85,
+    "full_denominator": 85,
+    "complete_pair": true,
+    "clusters": 82,
+    "ours_correct": 26,
+    "baseline_correct": 26,
+    "paired_accuracy_difference": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "wins": 0,
+    "losses": 0,
+    "mcnemar_exact_unadjusted": 1.0,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "inmind both vs query_only": {
+    "paired_n": 72,
+    "full_denominator": 85,
+    "complete_pair": false,
+    "clusters": 69,
+    "ours_correct": 23,
+    "baseline_correct": 3,
+    "paired_accuracy_difference": 0.2777777777777778,
+    "cluster_bootstrap_ci95": [
+      0.16666666666666666,
+      0.4000694444444441
+    ],
+    "wins": 22,
+    "losses": 2,
+    "mcnemar_exact_unadjusted": 3.5881996154785156e-05,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "inmind both vs shuffled": {
+    "paired_n": 71,
+    "full_denominator": 85,
+    "complete_pair": false,
+    "clusters": 68,
+    "ours_correct": 23,
+    "baseline_correct": 1,
+    "paired_accuracy_difference": 0.30985915492957744,
+    "cluster_bootstrap_ci95": [
+      0.20833333333333334,
+      0.4225352112676056
+    ],
+    "wins": 22,
+    "losses": 0,
+    "mcnemar_exact_unadjusted": 4.76837158203125e-07,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "inmind both vs fact_prior": {
+    "paired_n": 85,
+    "full_denominator": 85,
+    "complete_pair": true,
+    "clusters": 82,
+    "ours_correct": 26,
+    "baseline_correct": 26,
+    "paired_accuracy_difference": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "wins": 0,
+    "losses": 0,
+    "mcnemar_exact_unadjusted": 1.0,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "inmind both vs gated_fact_prior": {
+    "paired_n": 68,
+    "full_denominator": 85,
+    "complete_pair": false,
+    "clusters": 65,
+    "ours_correct": 22,
+    "baseline_correct": 15,
+    "paired_accuracy_difference": 0.10294117647058823,
+    "cluster_bootstrap_ci95": [
+      0.04285714285714286,
+      0.17647058823529413
+    ],
+    "wins": 7,
+    "losses": 0,
+    "mcnemar_exact_unadjusted": 0.015625,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "lucid_s both vs dense": {
+    "paired_n": 261,
+    "full_denominator": 1936,
+    "complete_pair": false,
+    "clusters": 239,
+    "ours_correct": 112,
+    "baseline_correct": 111,
+    "paired_accuracy_difference": 0.0038314176245210726,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.01171875
+    ],
+    "wins": 1,
+    "losses": 0,
+    "mcnemar_exact_unadjusted": 1.0,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "lucid_s both vs hyde": {
+    "paired_n": 261,
+    "full_denominator": 1936,
+    "complete_pair": false,
+    "clusters": 239,
+    "ours_correct": 112,
+    "baseline_correct": 116,
+    "paired_accuracy_difference": -0.01532567049808429,
+    "cluster_bootstrap_ci95": [
+      -0.05283519153802173,
+      0.019686984532071822
+    ],
+    "wins": 10,
+    "losses": 14,
+    "mcnemar_exact_unadjusted": 0.5412561893463135,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "lucid_s both vs dense_pick": {
+    "paired_n": 254,
+    "full_denominator": 1936,
+    "complete_pair": false,
+    "clusters": 233,
+    "ours_correct": 109,
+    "baseline_correct": 110,
+    "paired_accuracy_difference": -0.003937007874015748,
+    "cluster_bootstrap_ci95": [
+      -0.041353383458646614,
+      0.03213175281772248
+    ],
+    "wins": 11,
+    "losses": 12,
+    "mcnemar_exact_unadjusted": 1.0,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "lucid_s both vs amem": {
+    "paired_n": 1,
+    "full_denominator": 1936,
+    "complete_pair": false,
+    "clusters": 1,
+    "ours_correct": 1,
+    "baseline_correct": 1,
+    "paired_accuracy_difference": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "wins": 0,
+    "losses": 0,
+    "mcnemar_exact_unadjusted": 1.0,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "lucid_s both vs rootmem": {
+    "paired_n": 1,
+    "full_denominator": 1936,
+    "complete_pair": false,
+    "clusters": 1,
+    "ours_correct": 1,
+    "baseline_correct": 1,
+    "paired_accuracy_difference": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "wins": 0,
+    "losses": 0,
+    "mcnemar_exact_unadjusted": 1.0,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "lucid_s both vs rootmem_both": {
+    "paired_n": 1,
+    "full_denominator": 1936,
+    "complete_pair": false,
+    "clusters": 1,
+    "ours_correct": 1,
+    "baseline_correct": 1,
+    "paired_accuracy_difference": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "wins": 0,
+    "losses": 0,
+    "mcnemar_exact_unadjusted": 1.0,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "lucid_s both vs write_only": {
+    "paired_n": 177,
+    "full_denominator": 1936,
+    "complete_pair": false,
+    "clusters": 167,
+    "ours_correct": 78,
+    "baseline_correct": 78,
+    "paired_accuracy_difference": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "wins": 0,
+    "losses": 0,
+    "mcnemar_exact_unadjusted": 1.0,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "lucid_s both vs query_only": {
+    "paired_n": 166,
+    "full_denominator": 1936,
+    "complete_pair": false,
+    "clusters": 155,
+    "ours_correct": 74,
+    "baseline_correct": 71,
+    "paired_accuracy_difference": 0.018072289156626505,
+    "cluster_bootstrap_ci95": [
+      -0.03704861111111111,
+      0.07784431137724551
+    ],
+    "wins": 13,
+    "losses": 10,
+    "mcnemar_exact_unadjusted": 0.6776394844055176,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "lucid_s both vs shuffled": {
+    "paired_n": 160,
+    "full_denominator": 1936,
+    "complete_pair": false,
+    "clusters": 154,
+    "ours_correct": 73,
+    "baseline_correct": 73,
+    "paired_accuracy_difference": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "wins": 0,
+    "losses": 0,
+    "mcnemar_exact_unadjusted": 1.0,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "lucid_s both vs fact_prior": {
+    "paired_n": 155,
+    "full_denominator": 1936,
+    "complete_pair": false,
+    "clusters": 149,
+    "ours_correct": 71,
+    "baseline_correct": 71,
+    "paired_accuracy_difference": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "wins": 0,
+    "losses": 0,
+    "mcnemar_exact_unadjusted": 1.0,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "lucid_s both vs gated_fact_prior": {
+    "paired_n": 157,
+    "full_denominator": 1936,
+    "complete_pair": false,
+    "clusters": 150,
+    "ours_correct": 69,
+    "baseline_correct": 69,
+    "paired_accuracy_difference": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "wins": 0,
+    "losses": 0,
+    "mcnemar_exact_unadjusted": 1.0,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "implex both vs dense": {
+    "paired_n": 2,
+    "full_denominator": 3633,
+    "complete_pair": false,
+    "clusters": 1,
+    "ours_correct": 1,
+    "baseline_correct": 1,
+    "paired_accuracy_difference": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "wins": 0,
+    "losses": 0,
+    "mcnemar_exact_unadjusted": 1.0,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "implex both vs hyde": {
+    "paired_n": 2,
+    "full_denominator": 3633,
+    "complete_pair": false,
+    "clusters": 1,
+    "ours_correct": 1,
+    "baseline_correct": 1,
+    "paired_accuracy_difference": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "wins": 0,
+    "losses": 0,
+    "mcnemar_exact_unadjusted": 1.0,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "implex both vs dense_pick": {
+    "paired_n": 2,
+    "full_denominator": 3633,
+    "complete_pair": false,
+    "clusters": 1,
+    "ours_correct": 1,
+    "baseline_correct": 1,
+    "paired_accuracy_difference": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "wins": 0,
+    "losses": 0,
+    "mcnemar_exact_unadjusted": 1.0,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "implex both vs amem": {
+    "paired_n": 2,
+    "full_denominator": 3633,
+    "complete_pair": false,
+    "clusters": 1,
+    "ours_correct": 1,
+    "baseline_correct": 1,
+    "paired_accuracy_difference": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "wins": 0,
+    "losses": 0,
+    "mcnemar_exact_unadjusted": 1.0,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "implex both vs rootmem": {
+    "paired_n": 2,
+    "full_denominator": 3633,
+    "complete_pair": false,
+    "clusters": 1,
+    "ours_correct": 1,
+    "baseline_correct": 1,
+    "paired_accuracy_difference": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "wins": 0,
+    "losses": 0,
+    "mcnemar_exact_unadjusted": 1.0,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "implex both vs rootmem_both": {
+    "paired_n": 2,
+    "full_denominator": 3633,
+    "complete_pair": false,
+    "clusters": 1,
+    "ours_correct": 1,
+    "baseline_correct": 1,
+    "paired_accuracy_difference": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "wins": 0,
+    "losses": 0,
+    "mcnemar_exact_unadjusted": 1.0,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "implex both vs write_only": {
+    "paired_n": 2,
+    "full_denominator": 3633,
+    "complete_pair": false,
+    "clusters": 1,
+    "ours_correct": 1,
+    "baseline_correct": 1,
+    "paired_accuracy_difference": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "wins": 0,
+    "losses": 0,
+    "mcnemar_exact_unadjusted": 1.0,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "implex both vs query_only": {
+    "paired_n": 2,
+    "full_denominator": 3633,
+    "complete_pair": false,
+    "clusters": 1,
+    "ours_correct": 1,
+    "baseline_correct": 1,
+    "paired_accuracy_difference": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "wins": 0,
+    "losses": 0,
+    "mcnemar_exact_unadjusted": 1.0,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "implex both vs shuffled": {
+    "paired_n": 2,
+    "full_denominator": 3633,
+    "complete_pair": false,
+    "clusters": 1,
+    "ours_correct": 1,
+    "baseline_correct": 1,
+    "paired_accuracy_difference": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "wins": 0,
+    "losses": 0,
+    "mcnemar_exact_unadjusted": 1.0,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "implex both vs fact_prior": {
+    "paired_n": 2,
+    "full_denominator": 3633,
+    "complete_pair": false,
+    "clusters": 1,
+    "ours_correct": 1,
+    "baseline_correct": 1,
+    "paired_accuracy_difference": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "wins": 0,
+    "losses": 0,
+    "mcnemar_exact_unadjusted": 1.0,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  },
+  "implex both vs gated_fact_prior": {
+    "paired_n": 2,
+    "full_denominator": 3633,
+    "complete_pair": false,
+    "clusters": 1,
+    "ours_correct": 1,
+    "baseline_correct": 1,
+    "paired_accuracy_difference": 0.0,
+    "cluster_bootstrap_ci95": [
+      0.0,
+      0.0
+    ],
+    "wins": 0,
+    "losses": 0,
+    "mcnemar_exact_unadjusted": 1.0,
+    "caveat": "Partial intersections may be biased by completion time; no full-benchmark inference until complete_pair=true. p-values are exploratory, unadjusted across methods; same-model judge requires independent validation."
+  }
+}

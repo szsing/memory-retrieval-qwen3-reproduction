@@ -1,0 +1,11 @@
+{
+  "bed": "inmind",
+  "method": "plain",
+  "n": 125,
+  "correct": 45,
+  "metric": "same-backbone answer uses hidden fact; not raw retrieval hit",
+  "protocol": "original 365-line shared dense pool; not per-query 241-line official-style pool",
+  "heldout_n": 61,
+  "raw_hit6": 2,
+  "complete": true
+}

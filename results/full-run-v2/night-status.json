@@ -1,0 +1,941 @@
+{
+  "time": "2026-11-19 12:31:38",
+  "datasets": {
+    "inmind": {
+      "official_questions": 250,
+      "methods": {
+        "dense": {
+          "retrieval_completed": 250,
+          "denominator": 250,
+          "evaluated": 249,
+          "evaluation_errors": 1,
+          "correct": 117,
+          "accuracy_on_evaluated_only": 0.46987951807228917,
+          "complete": false,
+          "raw_session_hit6": 0.588,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "dense_pick": {
+          "retrieval_completed": 250,
+          "denominator": 250,
+          "evaluated": 250,
+          "evaluation_errors": 0,
+          "correct": 103,
+          "accuracy_on_evaluated_only": 0.412,
+          "complete": true,
+          "raw_session_hit6": 0.552,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "hyde": {
+          "retrieval_completed": 250,
+          "denominator": 250,
+          "evaluated": 250,
+          "evaluation_errors": 0,
+          "correct": 113,
+          "accuracy_on_evaluated_only": 0.452,
+          "complete": true,
+          "raw_session_hit6": 0.584,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "both": {
+          "retrieval_completed": 250,
+          "denominator": 250,
+          "evaluated": 250,
+          "evaluation_errors": 0,
+          "correct": 154,
+          "accuracy_on_evaluated_only": 0.616,
+          "complete": true,
+          "raw_session_hit6": 0.824,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "write_only": {
+          "retrieval_completed": 250,
+          "denominator": 250,
+          "evaluated": 227,
+          "evaluation_errors": 0,
+          "correct": 138,
+          "accuracy_on_evaluated_only": 0.6079295154185022,
+          "complete": false,
+          "raw_session_hit6": 0.824,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "query_only": {
+          "retrieval_completed": 250,
+          "denominator": 250,
+          "evaluated": 194,
+          "evaluation_errors": 0,
+          "correct": 82,
+          "accuracy_on_evaluated_only": 0.422680412371134,
+          "complete": false,
+          "raw_session_hit6": 0.536,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "shuffled": {
+          "retrieval_completed": 250,
+          "denominator": 250,
+          "evaluated": 187,
+          "evaluation_errors": 0,
+          "correct": 85,
+          "accuracy_on_evaluated_only": 0.45454545454545453,
+          "complete": false,
+          "raw_session_hit6": 0.588,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "fact_prior": {
+          "retrieval_completed": 250,
+          "denominator": 250,
+          "evaluated": 191,
+          "evaluation_errors": 0,
+          "correct": 112,
+          "accuracy_on_evaluated_only": 0.5863874345549738,
+          "complete": false,
+          "raw_session_hit6": 0.824,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "gated_pin": {
+          "retrieval_completed": 250,
+          "denominator": 250,
+          "evaluated": 180,
+          "evaluation_errors": 0,
+          "correct": 102,
+          "accuracy_on_evaluated_only": 0.5666666666666667,
+          "complete": false,
+          "raw_session_hit6": 0.788,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "gated_fact_prior": {
+          "retrieval_completed": 250,
+          "denominator": 250,
+          "evaluated": 174,
+          "evaluation_errors": 0,
+          "correct": 97,
+          "accuracy_on_evaluated_only": 0.5574712643678161,
+          "complete": false,
+          "raw_session_hit6": 0.788,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "picker": {
+          "retrieval_completed": 250,
+          "denominator": 250,
+          "evaluated": 177,
+          "evaluation_errors": 1,
+          "correct": 96,
+          "accuracy_on_evaluated_only": 0.5423728813559322,
+          "complete": false,
+          "raw_session_hit6": 0.716,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "rootmem_both": {
+          "retrieval_completed": 142,
+          "denominator": 250,
+          "evaluated": 142,
+          "evaluation_errors": 0,
+          "correct": 72,
+          "accuracy_on_evaluated_only": 0.5070422535211268,
+          "complete": false,
+          "raw_session_hit6": null,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "rootmem": {
+          "retrieval_completed": 134,
+          "denominator": 250,
+          "evaluated": 134,
+          "evaluation_errors": 0,
+          "correct": 57,
+          "accuracy_on_evaluated_only": 0.4253731343283582,
+          "complete": false,
+          "raw_session_hit6": null,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "amem": {
+          "retrieval_completed": 24,
+          "denominator": 250,
+          "evaluated": 23,
+          "evaluation_errors": 0,
+          "correct": 10,
+          "accuracy_on_evaluated_only": 0.43478260869565216,
+          "complete": false,
+          "raw_session_hit6": null,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        }
+      }
+    },
+    "lucid_s": {
+      "official_questions": 1936,
+      "methods": {
+        "dense": {
+          "retrieval_completed": 1936,
+          "denominator": 1936,
+          "evaluated": 394,
+          "evaluation_errors": 0,
+          "correct": 152,
+          "accuracy_on_evaluated_only": 0.38578680203045684,
+          "complete": false,
+          "raw_session_hit6": 0.2422520661157025,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "dense_pick": {
+          "retrieval_completed": 1936,
+          "denominator": 1936,
+          "evaluated": 267,
+          "evaluation_errors": 0,
+          "correct": 118,
+          "accuracy_on_evaluated_only": 0.4419475655430712,
+          "complete": false,
+          "raw_session_hit6": 0.2334710743801653,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "hyde": {
+          "retrieval_completed": 1936,
+          "denominator": 1936,
+          "evaluated": 322,
+          "evaluation_errors": 0,
+          "correct": 136,
+          "accuracy_on_evaluated_only": 0.422360248447205,
+          "complete": false,
+          "raw_session_hit6": 0.25464876033057854,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "rootmem": {
+          "retrieval_completed": 1,
+          "denominator": 1936,
+          "evaluated": 1,
+          "evaluation_errors": 0,
+          "correct": 1,
+          "accuracy_on_evaluated_only": 1.0,
+          "complete": false,
+          "raw_session_hit6": null,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "both": {
+          "retrieval_completed": 261,
+          "denominator": 1936,
+          "evaluated": 261,
+          "evaluation_errors": 0,
+          "correct": 112,
+          "accuracy_on_evaluated_only": 0.42911877394636017,
+          "complete": false,
+          "raw_session_hit6": 0.26053639846743293,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "write_only": {
+          "retrieval_completed": 261,
+          "denominator": 1936,
+          "evaluated": 177,
+          "evaluation_errors": 0,
+          "correct": 78,
+          "accuracy_on_evaluated_only": 0.4406779661016949,
+          "complete": false,
+          "raw_session_hit6": 0.26053639846743293,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "rootmem_both": {
+          "retrieval_completed": 1,
+          "denominator": 1936,
+          "evaluated": 1,
+          "evaluation_errors": 0,
+          "correct": 1,
+          "accuracy_on_evaluated_only": 1.0,
+          "complete": false,
+          "raw_session_hit6": null,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "query_only": {
+          "retrieval_completed": 261,
+          "denominator": 1936,
+          "evaluated": 166,
+          "evaluation_errors": 0,
+          "correct": 71,
+          "accuracy_on_evaluated_only": 0.42771084337349397,
+          "complete": false,
+          "raw_session_hit6": 0.26053639846743293,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "shuffled": {
+          "retrieval_completed": 261,
+          "denominator": 1936,
+          "evaluated": 160,
+          "evaluation_errors": 0,
+          "correct": 73,
+          "accuracy_on_evaluated_only": 0.45625,
+          "complete": false,
+          "raw_session_hit6": 0.2567049808429119,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "fact_prior": {
+          "retrieval_completed": 261,
+          "denominator": 1936,
+          "evaluated": 155,
+          "evaluation_errors": 0,
+          "correct": 71,
+          "accuracy_on_evaluated_only": 0.45806451612903226,
+          "complete": false,
+          "raw_session_hit6": 0.26053639846743293,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "gated_pin": {
+          "retrieval_completed": 261,
+          "denominator": 1936,
+          "evaluated": 156,
+          "evaluation_errors": 0,
+          "correct": 68,
+          "accuracy_on_evaluated_only": 0.4358974358974359,
+          "complete": false,
+          "raw_session_hit6": 0.26053639846743293,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "gated_fact_prior": {
+          "retrieval_completed": 261,
+          "denominator": 1936,
+          "evaluated": 157,
+          "evaluation_errors": 0,
+          "correct": 69,
+          "accuracy_on_evaluated_only": 0.4394904458598726,
+          "complete": false,
+          "raw_session_hit6": 0.26053639846743293,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "picker": {
+          "retrieval_completed": 261,
+          "denominator": 1936,
+          "evaluated": 155,
+          "evaluation_errors": 1,
+          "correct": 68,
+          "accuracy_on_evaluated_only": 0.43870967741935485,
+          "complete": false,
+          "raw_session_hit6": 0.26053639846743293,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "amem": {
+          "retrieval_completed": 1,
+          "denominator": 1936,
+          "evaluated": 1,
+          "evaluation_errors": 0,
+          "correct": 1,
+          "accuracy_on_evaluated_only": 1.0,
+          "complete": false,
+          "raw_session_hit6": null,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        }
+      }
+    },
+    "implex": {
+      "official_questions": 3633,
+      "methods": {
+        "dense": {
+          "retrieval_completed": 2744,
+          "denominator": 3633,
+          "evaluated": 384,
+          "evaluation_errors": 1,
+          "correct": 112,
+          "accuracy_on_evaluated_only": 0.2916666666666667,
+          "complete": false,
+          "raw_session_hit6": 0.0641399416909621,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "dense_pick": {
+          "retrieval_completed": 2729,
+          "denominator": 3633,
+          "evaluated": 224,
+          "evaluation_errors": 0,
+          "correct": 66,
+          "accuracy_on_evaluated_only": 0.29464285714285715,
+          "complete": false,
+          "raw_session_hit6": 0.07365335287651155,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "hyde": {
+          "retrieval_completed": 2647,
+          "denominator": 3633,
+          "evaluated": 301,
+          "evaluation_errors": 0,
+          "correct": 95,
+          "accuracy_on_evaluated_only": 0.31561461794019935,
+          "complete": false,
+          "raw_session_hit6": 0.0865130336229694,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "rootmem": {
+          "retrieval_completed": 2,
+          "denominator": 3633,
+          "evaluated": 2,
+          "evaluation_errors": 0,
+          "correct": 1,
+          "accuracy_on_evaluated_only": 0.5,
+          "complete": false,
+          "raw_session_hit6": null,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "both": {
+          "retrieval_completed": 2,
+          "denominator": 3633,
+          "evaluated": 2,
+          "evaluation_errors": 0,
+          "correct": 1,
+          "accuracy_on_evaluated_only": 0.5,
+          "complete": false,
+          "raw_session_hit6": 0.0,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "write_only": {
+          "retrieval_completed": 2,
+          "denominator": 3633,
+          "evaluated": 2,
+          "evaluation_errors": 0,
+          "correct": 1,
+          "accuracy_on_evaluated_only": 0.5,
+          "complete": false,
+          "raw_session_hit6": 0.0,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "rootmem_both": {
+          "retrieval_completed": 2,
+          "denominator": 3633,
+          "evaluated": 2,
+          "evaluation_errors": 0,
+          "correct": 1,
+          "accuracy_on_evaluated_only": 0.5,
+          "complete": false,
+          "raw_session_hit6": null,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "query_only": {
+          "retrieval_completed": 2,
+          "denominator": 3633,
+          "evaluated": 2,
+          "evaluation_errors": 0,
+          "correct": 1,
+          "accuracy_on_evaluated_only": 0.5,
+          "complete": false,
+          "raw_session_hit6": 0.0,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "shuffled": {
+          "retrieval_completed": 2,
+          "denominator": 3633,
+          "evaluated": 2,
+          "evaluation_errors": 0,
+          "correct": 1,
+          "accuracy_on_evaluated_only": 0.5,
+          "complete": false,
+          "raw_session_hit6": 0.0,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "fact_prior": {
+          "retrieval_completed": 2,
+          "denominator": 3633,
+          "evaluated": 2,
+          "evaluation_errors": 0,
+          "correct": 1,
+          "accuracy_on_evaluated_only": 0.5,
+          "complete": false,
+          "raw_session_hit6": 0.0,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "gated_pin": {
+          "retrieval_completed": 2,
+          "denominator": 3633,
+          "evaluated": 2,
+          "evaluation_errors": 0,
+          "correct": 1,
+          "accuracy_on_evaluated_only": 0.5,
+          "complete": false,
+          "raw_session_hit6": 0.0,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "gated_fact_prior": {
+          "retrieval_completed": 2,
+          "denominator": 3633,
+          "evaluated": 2,
+          "evaluation_errors": 0,
+          "correct": 1,
+          "accuracy_on_evaluated_only": 0.5,
+          "complete": false,
+          "raw_session_hit6": 0.0,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "picker": {
+          "retrieval_completed": 2,
+          "denominator": 3633,
+          "evaluated": 2,
+          "evaluation_errors": 0,
+          "correct": 1,
+          "accuracy_on_evaluated_only": 0.5,
+          "complete": false,
+          "raw_session_hit6": 0.0,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        },
+        "amem": {
+          "retrieval_completed": 2,
+          "denominator": 3633,
+          "evaluated": 2,
+          "evaluation_errors": 0,
+          "correct": 1,
+          "accuracy_on_evaluated_only": 0.5,
+          "complete": false,
+          "raw_session_hit6": null,
+          "warning": "Partial rows are not full benchmark accuracy. Native abstract memories have no raw-note Hit@6."
+        }
+      }
+    }
+  },
+  "jobs": {
+    "implex": {
+      "amem": {
+        "complete": 1,
+        "paused_budget": 1432
+      },
+      "dense": {
+        "complete": 1083,
+        "paused_budget": 350
+      },
+      "dense_pick": {
+        "complete": 1076,
+        "failed": 1,
+        "pending": 356
+      },
+      "hyde": {
+        "complete": 1039,
+        "pending": 394
+      },
+      "mem0": {
+        "blocked_after_failures": 1432,
+        "failed": 1
+      },
+      "properties": {
+        "complete": 1,
+        "pending": 1432
+      },
+      "rootmem": {
+        "complete": 1,
+        "paused_budget": 1432
+      },
+      "rootmem_both": {
+        "complete": 1,
+        "paused_budget": 1432
+      }
+    },
+    "inmind": {
+      "amem": {
+        "complete": 12,
+        "paused_budget": 113
+      },
+      "dense": {
+        "complete": 125
+      },
+      "dense_pick": {
+        "complete": 125
+      },
+      "hyde": {
+        "complete": 125
+      },
+      "mem0": {
+        "blocked_after_failures": 124,
+        "failed": 1
+      },
+      "properties": {
+        "complete": 125
+      },
+      "rootmem": {
+        "complete": 67,
+        "failed": 25,
+        "paused_budget": 33
+      },
+      "rootmem_both": {
+        "complete": 71,
+        "failed": 20,
+        "paused_budget": 34
+      }
+    },
+    "lucid_s": {
+      "amem": {
+        "complete": 1,
+        "paused_budget": 1935
+      },
+      "dense": {
+        "complete": 1936
+      },
+      "dense_pick": {
+        "complete": 1936
+      },
+      "hyde": {
+        "complete": 1936
+      },
+      "mem0": {
+        "blocked_after_failures": 1935,
+        "failed": 1
+      },
+      "properties": {
+        "complete": 261,
+        "failed": 3,
+        "pending": 1672
+      },
+      "rootmem": {
+        "complete": 1,
+        "paused_budget": 1935
+      },
+      "rootmem_both": {
+        "complete": 1,
+        "paused_budget": 1935
+      }
+    }
+  },
+  "comparisons": {
+    "inmind both vs dense": {
+      "paired_questions": 85,
+      "both_correct": 26,
+      "baseline_correct": 2,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "inmind both vs dense_pick": {
+      "paired_questions": 85,
+      "both_correct": 26,
+      "baseline_correct": 1,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "inmind both vs hyde": {
+      "paired_questions": 85,
+      "both_correct": 26,
+      "baseline_correct": 4,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "inmind both vs write_only": {
+      "paired_questions": 85,
+      "both_correct": 26,
+      "baseline_correct": 26,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "inmind both vs query_only": {
+      "paired_questions": 72,
+      "both_correct": 23,
+      "baseline_correct": 3,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "inmind both vs shuffled": {
+      "paired_questions": 71,
+      "both_correct": 23,
+      "baseline_correct": 1,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "inmind both vs fact_prior": {
+      "paired_questions": 85,
+      "both_correct": 26,
+      "baseline_correct": 26,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "inmind both vs gated_pin": {
+      "paired_questions": 70,
+      "both_correct": 22,
+      "baseline_correct": 13,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "inmind both vs gated_fact_prior": {
+      "paired_questions": 68,
+      "both_correct": 22,
+      "baseline_correct": 15,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "inmind both vs picker": {
+      "paired_questions": 69,
+      "both_correct": 22,
+      "baseline_correct": 11,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "inmind both vs rootmem_both": {
+      "paired_questions": 56,
+      "both_correct": 15,
+      "baseline_correct": 11,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "inmind both vs rootmem": {
+      "paired_questions": 53,
+      "both_correct": 15,
+      "baseline_correct": 2,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "inmind both vs amem": {
+      "paired_questions": 10,
+      "both_correct": 4,
+      "baseline_correct": 0,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "lucid_s both vs dense": {
+      "paired_questions": 261,
+      "both_correct": 112,
+      "baseline_correct": 111,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "lucid_s both vs dense_pick": {
+      "paired_questions": 254,
+      "both_correct": 109,
+      "baseline_correct": 110,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "lucid_s both vs hyde": {
+      "paired_questions": 261,
+      "both_correct": 112,
+      "baseline_correct": 116,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "lucid_s both vs rootmem": {
+      "paired_questions": 1,
+      "both_correct": 1,
+      "baseline_correct": 1,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "lucid_s both vs write_only": {
+      "paired_questions": 177,
+      "both_correct": 78,
+      "baseline_correct": 78,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "lucid_s both vs rootmem_both": {
+      "paired_questions": 1,
+      "both_correct": 1,
+      "baseline_correct": 1,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "lucid_s both vs query_only": {
+      "paired_questions": 166,
+      "both_correct": 74,
+      "baseline_correct": 71,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "lucid_s both vs shuffled": {
+      "paired_questions": 160,
+      "both_correct": 73,
+      "baseline_correct": 73,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "lucid_s both vs fact_prior": {
+      "paired_questions": 155,
+      "both_correct": 71,
+      "baseline_correct": 71,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "lucid_s both vs gated_pin": {
+      "paired_questions": 156,
+      "both_correct": 69,
+      "baseline_correct": 68,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "lucid_s both vs gated_fact_prior": {
+      "paired_questions": 157,
+      "both_correct": 69,
+      "baseline_correct": 69,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "lucid_s both vs picker": {
+      "paired_questions": 155,
+      "both_correct": 70,
+      "baseline_correct": 68,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "lucid_s both vs amem": {
+      "paired_questions": 1,
+      "both_correct": 1,
+      "baseline_correct": 1,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "implex both vs dense": {
+      "paired_questions": 2,
+      "both_correct": 1,
+      "baseline_correct": 1,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "implex both vs dense_pick": {
+      "paired_questions": 2,
+      "both_correct": 1,
+      "baseline_correct": 1,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "implex both vs hyde": {
+      "paired_questions": 2,
+      "both_correct": 1,
+      "baseline_correct": 1,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "implex both vs rootmem": {
+      "paired_questions": 2,
+      "both_correct": 1,
+      "baseline_correct": 1,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "implex both vs write_only": {
+      "paired_questions": 2,
+      "both_correct": 1,
+      "baseline_correct": 1,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "implex both vs rootmem_both": {
+      "paired_questions": 2,
+      "both_correct": 1,
+      "baseline_correct": 1,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "implex both vs query_only": {
+      "paired_questions": 2,
+      "both_correct": 1,
+      "baseline_correct": 1,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "implex both vs shuffled": {
+      "paired_questions": 2,
+      "both_correct": 1,
+      "baseline_correct": 1,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "implex both vs fact_prior": {
+      "paired_questions": 2,
+      "both_correct": 1,
+      "baseline_correct": 1,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "implex both vs gated_pin": {
+      "paired_questions": 2,
+      "both_correct": 1,
+      "baseline_correct": 1,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "implex both vs gated_fact_prior": {
+      "paired_questions": 2,
+      "both_correct": 1,
+      "baseline_correct": 1,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "implex both vs picker": {
+      "paired_questions": 2,
+      "both_correct": 1,
+      "baseline_correct": 1,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    },
+    "implex both vs amem": {
+      "paired_questions": 2,
+      "both_correct": 1,
+      "baseline_correct": 1,
+      "warning": "intersection is provisional and may be selected by runtime; wait for complete coverage"
+    }
+  },
+  "failures": [
+    {
+      "dataset": "inmind",
+      "case": "0",
+      "method": "mem0",
+      "error": "ime\": \"2026-11-19 01:45:10\", \"stage\": \"night_native_ingest\", \"dataset\": \"inmind\", \"id\": \"0\", \"method\": \"mem0\", \"done\": 81, \"total\": 247}\nTraceback (most recent call last):\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/night_worker.py\", line 122, in <module>\n    elif a.case:run_case(*a.case,a.method)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/night_worker.py\", line 45, in run_case\n    for q,ctx,meta in native_contexts(ds,cid,method,notes,queries):save_result(ds,cid,method,q,ctx,meta)\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/night_native.py\", line 33, in native_contexts\n    if len(B.errors.errors)!=e:raise RuntimeError('Native error: '+str(B.errors.errors[e:]))\n                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Native error: [\"Error in new_memories_with_actions: '15'\"]\n\n"
+    },
+    {
+      "dataset": "lucid_s",
+      "case": "0__q_ded1003fffb1",
+      "method": "mem0",
+      "error": "02:01:42\", \"stage\": \"night_native_ingest\", \"dataset\": \"lucid_s\", \"id\": \"0__q_ded1003fffb1\", \"method\": \"mem0\", \"done\": 141, \"total\": 230}\nTraceback (most recent call last):\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/night_worker.py\", line 122, in <module>\n    elif a.case:run_case(*a.case,a.method)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/night_worker.py\", line 45, in run_case\n    for q,ctx,meta in native_contexts(ds,cid,method,notes,queries):save_result(ds,cid,method,q,ctx,meta)\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/night_native.py\", line 33, in native_contexts\n    if len(B.errors.errors)!=e:raise RuntimeError('Native error: '+str(B.errors.errors[e:]))\n                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Native error: [\"Error in new_memories_with_actions: '11'\"]\n\n"
+    },
+    {
+      "dataset": "implex",
+      "case": "0",
+      "method": "mem0",
+      "error": "me\": \"2026-11-19 02:54:11\", \"stage\": \"night_native_ingest\", \"dataset\": \"implex\", \"id\": \"0\", \"method\": \"mem0\", \"done\": 241, \"total\": 646}\nTraceback (most recent call last):\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/night_worker.py\", line 122, in <module>\n    elif a.case:run_case(*a.case,a.method)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/night_worker.py\", line 45, in run_case\n    for q,ctx,meta in native_contexts(ds,cid,method,notes,queries):save_result(ds,cid,method,q,ctx,meta)\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/night_native.py\", line 33, in native_contexts\n    if len(B.errors.errors)!=e:raise RuntimeError('Native error: '+str(B.errors.errors[e:]))\n                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Native error: [\"Error in new_memories_with_actions: '10'\"]\n\n"
+    },
+    {
+      "dataset": "inmind",
+      "case": "4",
+      "method": "rootmem",
+      "error": "y\", line 56, in create\n    v=T.call(messages,max_tokens=8192,response_format=response_format,json_output=True)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/common.py\", line 47, in call\n    return self._generate_or_load(body,key,schema,json_output,response_format)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/night_budget.py\", line 24, in _generate_or_load\n    if choice['finish_reason']!='stop':raise ValueError('Output did not finish; no prompt mutation or invalid output accepted: '+choice['finish_reason'])\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Output did not finish; no prompt mutation or invalid output accepted: length\n\n"
+    },
+    {
+      "dataset": "inmind",
+      "case": "4",
+      "method": "rootmem_both",
+      "error": "y\", line 56, in create\n    v=T.call(messages,max_tokens=8192,response_format=response_format,json_output=True)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/common.py\", line 47, in call\n    return self._generate_or_load(body,key,schema,json_output,response_format)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/night_budget.py\", line 24, in _generate_or_load\n    if choice['finish_reason']!='stop':raise ValueError('Output did not finish; no prompt mutation or invalid output accepted: '+choice['finish_reason'])\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Output did not finish; no prompt mutation or invalid output accepted: length\n\n"
+    },
+    {
+      "dataset": "inmind",
+      "case": "11",
+      "method": "rootmem",
+      "error": "y\", line 56, in create\n    v=T.call(messages,max_tokens=8192,response_format=response_format,json_output=True)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/common.py\", line 47, in call\n    return self._generate_or_load(body,key,schema,json_output,response_format)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/night_budget.py\", line 24, in _generate_or_load\n    if choice['finish_reason']!='stop':raise ValueError('Output did not finish; no prompt mutation or invalid output accepted: '+choice['finish_reason'])\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Output did not finish; no prompt mutation or invalid output accepted: length\n\n"
+    },
+    {
+      "dataset": "inmind",
+      "case": "11",
+      "method": "rootmem_both",
+      "error": "y\", line 56, in create\n    v=T.call(messages,max_tokens=8192,response_format=response_format,json_output=True)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/common.py\", line 47, in call\n    return self._generate_or_load(body,key,schema,json_output,response_format)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/night_budget.py\", line 24, in _generate_or_load\n    if choice['finish_reason']!='stop':raise ValueError('Output did not finish; no prompt mutation or invalid output accepted: '+choice['finish_reason'])\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Output did not finish; no prompt mutation or invalid output accepted: length\n\n"
+    },
+    {
+      "dataset": "inmind",
+      "case": "19",
+      "method": "rootmem",
+      "error": "y\", line 56, in create\n    v=T.call(messages,max_tokens=8192,response_format=response_format,json_output=True)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/common.py\", line 47, in call\n    return self._generate_or_load(body,key,schema,json_output,response_format)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/night_budget.py\", line 24, in _generate_or_load\n    if choice['finish_reason']!='stop':raise ValueError('Output did not finish; no prompt mutation or invalid output accepted: '+choice['finish_reason'])\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Output did not finish; no prompt mutation or invalid output accepted: length\n\n"
+    },
+    {
+      "dataset": "inmind",
+      "case": "19",
+      "method": "rootmem_both",
+      "error": "y\", line 56, in create\n    v=T.call(messages,max_tokens=8192,response_format=response_format,json_output=True)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/common.py\", line 47, in call\n    return self._generate_or_load(body,key,schema,json_output,response_format)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/night_budget.py\", line 24, in _generate_or_load\n    if choice['finish_reason']!='stop':raise ValueError('Output did not finish; no prompt mutation or invalid output accepted: '+choice['finish_reason'])\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Output did not finish; no prompt mutation or invalid output accepted: length\n\n"
+    },
+    {
+      "dataset": "inmind",
+      "case": "22",
+      "method": "rootmem",
+      "error": "y\", line 56, in create\n    v=T.call(messages,max_tokens=8192,response_format=response_format,json_output=True)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/common.py\", line 47, in call\n    return self._generate_or_load(body,key,schema,json_output,response_format)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/night_budget.py\", line 24, in _generate_or_load\n    if choice['finish_reason']!='stop':raise ValueError('Output did not finish; no prompt mutation or invalid output accepted: '+choice['finish_reason'])\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Output did not finish; no prompt mutation or invalid output accepted: length\n\n"
+    },
+    {
+      "dataset": "inmind",
+      "case": "22",
+      "method": "rootmem_both",
+      "error": "y\", line 56, in create\n    v=T.call(messages,max_tokens=8192,response_format=response_format,json_output=True)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/common.py\", line 47, in call\n    return self._generate_or_load(body,key,schema,json_output,response_format)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/night_budget.py\", line 24, in _generate_or_load\n    if choice['finish_reason']!='stop':raise ValueError('Output did not finish; no prompt mutation or invalid output accepted: '+choice['finish_reason'])\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Output did not finish; no prompt mutation or invalid output accepted: length\n\n"
+    },
+    {
+      "dataset": "inmind",
+      "case": "37",
+      "method": "rootmem",
+      "error": "y\", line 56, in create\n    v=T.call(messages,max_tokens=8192,response_format=response_format,json_output=True)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/common.py\", line 47, in call\n    return self._generate_or_load(body,key,schema,json_output,response_format)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/night_budget.py\", line 24, in _generate_or_load\n    if choice['finish_reason']!='stop':raise ValueError('Output did not finish; no prompt mutation or invalid output accepted: '+choice['finish_reason'])\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Output did not finish; no prompt mutation or invalid output accepted: length\n\n"
+    },
+    {
+      "dataset": "inmind",
+      "case": "37",
+      "method": "rootmem_both",
+      "error": "y\", line 56, in create\n    v=T.call(messages,max_tokens=8192,response_format=response_format,json_output=True)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/common.py\", line 47, in call\n    return self._generate_or_load(body,key,schema,json_output,response_format)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/night_budget.py\", line 24, in _generate_or_load\n    if choice['finish_reason']!='stop':raise ValueError('Output did not finish; no prompt mutation or invalid output accepted: '+choice['finish_reason'])\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Output did not finish; no prompt mutation or invalid output accepted: length\n\n"
+    },
+    {
+      "dataset": "inmind",
+      "case": "39",
+      "method": "rootmem_both",
+      "error": "y\", line 56, in create\n    v=T.call(messages,max_tokens=8192,response_format=response_format,json_output=True)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/common.py\", line 47, in call\n    return self._generate_or_load(body,key,schema,json_output,response_format)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/night_budget.py\", line 24, in _generate_or_load\n    if choice['finish_reason']!='stop':raise ValueError('Output did not finish; no prompt mutation or invalid output accepted: '+choice['finish_reason'])\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Output did not finish; no prompt mutation or invalid output accepted: length\n\n"
+    },
+    {
+      "dataset": "inmind",
+      "case": "42",
+      "method": "rootmem",
+      "error": "y\", line 56, in create\n    v=T.call(messages,max_tokens=8192,response_format=response_format,json_output=True)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/common.py\", line 47, in call\n    return self._generate_or_load(body,key,schema,json_output,response_format)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/night_budget.py\", line 24, in _generate_or_load\n    if choice['finish_reason']!='stop':raise ValueError('Output did not finish; no prompt mutation or invalid output accepted: '+choice['finish_reason'])\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Output did not finish; no prompt mutation or invalid output accepted: length\n\n"
+    },
+    {
+      "dataset": "inmind",
+      "case": "42",
+      "method": "rootmem_both",
+      "error": "y\", line 56, in create\n    v=T.call(messages,max_tokens=8192,response_format=response_format,json_output=True)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/common.py\", line 47, in call\n    return self._generate_or_load(body,key,schema,json_output,response_format)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/night_budget.py\", line 24, in _generate_or_load\n    if choice['finish_reason']!='stop':raise ValueError('Output did not finish; no prompt mutation or invalid output accepted: '+choice['finish_reason'])\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Output did not finish; no prompt mutation or invalid output accepted: length\n\n"
+    },
+    {
+      "dataset": "inmind",
+      "case": "43",
+      "method": "rootmem",
+      "error": "y\", line 56, in create\n    v=T.call(messages,max_tokens=8192,response_format=response_format,json_output=True)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/common.py\", line 47, in call\n    return self._generate_or_load(body,key,schema,json_output,response_format)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/night_budget.py\", line 24, in _generate_or_load\n    if choice['finish_reason']!='stop':raise ValueError('Output did not finish; no prompt mutation or invalid output accepted: '+choice['finish_reason'])\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Output did not finish; no prompt mutation or invalid output accepted: length\n\n"
+    },
+    {
+      "dataset": "inmind",
+      "case": "43",
+      "method": "rootmem_both",
+      "error": "y\", line 56, in create\n    v=T.call(messages,max_tokens=8192,response_format=response_format,json_output=True)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/common.py\", line 47, in call\n    return self._generate_or_load(body,key,schema,json_output,response_format)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/night_budget.py\", line 24, in _generate_or_load\n    if choice['finish_reason']!='stop':raise ValueError('Output did not finish; no prompt mutation or invalid output accepted: '+choice['finish_reason'])\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Output did not finish; no prompt mutation or invalid output accepted: length\n\n"
+    },
+    {
+      "dataset": "inmind",
+      "case": "57",
+      "method": "rootmem",
+      "error": "y\", line 56, in create\n    v=T.call(messages,max_tokens=8192,response_format=response_format,json_output=True)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/common.py\", line 47, in call\n    return self._generate_or_load(body,key,schema,json_output,response_format)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/night_budget.py\", line 24, in _generate_or_load\n    if choice['finish_reason']!='stop':raise ValueError('Output did not finish; no prompt mutation or invalid output accepted: '+choice['finish_reason'])\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Output did not finish; no prompt mutation or invalid output accepted: length\n\n"
+    },
+    {
+      "dataset": "inmind",
+      "case": "64",
+      "method": "rootmem",
+      "error": "y\", line 56, in create\n    v=T.call(messages,max_tokens=8192,response_format=response_format,json_output=True)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/common.py\", line 47, in call\n    return self._generate_or_load(body,key,schema,json_output,response_format)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/night_budget.py\", line 24, in _generate_or_load\n    if choice['finish_reason']!='stop':raise ValueError('Output did not finish; no prompt mutation or invalid output accepted: '+choice['finish_reason'])\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Output did not finish; no prompt mutation or invalid output accepted: length\n\n"
+    }
+  ]
+}

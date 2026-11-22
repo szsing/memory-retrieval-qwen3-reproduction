@@ -1,0 +1,58 @@
+{
+  "datasets": {
+    "inmind": {
+      "records": 125,
+      "questions": 250,
+      "interaction_chunks_sum": 30875,
+      "session_counts": {
+        "47": 125
+      }
+    },
+    "lucid_s": {
+      "records": 1936,
+      "questions": 1936,
+      "interaction_chunks_sum": 448164,
+      "session_counts": {
+        "50": 1932,
+        "49": 4
+      }
+    },
+    "implex": {
+      "records": 1550,
+      "questions": 3633,
+      "interaction_chunks_sum": 1015364,
+      "session_counts": {
+        "110": 1263,
+        "116": 5,
+        "111": 191,
+        "130": 4,
+        "112": 36,
+        "113": 17,
+        "114": 10,
+        "115": 10,
+        "119": 2,
+        "118": 1,
+        "133": 2,
+        "117": 1,
+        "106": 2,
+        "129": 1,
+        "107": 1,
+        "137": 1,
+        "122": 1,
+        "131": 1,
+        "120": 1
+      }
+    }
+  },
+  "notes": 807570,
+  "implex_empty_qa_records": 117,
+  "implex_empty_turns_preserved": 121,
+  "implex_prefixed_sessions": 214,
+  "implex_unlabeled_sessions": 3,
+  "implex_parse_policy": "Speaker1/Speaker 1 map to user; Assistant to assistant; unlabelled generator prose retained as assistant text and excluded from user-only property extraction",
+  "input_policy": "all source sessions and all roles preserved; interaction chunks; no gold fields in notes; no history truncation",
+  "lucid_unique_query_ids": 1101,
+  "lucid_row_identity": "row index + query_id; duplicated IDs retained, never silently deduplicated",
+  "local_model": "qwen3-8b-b968826-bf16-nothink-vllm011",
+  "controlled_adaptation": true
+}

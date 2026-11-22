@@ -1,0 +1,41 @@
+{
+  "completed": "2026-11-22 19:51:05",
+  "metric": "source simplified judge only; not official accuracy or full81 results",
+  "rows": {
+    "full": {
+      "n": 20,
+      "source_diagnostic_correct": 8,
+      "raw_hit6": 8
+    },
+    "hyde": {
+      "n": 20,
+      "source_diagnostic_correct": 5,
+      "raw_hit6": 6
+    },
+    "rerank": {
+      "n": 20,
+      "source_diagnostic_correct": 9,
+      "raw_hit6": 8
+    },
+    "plain": {
+      "n": 20,
+      "source_diagnostic_correct": 5,
+      "raw_hit6": 3
+    },
+    "rootmem": {
+      "n": 20,
+      "source_diagnostic_correct": 16,
+      "raw_hit6": null
+    },
+    "mem0": {
+      "n": 20,
+      "source_diagnostic_correct": 10,
+      "raw_hit6": null
+    },
+    "amem": {
+      "n": 20,
+      "source_diagnostic_correct": 9,
+      "raw_hit6": null
+    }
+  }
+}

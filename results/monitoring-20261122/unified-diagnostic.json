@@ -1,0 +1,46 @@
+{
+  "full": {
+    "raw_hit6_61": 7,
+    "raw_hit6_125": 19
+  },
+  "hyde": {
+    "raw_hit6_61": 5,
+    "raw_hit6_125": 9
+  },
+  "rerank": {
+    "raw_hit6_61": 7,
+    "raw_hit6_125": 12
+  },
+  "plain": {
+    "raw_hit6_61": 1,
+    "raw_hit6_125": 3
+  },
+  "write_only_attr": {
+    "raw_hit6_61": 8,
+    "raw_hit6_125": 23
+  },
+  "fact_presence": {
+    "raw_hit6_61": 7,
+    "raw_hit6_125": 12
+  },
+  "retrieved_but_failed": [
+    {
+      "i": 11,
+      "fact_sha256": "63dfd2b8a3172cd91837abc5f6e402ec09d35b24f3b2eed4861f6920d36fe5b2",
+      "fact_omitted": true,
+      "q_sha256": "8165f6f51b5459a955997395275fc5d19f3016cac7d494e49c1343ab19eb9941",
+      "q_omitted": true,
+      "answer": "Wearing hearing protection earmuffs daily is not necessary for everyone, but it depends on your environment. If you're in noisy settings like construction, music, or industrial work, regular use is crucial to prevent hearing loss. If your daily activities are quiet, occasional use may suffice. Always assess your noise exposure and consult a healthcare professional for personalized advice.",
+      "reason": "The answer does not specifically address the user's role as a firefighter or mention the noise exposure risks associated with firefighting. It provides general advice without personalizing the response based on the user's occupation."
+    },
+    {
+      "i": 24,
+      "fact_sha256": "48627673f27fcd86be8baa3813cc0eec56bebe0b1c03d2dbb80737409eab7963",
+      "fact_omitted": true,
+      "q_sha256": "29233053e89ab84007d5613aeace33a6d553aced232a0b0b6057283b81524bb9",
+      "q_omitted": true,
+      "answer": "It's great that you're considering vaccination. The CDC and WHO recommend vaccines based on age, health status, and local guidelines. Consult your healthcare provider to determine which vaccines are appropriate for you. They can provide personalized advice based on your medical history and current health. Stay informed and follow official health recommendations for the best protection.",
+      "reason": "The answer does not specifically address the user's role as a surgeon or emphasize the importance of vaccination due to their professional exposure to disease and infection. It provides general advice without leveraging the personal information to give a more tailored response."
+    }
+  ]
+}

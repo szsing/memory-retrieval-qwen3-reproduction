@@ -1,0 +1,20 @@
+{
+  "deadline": 1795348521.0,
+  "paused_parent": 63041,
+  "paused_child": 68554,
+  "completed": [
+    "hyde",
+    "rerank",
+    "plain"
+  ],
+  "errors": [
+    {
+      "method": "rootmem",
+      "stage": "retrieve",
+      "code": 1
+    }
+  ],
+  "phase": "finished_or_budget",
+  "current": "rootmem",
+  "ended": "2026-11-22 19:57:17"
+}

@@ -1,0 +1,339 @@
+{
+  "time": "2026-11-22 19:56:12",
+  "controller": {
+    "phase": "continuing_other_subsets",
+    "deadline": 1795348521.0,
+    "completed": [
+      {
+        "label": "implex-full",
+        "status": "complete"
+      },
+      {
+        "label": "implex-hyde",
+        "status": "complete"
+      },
+      {
+        "label": "implex-rerank",
+        "status": "complete"
+      },
+      {
+        "label": "implex-plain",
+        "status": "complete"
+      },
+      {
+        "label": "lucid-full",
+        "status": "complete"
+      },
+      {
+        "label": "implex-rootmem",
+        "status": "complete"
+      },
+      {
+        "label": "lucid-hyde",
+        "status": "already_complete"
+      },
+      {
+        "label": "lucid-rerank",
+        "status": "already_complete"
+      },
+      {
+        "label": "lucid-plain",
+        "status": "already_complete"
+      }
+    ],
+    "failed": [
+      {
+        "label": "lucid-amem",
+        "status": "budget_or_error",
+        "code": 1
+      },
+      {
+        "label": "lucid-rootmem",
+        "status": "budget"
+      },
+      {
+        "label": "implex-amem",
+        "status": "budget_or_error",
+        "code": 1
+      }
+    ],
+    "active": [],
+    "replaced_paused_supervisors": [
+      24573,
+      34920,
+      35245
+    ]
+  },
+  "latest_native_events": {
+    "continuation-implex-mem0-retrieve": {
+      "time": "2026-11-22 19:51:52",
+      "job": "continuation-implex-mem0-retrieve",
+      "kind": "ingest",
+      "method": "mem0",
+      "done": 51,
+      "total": 209
+    },
+    "continuation-implex-amem-retrieve": {
+      "time": "2026-11-22 19:55:29",
+      "job": "continuation-implex-amem-retrieve",
+      "kind": "job_failed",
+      "spec": {
+        "stage": "retrieve",
+        "bed": "implex",
+        "method": "amem",
+        "n": 81
+      },
+      "error": "BudgetEnd()",
+      "traceback": "Traceback (most recent call last):\n  File \"${PROJECT_ROOT}/experiments/native-source-aligned-v3/worker.py\", line 97, in <module>\n    if spec['stage']=='retrieve':compare_contexts(spec['bed'],spec['method'],data)\n                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/native-source-aligned-v3/worker.py\", line 61, in compare_contexts\n    poollines=[lines[j] for j in g['pool']];state=HERE/'states'/bed/group/method;m=ingest(method,state,poollines)\n                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/native-source-aligned-v3/native.py\", line 69, in ingest\n    else:m.add_note(s,time=(datetime(2026,1,1)+timedelta(minutes=i)).strftime('%Y%m%d%H%M'))\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/vendor/A-mem-main/memory_layer.py\", line 783, in add_note\n    evo_label, note = self.process_memory(note)\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/vendor/A-mem-main/memory_layer.py\", line 822, in process_memory\n    return self._evolve(note)\n           ^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/vendor/A-mem-main/memory_layer.py\", line 833, in _evolve\n    response = self.llm_controller.llm.get_completion(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/run_baselines.py\", line 44, in get_completion\n    return json.dumps(T.call([{'role':'system','content':'You must respond with a JSON object.'},{'role':'user','content':prompt}],schema=schema,response_format=response_format,json_output=True))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/native-source-aligned-v3/transport.py\", line 27, in call\n    budget();body={'model':MODEL,'temperature':0,'max_tokens':max_tokens,'messages':messages}\n    ^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/native-source-aligned-v3/transport.py\", line 12, in budget\n    if time.time()>float(os.environ.get('NATIVE_DEADLINE','inf')):raise BudgetEnd()\n                                                                  ^^^^^^^^^^^^^^^^^\ntransport.BudgetEnd\n"
+    },
+    "continuation-implex-full-retrieve": {
+      "time": "2026-11-22 18:12:52",
+      "job": "continuation-implex-full-retrieve",
+      "kind": "job_complete",
+      "spec": {
+        "stage": "retrieve",
+        "bed": "implex",
+        "method": "full",
+        "n": 81
+      },
+      "seconds": 21.762080430984497
+    },
+    "continuation-implex-rootmem-retrieve": {
+      "time": "2026-11-22 18:29:51",
+      "job": "continuation-implex-rootmem-retrieve",
+      "kind": "job_complete",
+      "spec": {
+        "stage": "retrieve",
+        "bed": "implex",
+        "method": "rootmem",
+        "n": 81
+      },
+      "seconds": 1041.0147113800049
+    },
+    "continuation-implex-hyde-retrieve": {
+      "time": "2026-11-22 18:15:55",
+      "job": "continuation-implex-hyde-retrieve",
+      "kind": "job_complete",
+      "spec": {
+        "stage": "retrieve",
+        "bed": "implex",
+        "method": "hyde",
+        "n": 81
+      },
+      "seconds": 0.1930835247039795
+    },
+    "continuation-implex-rerank-retrieve": {
+      "time": "2026-11-22 18:19:04",
+      "job": "continuation-implex-rerank-retrieve",
+      "kind": "job_complete",
+      "spec": {
+        "stage": "retrieve",
+        "bed": "implex",
+        "method": "rerank",
+        "n": 81
+      },
+      "seconds": 20.211817026138306
+    },
+    "continuation-implex-plain-retrieve": {
+      "time": "2026-11-22 18:21:41",
+      "job": "continuation-implex-plain-retrieve",
+      "kind": "job_complete",
+      "spec": {
+        "stage": "retrieve",
+        "bed": "implex",
+        "method": "plain",
+        "n": 81
+      },
+      "seconds": 0.1285390853881836
+    },
+    "continuation-lucid-full-retrieve": {
+      "time": "2026-11-22 18:24:53",
+      "job": "continuation-lucid-full-retrieve",
+      "kind": "job_complete",
+      "spec": {
+        "stage": "retrieve",
+        "bed": "lucid",
+        "method": "full",
+        "n": 240
+      },
+      "seconds": 15.86916184425354
+    },
+    "continuation-lucid-mem0-retrieve": {
+      "time": "2026-11-22 19:52:06",
+      "job": "continuation-lucid-mem0-retrieve",
+      "kind": "ingest",
+      "method": "mem0",
+      "done": 401,
+      "total": 547
+    },
+    "continuation-lucid-amem-retrieve": {
+      "time": "2026-11-22 19:55:24",
+      "job": "continuation-lucid-amem-retrieve",
+      "kind": "job_failed",
+      "spec": {
+        "stage": "retrieve",
+        "bed": "lucid",
+        "method": "amem",
+        "n": 240
+      },
+      "error": "BudgetEnd()",
+      "traceback": "Traceback (most recent call last):\n  File \"${PROJECT_ROOT}/experiments/native-source-aligned-v3/worker.py\", line 97, in <module>\n    if spec['stage']=='retrieve':compare_contexts(spec['bed'],spec['method'],data)\n                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/native-source-aligned-v3/worker.py\", line 61, in compare_contexts\n    poollines=[lines[j] for j in g['pool']];state=HERE/'states'/bed/group/method;m=ingest(method,state,poollines)\n                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/native-source-aligned-v3/native.py\", line 67, in ingest\n    budget();e=len(B.errors.errors);fail=dict(A.FAILURES) if A else {}\n    ^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/native-source-aligned-v3/transport.py\", line 12, in budget\n    if time.time()>float(os.environ.get('NATIVE_DEADLINE','inf')):raise BudgetEnd()\n                                                                  ^^^^^^^^^^^^^^^^^\ntransport.BudgetEnd\n"
+    },
+    "continuation-priority-lucid-hyde-retrieve": {
+      "time": "2026-11-22 18:33:52",
+      "job": "continuation-priority-lucid-hyde-retrieve",
+      "kind": "job_complete",
+      "spec": {
+        "stage": "retrieve",
+        "bed": "lucid",
+        "method": "hyde",
+        "n": 240
+      },
+      "seconds": 0.22864627838134766
+    },
+    "continuation-priority-lucid-rerank-retrieve": {
+      "time": "2026-11-22 18:39:11",
+      "job": "continuation-priority-lucid-rerank-retrieve",
+      "kind": "job_complete",
+      "spec": {
+        "stage": "retrieve",
+        "bed": "lucid",
+        "method": "rerank",
+        "n": 240
+      },
+      "seconds": 16.01615071296692
+    },
+    "continuation-priority-lucid-plain-retrieve": {
+      "time": "2026-11-22 18:43:51",
+      "job": "continuation-priority-lucid-plain-retrieve",
+      "kind": "job_complete",
+      "spec": {
+        "stage": "retrieve",
+        "bed": "lucid",
+        "method": "plain",
+        "n": 240
+      },
+      "seconds": 0.14142894744873047
+    },
+    "continuation-priority-lucid-rootmem-retrieve": {
+      "time": "2026-11-22 19:47:05",
+      "job": "continuation-priority-lucid-rootmem-retrieve",
+      "kind": "ingest",
+      "method": "rootmem",
+      "done": 240,
+      "total": 547
+    }
+  },
+  "recent_errors": [
+    {
+      "time": "2026-11-22 19:01:38",
+      "job": "continuation-priority-lucid-rootmem-retrieve",
+      "kind": "attempt_failed",
+      "attempt": 0,
+      "error": "ValueError('Truncated/non-stop response')"
+    },
+    {
+      "time": "2026-11-22 19:55:24",
+      "job": "continuation-lucid-amem-retrieve",
+      "kind": "job_failed",
+      "spec": {
+        "stage": "retrieve",
+        "bed": "lucid",
+        "method": "amem",
+        "n": 240
+      },
+      "error": "BudgetEnd()",
+      "traceback": "Traceback (most recent call last):\n  File \"${PROJECT_ROOT}/experiments/native-source-aligned-v3/worker.py\", line 97, in <module>\n    if spec['stage']=='retrieve':compare_contexts(spec['bed'],spec['method'],data)\n                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/native-source-aligned-v3/worker.py\", line 61, in compare_contexts\n    poollines=[lines[j] for j in g['pool']];state=HERE/'states'/bed/group/method;m=ingest(method,state,poollines)\n                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/native-source-aligned-v3/native.py\", line 67, in ingest\n    budget();e=len(B.errors.errors);fail=dict(A.FAILURES) if A else {}\n    ^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/native-source-aligned-v3/transport.py\", line 12, in budget\n    if time.time()>float(os.environ.get('NATIVE_DEADLINE','inf')):raise BudgetEnd()\n                                                                  ^^^^^^^^^^^^^^^^^\ntransport.BudgetEnd\n"
+    },
+    {
+      "time": "2026-11-22 19:55:29",
+      "job": "continuation-implex-amem-retrieve",
+      "kind": "job_failed",
+      "spec": {
+        "stage": "retrieve",
+        "bed": "implex",
+        "method": "amem",
+        "n": 81
+      },
+      "error": "BudgetEnd()",
+      "traceback": "Traceback (most recent call last):\n  File \"${PROJECT_ROOT}/experiments/native-source-aligned-v3/worker.py\", line 97, in <module>\n    if spec['stage']=='retrieve':compare_contexts(spec['bed'],spec['method'],data)\n                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/native-source-aligned-v3/worker.py\", line 61, in compare_contexts\n    poollines=[lines[j] for j in g['pool']];state=HERE/'states'/bed/group/method;m=ingest(method,state,poollines)\n                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/native-source-aligned-v3/native.py\", line 69, in ingest\n    else:m.add_note(s,time=(datetime(2026,1,1)+timedelta(minutes=i)).strftime('%Y%m%d%H%M'))\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/vendor/A-mem-main/memory_layer.py\", line 783, in add_note\n    evo_label, note = self.process_memory(note)\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/vendor/A-mem-main/memory_layer.py\", line 822, in process_memory\n    return self._evolve(note)\n           ^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/vendor/A-mem-main/memory_layer.py\", line 833, in _evolve\n    response = self.llm_controller.llm.get_completion(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/full-run-v2/run_baselines.py\", line 44, in get_completion\n    return json.dumps(T.call([{'role':'system','content':'You must respond with a JSON object.'},{'role':'user','content':prompt}],schema=schema,response_format=response_format,json_output=True))\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/native-source-aligned-v3/transport.py\", line 27, in call\n    budget();body={'model':MODEL,'temperature':0,'max_tokens':max_tokens,'messages':messages}\n    ^^^^^^^^\n  File \"${PROJECT_ROOT}/experiments/native-source-aligned-v3/transport.py\", line 12, in budget\n    if time.time()>float(os.environ.get('NATIVE_DEADLINE','inf')):raise BudgetEnd()\n                                                                  ^^^^^^^^^^^^^^^^^\ntransport.BudgetEnd\n"
+    }
+  ],
+  "coverage": {
+    "implex": {
+      "full": {
+        "retrieved": 81,
+        "answered": 81,
+        "judged_diagnostic": 81
+      },
+      "mem0": {
+        "retrieved": 21,
+        "answered": 20,
+        "judged_diagnostic": 20
+      },
+      "amem": {
+        "retrieved": 20,
+        "answered": 20,
+        "judged_diagnostic": 20
+      },
+      "rootmem": {
+        "retrieved": 81,
+        "answered": 81,
+        "judged_diagnostic": 81
+      },
+      "hyde": {
+        "retrieved": 81,
+        "answered": 81,
+        "judged_diagnostic": 81
+      },
+      "rerank": {
+        "retrieved": 81,
+        "answered": 81,
+        "judged_diagnostic": 81
+      },
+      "plain": {
+        "retrieved": 81,
+        "answered": 81,
+        "judged_diagnostic": 81
+      }
+    },
+    "lucid": {
+      "full": {
+        "retrieved": 240,
+        "answered": 240,
+        "judged_diagnostic": 240
+      },
+      "mem0": {
+        "retrieved": 3,
+        "answered": 0,
+        "judged_diagnostic": 0
+      },
+      "amem": {
+        "retrieved": 0,
+        "answered": 0,
+        "judged_diagnostic": 0
+      },
+      "rootmem": {
+        "retrieved": 5,
+        "answered": 0,
+        "judged_diagnostic": 0
+      },
+      "hyde": {
+        "retrieved": 240,
+        "answered": 240,
+        "judged_diagnostic": 240
+      },
+      "rerank": {
+        "retrieved": 240,
+        "answered": 240,
+        "judged_diagnostic": 240
+      },
+      "plain": {
+        "retrieved": 240,
+        "answered": 240,
+        "judged_diagnostic": 240
+      }
+    }
+  },
+  "readout_errors": {}
+}

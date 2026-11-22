@@ -1,0 +1,14 @@
+{
+  "usage": {
+    "prompt_tokens": 7012,
+    "total_tokens": 23396,
+    "completion_tokens": 16384,
+    "prompt_tokens_details": null
+  },
+  "seconds": 374.2520098686218,
+  "finish": "length",
+  "max_tokens": 16384,
+  "tail": "eorizing without context.\",\n      \"Logic_Aware_Decision_Region\": \"STATE_ANCHORS: [Public Health Trajectory: General curiosity (2022) -> Shift to focused policy implementation (2024-present). Current focus: Challenges and solutions in public health policy.] HARD_FACTS: [Prioritizes structured, evidence-based strategies; avoids abstract theorizing without context.]\"\n    },\n    {\n      \"Skill_Domain\": \"Fiber Optics & Telecommunications\",\n      \"Execution_Rules\": \"All fiber optics queries must align with the user's current interest in technical specifications and practical applications. Focus on differences between single-mode and multi-mode fibers, their use cases, costs, and deployment lengths. Provide clear, structured explanations of fiber types, their advantages, and real-world applications. Veto abstract theorizing without context.\",\n      \"Logic_Aware_Decision_Region\": \"STATE_ANCHORS: [Fiber Optics Trajectory: General curiosity (2022) -> Shift to focused technical understanding (2024-present). Current focus: Single-mode fiber in telecommunications.] HARD_FACTS: [Prioritizes factual clarity and structured understanding; avoids abstract theorizing without context.]\"\n    },\n    {\n      \"Skill_Domain\": \"Social & Cultural Engagement\",\n      \"Execution_Rules\": \"All social event planning queries must align with the user's current interest in low-key, inclusive gatherings. Focus on structured, practical event planning, including venue selection, icebreakers, and digital engagement",
+  "attempt": 0,
+  "truncated_output_rejected": true
+}

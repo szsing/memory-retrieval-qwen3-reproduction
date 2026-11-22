@@ -1,0 +1,19 @@
+{
+  "finish": "stop",
+  "usage": {
+    "prompt_tokens": 7012,
+    "total_tokens": 12394,
+    "completion_tokens": 5382,
+    "prompt_tokens_details": null
+  },
+  "seconds": 117.31706404685974,
+  "skill_entries": 34,
+  "unique_domains": 34,
+  "failed_attempt_tokens": {
+    "prompt_tokens": 7012,
+    "total_tokens": 23396,
+    "completion_tokens": 16384,
+    "prompt_tokens_details": null
+  },
+  "exact_same_request": true
+}

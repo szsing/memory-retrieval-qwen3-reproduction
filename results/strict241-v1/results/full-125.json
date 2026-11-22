@@ -1,0 +1,11 @@
+{
+  "method": "full",
+  "n": 125,
+  "correct": 54,
+  "metric": "same-Qwen hidden-fact application",
+  "raw_hit6": 26,
+  "pool_lines_per_question": 241,
+  "background_sha256": "fde3dcc239671a04559be54cd7da64c6a310ad56b0e38aa193ce0d1086e9e371",
+  "heldout_n": 61,
+  "all_complete": true
+}

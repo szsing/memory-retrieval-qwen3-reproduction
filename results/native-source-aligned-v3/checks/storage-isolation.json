@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "two_concurrent_instances_opened": true,
+  "distinct_sdk_storage": [
+    "${PROJECT_ROOT}/experiments/native-source-aligned-v3/checks/storage-a/sdk-internal/migrations_qdrant",
+    "${PROJECT_ROOT}/experiments/native-source-aligned-v3/checks/storage-b/sdk-internal/migrations_qdrant"
+  ]
+}

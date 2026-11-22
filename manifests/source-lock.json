@@ -1,0 +1,14 @@
+{
+  "InMind.tar.gz": {
+    "sha256": "cfd4c0c41bd462623332ecd2304a62ac0964600905d234295328acc34bce8c37",
+    "bytes": 1264690
+  },
+  "AgenticMemory.tar.gz": {
+    "sha256": "e6ba446eb0f059086b4d2cad33984a658ee86bd6151703ec0a259b30ad00e18a",
+    "bytes": 1394388
+  },
+  "mem0ai-0.1.98-py3-none-any.whl": {
+    "sha256": "c53b8113c2430ed46327f0ce38febd096cd76ff778ecd43764df9adba5c4f6e7",
+    "bytes": 144191
+  }
+}

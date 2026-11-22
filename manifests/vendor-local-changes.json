@@ -1,0 +1,12 @@
+{
+  "A-mem-main": {
+    "upstream_repository": "https://github.com/WujiangXu/AgenticMemory",
+    "upstream_commit": "f9a173dec325d84fcc97e7828775c7b241c33466",
+    "local_changes": []
+  },
+  "IMLogic-main": {
+    "upstream_repository": "https://github.com/ThisIsCosine/IMLogic",
+    "upstream_commit": "8823defc18ec94e377a835695ce9180678eb2b0e",
+    "local_changes": []
+  }
+}

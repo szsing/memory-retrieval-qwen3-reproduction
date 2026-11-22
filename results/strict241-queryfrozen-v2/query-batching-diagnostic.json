@@ -1,0 +1,20 @@
+{
+  "diagnostic_only": true,
+  "original_global_batch_sizes": {
+    "hyde": 15,
+    "properties": 8,
+    "gate": 20
+  },
+  "new_api_calls": 0,
+  "cache_hits": 375,
+  "n": 125,
+  "global_gate_help": 116,
+  "single_gate_help": 102,
+  "gate_disagreements": 14,
+  "global_query_properties_nonempty": 125,
+  "single_query_properties_nonempty": 125,
+  "property_lists_identical": 0,
+  "hyde_text_identical": 7,
+  "global_hyde_median_chars": 74,
+  "single_hyde_median_chars": 76
+}

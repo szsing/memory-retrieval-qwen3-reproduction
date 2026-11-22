@@ -1,0 +1,18 @@
+{
+  "native-source-aligned-v3/events.jsonl": {
+    "lines": 12805,
+    "malformed": 0
+  },
+  "native-source-aligned-v3/api-responses.jsonl": {
+    "lines": 10533,
+    "malformed": 0
+  },
+  "original-qwen-format-v2/events.jsonl": {
+    "lines": 56530,
+    "malformed": 0
+  },
+  "original-qwen-format-v2/api-responses.jsonl": {
+    "lines": 6936,
+    "malformed": 0
+  }
+}

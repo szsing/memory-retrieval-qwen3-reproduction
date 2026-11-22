@@ -1,0 +1,21 @@
+{
+  "prespecified": "2026-11-22 19:28:38",
+  "indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "selection": "first complete10-item source-judge block, frozen before new native answers/scoring; diagnostic only",
+  "full81_jobs_continue": true,
+  "context_prefix_sha256": {
+    "mem0": "500e419be6f194d96d17fed21601ea3ed41171457fd1d3899233bea5b7f6ed02",
+    "amem": "e67f3f497371a113b192e6c1e5494c48d18e0f38ae28ce19242c33b519ec6165"
+  }
+}

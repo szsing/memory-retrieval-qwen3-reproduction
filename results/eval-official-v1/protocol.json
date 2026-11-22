@@ -1,0 +1,18 @@
+{
+  "model": "Qwen3-8B same local endpoint",
+  "temperature": 0,
+  "max_tokens": 2048,
+  "prompts": {
+    "answer": {
+      "path": "${PROJECT_ROOT}/experiments/full-run-v2/vendor/InMind-main/evaluation/prompts/judge_answer_only.txt",
+      "sha256": "70c074e55438e037dc3e83b1c3d24fe0d4ee6b22b01b3f3089464fd6b4339ea2"
+    },
+    "grounded": {
+      "path": "${PROJECT_ROOT}/experiments/full-run-v2/vendor/InMind-main/evaluation/prompts/judge_application.txt",
+      "sha256": "d45cc35770befb8b8526454a48b745fdd07e067234b1d98262177a9445b5f64c"
+    }
+  },
+  "primary_old_scores_unchanged": true,
+  "answer_generation_unchanged": true,
+  "source_explanations_only_used_in_judging": true
+}

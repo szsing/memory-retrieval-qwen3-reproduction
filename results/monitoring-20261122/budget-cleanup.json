@@ -1,0 +1,10 @@
+{
+  "time": "2026-11-22 19:59:01",
+  "reason": "Authorized window expired; no in-flight model requests. Mem0 workers did not exit after budget; terminate only incomplete workers, preserve all completed outputs/caches.",
+  "signal": "SIGTERM",
+  "terminated": [
+    63226,
+    68121
+  ],
+  "partial_dirty_stores_not_used_for_scores": true
+}

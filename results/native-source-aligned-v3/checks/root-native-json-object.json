@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "skills": 5,
+  "matrix": {
+    "agent_skills": [
+      {
+        "Skill_Domain": "Health & Medical Management",
+        "Execution_Rules": "All health decisions must prioritize chronic conditions, allergies, and medications. Avoid activities that trigger asthma, hypertension, or bleeding risks. If the user is on warfarin, avoid activities that increase bleeding. If the user has a history of DVT, avoid prolonged immobility. If the user has a tree nut, shellfish, or sesame allergy, avoid cross-contamination. If the user has a latex allergy, avoid latex-containing products. If the user has a history of gout or gout flare-ups, avoid high-purine foods. If the user has a history of LASIK, avoid activities that strain the eyes. If the user has a history of G6PD deficiency, avoid certain medications. If the user has a history of epilepsy, avoid triggers. If the user has a history of depression, avoid activities that worsen mood. If the user has a history of heart failure, avoid overexertion. If the user has a history of insomnia, avoid stimulants. If the user has a history of ADHD, ensure structured routines. If the user has a history of deep vein thrombosis, avoid prolonged sitting. If the user has a history of domestic violence, prioritize safety and legal resources. If the user is pregnant or has a newborn, ensure all decisions align with maternal and fetal health.",
+        "Logic_Aware_Decision_Region": "STATE_ANCHORS: [Health Trajectory: Initial general health awareness (2024) -> Multiple chronic conditions, allergies, and medical restrictions (2024-present). Current focus: Chronic disease management, safety, and maternal health.] HARD_FACTS: [Multiple chronic conditions; allergies; medications; domestic violence; pregnancy; legal obligations; safety concerns.]"
+      },
+      {
+        "Skill_Domain": "Legal & Civic Responsibility",
+        "Execution_Rules": "All legal matters must prioritize immediate obligations like TPS status, visa extensions, and Green Card applications. If the user is facing legal threats, prioritize legal resources and safety planning. If the user is in an abusive relationship, ensure legal protections are in place. If the user is a veteran, ensure all legal and civic responsibilities are met. If the user is a service member, ensure all legal and civic obligations are met. If the user is a parent, ensure all decisions support child development and well-being. If the user is in a high-risk job, ensure child safety is the top priority.",
+        "Logic_Aware_Decision_Region": "STATE_ANCHORS: [Legal Trajectory: Initial civic awareness (2024) -> Legal obligations, safety concerns, and TPS status (2024-present). Current focus: Legal compliance, safety, and child protection.] HARD_FACTS: [TPS beneficiary; visa status; domestic violence; legal obligations; safety risks; legal protections required.]"
+      },
+      {
+        "Skill_Domain": "Work & Occupational Safety",
+        "Execution_Rules": "All work-related decisions must align with occupational hazards, medical restrictions, and data security. If the user works in a high-security environment, ensure all data remains within the intranet. If the user is a pilot, ensure all safety protocols are followed. If the user is a veteran, ensure all safety and legal obligations are met. If the user is a service member, ensure all safety and legal obligations are met. If the user is in a high-risk job, avoid activities that could lead to injury or legal consequences. If the user is in an abusive relationship, ensure work decisions prioritize safety and legal protection.",
+        "Logic_Aware_Decision_Region": "STATE_ANCHORS: [Work Trajectory: Initial job awareness (2024) -> Occupational hazards, data security, and safety concerns (2024-present). Current focus: Safety, legal compliance, and health alignment.] HARD_FACTS: [Occupational hazards; medical restrictions; data security; legal obligations; safety risks; domestic violence.]"
+      },
+      {
+        "Skill_Domain": "Family & Childcare",
+        "Execution_Rules": "All family-related decisions must prioritize child safety, health, and well-being. If the user has a newborn or young child, ensure all decisions align with maternal and child health. If the user is in an abusive relationship, prioritize child safety and legal protection. If the user is a parent, ensure all decisions support child development and well-being. If the user is a stepfather of a service member, ensure all decisions align with child safety and legal obligations. If the user has a child with ADHD, ensure all decisions align with medical and developmental needs. If the user has a child with an egg allergy, ensure all decisions align with dietary restrictions. If the user has a child who is over two years old, ensure all decisions align with developmental milestones.",
+        "Logic_Aware_Decision_Region": "STATE_ANCHORS: [Family Trajectory: Initial family awareness (2024) -> Childcare, safety, and development concerns (2024-present). Current focus: Child health, safety, and development.] HARD_FACTS: [Newborn; young child; domestic violence; safety risks; legal protections required; child with ADHD; child with egg allergy; child over two years old.]"
+      },
+      {
+        "Skill_Domain": "Personal Development & Self-Care",
+        "Execution_Rules": "All self-care decisions must align with health, safety, and legal obligations. If the user is in an abusive relationship, prioritize safety and legal resources. If the user is on medication, avoid activities that could interfere with treatment. If the user is in a high-risk job, ensure self-care aligns with safety and health. If the user is in a medical crisis, prioritize immediate health and legal action. If the user has a cognitive impairment, avoid complex tasks and ensure clear communication. If the user has a phone addiction, limit screen time and prioritize productivity. If the user is a vegan, ensure all decisions align with ethical and dietary restrictions. If the user is a Muslim, ensure all decisions align with Halal dietary rules. If the user is Jewish, ensure all decisions align with dietary laws. If the user is a Hindu, ensure all decisions align with religious practices. If the user is a strict vegan, ensure all decisions align with ethical and dietary restrictions. If the user is a veteran, ensure all decisions align with legal and health obligations. If the user is a service member, ensure all decisions align with safety and legal obligations.",
+        "Logic_Aware_Decision_Region": "STATE_ANCHORS: [Personal Development Trajectory: Initial self-care awareness (2024) -> Health, safety, and legal concerns (2024-present). Current focus: Health management, safety, and legal compliance.] HARD_FACTS: [Medical conditions; domestic violence; legal obligations; safety risks; health restrictions; cognitive impairment; phone addiction; veganism; Halal dietary rules; Jewish dietary laws; Hindu religious practices; strict veganism; veteran status; service member status.]"
+      }
+    ]
+  },
+  "messages_sha256": "4a0b9b91e91cea0af1b7219fc2eddd15468c498a79df6e5fa1ad9f7691f13269",
+  "temperature": 0,
+  "max_tokens": 8192,
+  "response_format": "native json_object"
+}

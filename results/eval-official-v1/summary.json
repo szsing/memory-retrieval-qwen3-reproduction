@@ -1,0 +1,631 @@
+{
+  "updated": "2026-11-22 19:55:29",
+  "source": "official judge_answer_only.txt and judge_application.txt; same local Qwen backend; reader/generation not changed",
+  "results": {
+    "native_readout4096/answer/full": {
+      "evaluated": 125,
+      "correct_evaluated": 15,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 3,
+      "correct125": 15
+    },
+    "native_readout4096/answer/rootmem": {
+      "evaluated": 125,
+      "correct_evaluated": 16,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 4,
+      "correct125": 16
+    },
+    "native_readout4096/answer/mem0": {
+      "evaluated": 125,
+      "correct_evaluated": 11,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 4,
+      "correct125": 11
+    },
+    "native_readout4096/answer/amem": {
+      "evaluated": 125,
+      "correct_evaluated": 13,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 5,
+      "correct125": 13
+    },
+    "native_readout4096/answer/hyde": {
+      "evaluated": 125,
+      "correct_evaluated": 11,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 3,
+      "correct125": 11
+    },
+    "native_readout4096/answer/rerank": {
+      "evaluated": 125,
+      "correct_evaluated": 11,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 4,
+      "correct125": 11
+    },
+    "native_readout4096/answer/plain": {
+      "evaluated": 125,
+      "correct_evaluated": 6,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 0,
+      "correct125": 6
+    },
+    "native_readout4096/answer/none": {
+      "evaluated": 125,
+      "correct_evaluated": 12,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 3,
+      "correct125": 12
+    },
+    "native_readout4096/answer/oracle": {
+      "evaluated": 125,
+      "correct_evaluated": 89,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 44,
+      "correct125": 89
+    },
+    "native_readout4096/answer/write_only_attr": {
+      "evaluated": 125,
+      "correct_evaluated": 11,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 4,
+      "correct125": 11
+    },
+    "native_readout4096/answer/fact_presence": {
+      "evaluated": 125,
+      "correct_evaluated": 13,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 5,
+      "correct125": 13
+    },
+    "native_readout4096/grounded/full": {
+      "evaluated": 125,
+      "correct_evaluated": 7,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 4,
+      "correct125": 7
+    },
+    "native_readout4096/grounded/rootmem": {
+      "evaluated": 125,
+      "correct_evaluated": 10,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 1,
+      "correct125": 10
+    },
+    "native_readout4096/grounded/mem0": {
+      "evaluated": 125,
+      "correct_evaluated": 1,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 1,
+      "correct125": 1
+    },
+    "native_readout4096/grounded/amem": {
+      "evaluated": 125,
+      "correct_evaluated": 2,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 1,
+      "correct125": 2
+    },
+    "native_readout4096/grounded/hyde": {
+      "evaluated": 125,
+      "correct_evaluated": 5,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 3,
+      "correct125": 5
+    },
+    "native_readout4096/grounded/rerank": {
+      "evaluated": 125,
+      "correct_evaluated": 5,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 4,
+      "correct125": 5
+    },
+    "native_readout4096/grounded/plain": {
+      "evaluated": 125,
+      "correct_evaluated": 1,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 0,
+      "correct125": 1
+    },
+    "native_readout4096/grounded/none": {
+      "evaluated": 125,
+      "correct_evaluated": 0,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 0,
+      "correct125": 0
+    },
+    "native_readout4096/grounded/oracle": {
+      "evaluated": 125,
+      "correct_evaluated": 85,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 44,
+      "correct125": 85
+    },
+    "native_readout4096/grounded/write_only_attr": {
+      "evaluated": 125,
+      "correct_evaluated": 7,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 5,
+      "correct125": 7
+    },
+    "native_readout4096/grounded/fact_presence": {
+      "evaluated": 125,
+      "correct_evaluated": 5,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 4,
+      "correct125": 5
+    },
+    "isolated241_frozen_queries/answer/full": {
+      "evaluated": 125,
+      "correct_evaluated": 15,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 3,
+      "correct125": 15
+    },
+    "isolated241_frozen_queries/answer/rootmem": {
+      "evaluated": 125,
+      "correct_evaluated": 17,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 5,
+      "correct125": 17
+    },
+    "isolated241_frozen_queries/answer/mem0": {
+      "evaluated": 125,
+      "correct_evaluated": 11,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 4,
+      "correct125": 11
+    },
+    "isolated241_frozen_queries/answer/amem": {
+      "evaluated": 125,
+      "correct_evaluated": 12,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 4,
+      "correct125": 12
+    },
+    "isolated241_frozen_queries/answer/hyde": {
+      "evaluated": 125,
+      "correct_evaluated": 10,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 2,
+      "correct125": 10
+    },
+    "isolated241_frozen_queries/answer/rerank": {
+      "evaluated": 125,
+      "correct_evaluated": 11,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 4,
+      "correct125": 11
+    },
+    "isolated241_frozen_queries/answer/plain": {
+      "evaluated": 125,
+      "correct_evaluated": 7,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 0,
+      "correct125": 7
+    },
+    "isolated241_frozen_queries/answer/none": {
+      "evaluated": 125,
+      "correct_evaluated": 12,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 3,
+      "correct125": 12
+    },
+    "isolated241_frozen_queries/answer/oracle": {
+      "evaluated": 125,
+      "correct_evaluated": 89,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 44,
+      "correct125": 89
+    },
+    "isolated241_frozen_queries/answer/write_only_attr": {
+      "evaluated": 125,
+      "correct_evaluated": 13,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 5,
+      "correct125": 13
+    },
+    "isolated241_frozen_queries/answer/fact_presence": {
+      "evaluated": 125,
+      "correct_evaluated": 12,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 5,
+      "correct125": 12
+    },
+    "isolated241_frozen_queries/grounded/full": {
+      "evaluated": 125,
+      "correct_evaluated": 7,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 4,
+      "correct125": 7
+    },
+    "isolated241_frozen_queries/grounded/rootmem": {
+      "evaluated": 125,
+      "correct_evaluated": 6,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 0,
+      "correct125": 6
+    },
+    "isolated241_frozen_queries/grounded/mem0": {
+      "evaluated": 125,
+      "correct_evaluated": 1,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 1,
+      "correct125": 1
+    },
+    "isolated241_frozen_queries/grounded/amem": {
+      "evaluated": 125,
+      "correct_evaluated": 3,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 1,
+      "correct125": 3
+    },
+    "isolated241_frozen_queries/grounded/hyde": {
+      "evaluated": 125,
+      "correct_evaluated": 4,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 2,
+      "correct125": 4
+    },
+    "isolated241_frozen_queries/grounded/rerank": {
+      "evaluated": 125,
+      "correct_evaluated": 5,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 4,
+      "correct125": 5
+    },
+    "isolated241_frozen_queries/grounded/plain": {
+      "evaluated": 125,
+      "correct_evaluated": 1,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 0,
+      "correct125": 1
+    },
+    "isolated241_frozen_queries/grounded/none": {
+      "evaluated": 125,
+      "correct_evaluated": 0,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 0,
+      "correct125": 0
+    },
+    "isolated241_frozen_queries/grounded/oracle": {
+      "evaluated": 125,
+      "correct_evaluated": 85,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 44,
+      "correct125": 85
+    },
+    "isolated241_frozen_queries/grounded/write_only_attr": {
+      "evaluated": 125,
+      "correct_evaluated": 7,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 4,
+      "correct125": 7
+    },
+    "isolated241_frozen_queries/grounded/fact_presence": {
+      "evaluated": 125,
+      "correct_evaluated": 5,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 4,
+      "correct125": 5
+    },
+    "shared365/answer/full": {
+      "evaluated": 125,
+      "correct_evaluated": 18,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 4,
+      "correct125": 18
+    },
+    "shared365/answer/rootmem": {
+      "evaluated": 125,
+      "correct_evaluated": 25,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 11,
+      "correct125": 25
+    },
+    "shared365/answer/mem0": {
+      "evaluated": 125,
+      "correct_evaluated": 13,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 3,
+      "correct125": 13
+    },
+    "shared365/answer/amem": {
+      "evaluated": 125,
+      "correct_evaluated": 8,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 3,
+      "correct125": 8
+    },
+    "shared365/answer/hyde": {
+      "evaluated": 125,
+      "correct_evaluated": 9,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 3,
+      "correct125": 9
+    },
+    "shared365/answer/rerank": {
+      "evaluated": 125,
+      "correct_evaluated": 14,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 5,
+      "correct125": 14
+    },
+    "shared365/answer/plain": {
+      "evaluated": 125,
+      "correct_evaluated": 7,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 1,
+      "correct125": 7
+    },
+    "shared365/answer/none": {
+      "evaluated": 125,
+      "correct_evaluated": 12,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 3,
+      "correct125": 12
+    },
+    "shared365/answer/oracle": {
+      "evaluated": 125,
+      "correct_evaluated": 89,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 44,
+      "correct125": 89
+    },
+    "shared365/grounded/full": {
+      "evaluated": 125,
+      "correct_evaluated": 11,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 3,
+      "correct125": 11
+    },
+    "shared365/grounded/rootmem": {
+      "evaluated": 125,
+      "correct_evaluated": 8,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 4,
+      "correct125": 8
+    },
+    "shared365/grounded/mem0": {
+      "evaluated": 125,
+      "correct_evaluated": 4,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 2,
+      "correct125": 4
+    },
+    "shared365/grounded/amem": {
+      "evaluated": 125,
+      "correct_evaluated": 1,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 1,
+      "correct125": 1
+    },
+    "shared365/grounded/hyde": {
+      "evaluated": 125,
+      "correct_evaluated": 5,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 3,
+      "correct125": 5
+    },
+    "shared365/grounded/rerank": {
+      "evaluated": 125,
+      "correct_evaluated": 9,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 3,
+      "correct125": 9
+    },
+    "shared365/grounded/plain": {
+      "evaluated": 125,
+      "correct_evaluated": 2,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 1,
+      "correct125": 2
+    },
+    "shared365/grounded/none": {
+      "evaluated": 125,
+      "correct_evaluated": 0,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 0,
+      "correct125": 0
+    },
+    "shared365/grounded/oracle": {
+      "evaluated": 125,
+      "correct_evaluated": 85,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 44,
+      "correct125": 85
+    },
+    "isolated241/answer/full": {
+      "evaluated": 125,
+      "correct_evaluated": 15,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 6,
+      "correct125": 15
+    },
+    "isolated241/answer/rootmem": {
+      "evaluated": 125,
+      "correct_evaluated": 17,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 5,
+      "correct125": 17
+    },
+    "isolated241/answer/mem0": {
+      "evaluated": 125,
+      "correct_evaluated": 11,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 4,
+      "correct125": 11
+    },
+    "isolated241/answer/amem": {
+      "evaluated": 125,
+      "correct_evaluated": 12,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 4,
+      "correct125": 12
+    },
+    "isolated241/answer/hyde": {
+      "evaluated": 125,
+      "correct_evaluated": 12,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 2,
+      "correct125": 12
+    },
+    "isolated241/answer/rerank": {
+      "evaluated": 125,
+      "correct_evaluated": 12,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 5,
+      "correct125": 12
+    },
+    "isolated241/answer/plain": {
+      "evaluated": 125,
+      "correct_evaluated": 7,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 0,
+      "correct125": 7
+    },
+    "isolated241/grounded/full": {
+      "evaluated": 125,
+      "correct_evaluated": 11,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 4,
+      "correct125": 11
+    },
+    "isolated241/grounded/rootmem": {
+      "evaluated": 125,
+      "correct_evaluated": 6,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 0,
+      "correct125": 6
+    },
+    "isolated241/grounded/mem0": {
+      "evaluated": 125,
+      "correct_evaluated": 1,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 1,
+      "correct125": 1
+    },
+    "isolated241/grounded/amem": {
+      "evaluated": 125,
+      "correct_evaluated": 3,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 1,
+      "correct125": 3
+    },
+    "isolated241/grounded/hyde": {
+      "evaluated": 125,
+      "correct_evaluated": 4,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 0,
+      "correct125": 4
+    },
+    "isolated241/grounded/rerank": {
+      "evaluated": 125,
+      "correct_evaluated": 5,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 2,
+      "correct125": 5
+    },
+    "isolated241/grounded/plain": {
+      "evaluated": 125,
+      "correct_evaluated": 1,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 0,
+      "correct125": 1
+    },
+    "root_native4096_sensitivity/answer/rootmem": {
+      "evaluated": 125,
+      "correct_evaluated": 16,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 4,
+      "correct125": 16
+    },
+    "root_native4096_sensitivity/grounded/rootmem": {
+      "evaluated": 125,
+      "correct_evaluated": 10,
+      "heldout61_complete": true,
+      "all125_complete": true,
+      "correct61": 1,
+      "correct125": 10
+    }
+  },
+  "empty_context_invariant_failures": []
+}

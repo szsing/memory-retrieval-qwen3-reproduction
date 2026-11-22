@@ -1,0 +1,20 @@
+{
+  "usage": {
+    "prompt_tokens": 8240,
+    "completion_tokens": 3,
+    "total_tokens": 8243
+  },
+  "health": {
+    "ready": true,
+    "model": "qwen3-8b-b968826-bf16-nothink",
+    "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+    "dtype": "bfloat16",
+    "enable_thinking": false,
+    "max_context": 32768,
+    "temperature_zero_do_sample": false,
+    "seed": 42,
+    "allocated_GiB": 15.266,
+    "peak_allocated_GiB": 17.225
+  },
+  "purpose": "six longest actual memory chunks; no truncation; GPU prefill pressure check"
+}

@@ -1,0 +1,31 @@
+{
+  "prespecified": "2026-11-22 19:49:18",
+  "indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "selection": "first two complete10-item source-judge blocks; extend only when both native context prefixes20complete and at least180s remain; not selected by accuracy; diagnostic only",
+  "full81_jobs_continue": true,
+  "context_prefix_sha256": {
+    "mem0": "2adba926cc2ae3aaca8c4482837d48296458501638010c30a60915b5789e11b5",
+    "amem": "e6c70662353710bdb44022d14e786b2aec1082f8d13e529cd723dec0ea365150"
+  }
+}

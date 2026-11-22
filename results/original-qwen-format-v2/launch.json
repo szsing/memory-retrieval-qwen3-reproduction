@@ -1,0 +1,4 @@
+{
+  "source_sha256": "ef190f252521e1150ceeeebe93e56daca8bbae7787942f778d4e9fc2bad5a642",
+  "publication_omission": "Launch metadata contained SSH host/session information. Connection details omitted; experiment configuration remains in code and protocol manifests."
+}

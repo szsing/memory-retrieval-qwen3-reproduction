@@ -1,0 +1,10 @@
+{
+  "finished": "2026-11-17 18:20:40",
+  "stats": {
+    "calls": 218,
+    "cached": 29,
+    "tok_in": 115459,
+    "tok_out": 15746
+  },
+  "formal_test": false
+}

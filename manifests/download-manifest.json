@@ -1,0 +1,26 @@
+{
+  "implex-0.parquet": {
+    "dataset": "Kaylee0501/ImplexConv-opposed",
+    "revision": "baf436948f4b6beb7150c75339ac575b1cab55f9",
+    "file": "data/opposed-00000-of-00002.parquet",
+    "bytes": 133611149,
+    "sha256": "7745febed883cb045c251fccd17dfe476de732965dd381c2e63d6bf51c3c94ce",
+    "verified": true
+  },
+  "implex-1.parquet": {
+    "dataset": "Kaylee0501/ImplexConv-opposed",
+    "revision": "baf436948f4b6beb7150c75339ac575b1cab55f9",
+    "file": "data/opposed-00001-of-00002.parquet",
+    "bytes": 133912737,
+    "sha256": "6bf51cd8a216620a71d8bc27cd3b67030f02ed0ebf2b7eb7adce9f9316268dee",
+    "verified": true
+  },
+  "lucid_s.json": {
+    "dataset": "MichiganNLP/LUCid",
+    "revision": "2431979d0f9e8ec9688a33cf21a77f6c967e5a9c",
+    "file": "lucid_s.json",
+    "bytes": 696189772,
+    "sha256": "d62ceb39e18544403a00bb68f0ecee0378f1741bcddc37cc801dbd79504fd4ef",
+    "verified": true
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "spec": {
+    "name": "subset-answer-implex-rerank",
+    "method": "rerank",
+    "bed": "implex",
+    "answer": true
+  },
+  "config": {
+    "design": "hyde+prop",
+    "mix": "pick",
+    "w": 8.0,
+    "pv": 2,
+    "ctrl": "nojoin"
+  },
+  "result": {
+    "t": "2026-11-22 01:13",
+    "design": "hyde+prop",
+    "mix": "pick",
+    "ctrl": "nojoin",
+    "w": 8.0,
+    "pv": 2,
+    "res": {
+      "implex_val": {
+        "recall": 24,
+        "applied": 0,
+        "n": 79,
+        "applied_given_hit": 0
+      }
+    }
+  },
+  "full_data_metadata": {},
+  "seconds": 11.463615417480469,
+  "lm_stats": {
+    "calls": 10,
+    "cached": 461,
+    "tok_in": 6211,
+    "tok_out": 740
+  },
+  "snapshot_commit": "d62aa408a4e0b9515eed9313663a025a07b08497",
+  "finished": "2026-11-22 01:13:13"
+}

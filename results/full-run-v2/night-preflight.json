@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "dataset": "inmind",
+      "id": "0",
+      "chunks": 247,
+      "questions": 2,
+      "reader_and_judge_passed": true,
+      "score_not_a_claim": 0
+    },
+    {
+      "dataset": "lucid_s",
+      "id": "0__q_ded1003fffb1",
+      "chunks": 230,
+      "questions": 1,
+      "reader_and_judge_passed": true,
+      "score_not_a_claim": 1
+    },
+    {
+      "dataset": "implex",
+      "id": "0",
+      "chunks": 646,
+      "questions": 2,
+      "reader_and_judge_passed": true,
+      "score_not_a_claim": 0
+    }
+  ],
+  "gold_input_isolation": true,
+  "inmind_dense_consistency_queries": 250
+}

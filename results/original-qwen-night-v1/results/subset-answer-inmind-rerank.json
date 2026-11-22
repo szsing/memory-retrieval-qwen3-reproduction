@@ -1,0 +1,41 @@
+{
+  "spec": {
+    "name": "subset-answer-inmind-rerank",
+    "method": "rerank",
+    "bed": "inmind",
+    "answer": true
+  },
+  "config": {
+    "design": "hyde+prop",
+    "mix": "pick",
+    "w": 8.0,
+    "pv": 2,
+    "ctrl": "nojoin"
+  },
+  "result": {
+    "t": "2026-11-22 00:52",
+    "design": "hyde+prop",
+    "mix": "pick",
+    "ctrl": "nojoin",
+    "w": 8.0,
+    "pv": 2,
+    "res": {
+      "inmind": {
+        "recall": 4,
+        "applied": 12,
+        "n": 61,
+        "applied_given_hit": 1
+      }
+    }
+  },
+  "full_data_metadata": {},
+  "seconds": 54.5554313659668,
+  "lm_stats": {
+    "calls": 57,
+    "cached": 110,
+    "tok_in": 29726,
+    "tok_out": 5275
+  },
+  "snapshot_commit": "d62aa408a4e0b9515eed9313663a025a07b08497",
+  "finished": "2026-11-22 00:52:30"
+}

@@ -1,0 +1,23 @@
+{
+  "inmind": {
+    "lines": 365,
+    "subset_questions": 61,
+    "total_questions": 125,
+    "protocol": "original 365-line shared dense pool; not per-query 241-line official-style pool",
+    "sha256": "1768e7601eeae8a979dea57f60ff3a16d5fb7f9de2c79e9194b15d0d49f73789"
+  },
+  "implex": {
+    "lines": 5671,
+    "subset_questions": 81,
+    "total_questions": 81,
+    "protocol": "exact source test subset and same per-query candidate pool",
+    "sha256": "af20a88a0612f878f0557b0ca750cb9cc1938139244b43536e99c8096ac28fc3"
+  },
+  "lucid": {
+    "lines": 3536,
+    "subset_questions": 240,
+    "total_questions": 240,
+    "protocol": "exact source test subset and same per-query candidate pool",
+    "sha256": "09b9b103882087186cd9d06f76004faa6f22f8bb50a526c11b0c4b78c8f0ddc9"
+  }
+}

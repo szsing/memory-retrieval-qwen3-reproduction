@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "native_and_instrumented_http_bodies_equal": true,
+  "no_schema_added": true,
+  "upstream_length_handling_preserved": true,
+  "upstream_parser_none_behavior_preserved": true,
+  "known_fact_properties": [
+    [
+      "strong magnets",
+      "MRI scan",
+      "induction cooktop",
+      "electromagnetic interference",
+      "airport body scanner",
+      "electric muscle stimulation"
+    ]
+  ],
+  "thinking_disabled_by_server_template": true
+}

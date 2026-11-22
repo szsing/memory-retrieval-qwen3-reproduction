@@ -1,0 +1,41 @@
+{
+  "spec": {
+    "name": "subset-answer-implex-plain",
+    "method": "plain",
+    "bed": "implex",
+    "answer": true
+  },
+  "config": {
+    "design": "plain",
+    "mix": "rrf",
+    "w": 2.0,
+    "pv": 1,
+    "ctrl": ""
+  },
+  "result": {
+    "t": "2026-11-22 00:54",
+    "design": "plain",
+    "mix": "rrf",
+    "ctrl": "",
+    "w": 2.0,
+    "pv": 1,
+    "res": {
+      "implex_val": {
+        "recall": 18,
+        "applied": 0,
+        "n": 79,
+        "applied_given_hit": 0
+      }
+    }
+  },
+  "full_data_metadata": {},
+  "seconds": 125.94256472587585,
+  "lm_stats": {
+    "calls": 95,
+    "cached": 0,
+    "tok_in": 43031,
+    "tok_out": 8777
+  },
+  "snapshot_commit": "d62aa408a4e0b9515eed9313663a025a07b08497",
+  "finished": "2026-11-22 00:54:37"
+}

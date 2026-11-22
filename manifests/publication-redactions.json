@@ -1,0 +1,14 @@
+{
+  "redactions": [
+    "SSH host/session launch metadata replaced by a source digest"
+  ],
+  "excluded_metadata_files": [
+    "experiments/full-run-v1/._preflight.py",
+    "experiments/full-run-v1/._run_retrieval.py",
+    "experiments/full-run-v1/._evaluate_answers.py",
+    "experiments/full-run-v1/._run_queue.sh",
+    "experiments/full-run-v1/._common.py",
+    "experiments/full-run-v1/._run_baselines.py"
+  ],
+  "benchmark_input_text": "omitted from exported prediction/metadata records; generated answers and judge reasons retained"
+}

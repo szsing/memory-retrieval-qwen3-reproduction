@@ -1,0 +1,12 @@
+{
+  "method": "amem",
+  "passed": true,
+  "notes": 4,
+  "known_fact_retrieved": true,
+  "update_input_included": true,
+  "metadata": {
+    "frozen_state_unchanged": true
+  },
+  "calls": 9,
+  "native_failure_is_not_zero_score": true
+}

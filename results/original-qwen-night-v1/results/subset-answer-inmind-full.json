@@ -1,0 +1,41 @@
+{
+  "spec": {
+    "name": "subset-answer-inmind-full",
+    "method": "full",
+    "bed": "inmind",
+    "answer": true
+  },
+  "config": {
+    "design": "hyde+prop",
+    "mix": "pick",
+    "w": 8.0,
+    "pv": 2,
+    "ctrl": "wide"
+  },
+  "result": {
+    "t": "2026-11-22 00:51",
+    "design": "hyde+prop",
+    "mix": "pick",
+    "ctrl": "wide",
+    "w": 8.0,
+    "pv": 2,
+    "res": {
+      "inmind": {
+        "recall": 5,
+        "applied": 7,
+        "n": 61,
+        "applied_given_hit": 1
+      }
+    }
+  },
+  "full_data_metadata": {},
+  "seconds": 59.571776151657104,
+  "lm_stats": {
+    "calls": 64,
+    "cached": 103,
+    "tok_in": 31770,
+    "tok_out": 5830
+  },
+  "snapshot_commit": "d62aa408a4e0b9515eed9313663a025a07b08497",
+  "finished": "2026-11-22 00:51:36"
+}

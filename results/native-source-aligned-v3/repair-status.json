@@ -1,0 +1,14 @@
+{
+  "started": "2026-11-22 16:00:11",
+  "completed": [
+    "retrieve-inmind-rootmem-",
+    "evaluate-inmind-rootmem-61",
+    "evaluate-inmind-rootmem-125"
+  ],
+  "failed": [],
+  "current": {
+    "stage": "retrieve",
+    "bed": "implex",
+    "method": "mem0"
+  }
+}

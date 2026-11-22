@@ -1,0 +1,16 @@
+{
+  "reason": "Only raw-method query-feature batching is controlled; native method and calibration inputs/generation are unchanged. References, not new runs.",
+  "files": {
+    "/root/autodl-tmp/memory-retrieval-indirect-requests/experiments/strict241-queryfrozen-v2/answers/mem0.json": "${PROJECT_ROOT}/experiments/strict241-v1/answers/mem0.json",
+    "/root/autodl-tmp/memory-retrieval-indirect-requests/experiments/strict241-queryfrozen-v2/results/mem0-61.json": "${PROJECT_ROOT}/experiments/strict241-v1/results/mem0-61.json",
+    "/root/autodl-tmp/memory-retrieval-indirect-requests/experiments/strict241-queryfrozen-v2/results/mem0-125.json": "${PROJECT_ROOT}/experiments/strict241-v1/results/mem0-125.json",
+    "/root/autodl-tmp/memory-retrieval-indirect-requests/experiments/strict241-queryfrozen-v2/answers/amem.json": "${PROJECT_ROOT}/experiments/strict241-v1/answers/amem.json",
+    "/root/autodl-tmp/memory-retrieval-indirect-requests/experiments/strict241-queryfrozen-v2/results/amem-61.json": "${PROJECT_ROOT}/experiments/strict241-v1/results/amem-61.json",
+    "/root/autodl-tmp/memory-retrieval-indirect-requests/experiments/strict241-queryfrozen-v2/results/amem-125.json": "${PROJECT_ROOT}/experiments/strict241-v1/results/amem-125.json",
+    "/root/autodl-tmp/memory-retrieval-indirect-requests/experiments/strict241-queryfrozen-v2/answers/rootmem.json": "${PROJECT_ROOT}/experiments/strict241-v1/answers/rootmem.json",
+    "/root/autodl-tmp/memory-retrieval-indirect-requests/experiments/strict241-queryfrozen-v2/results/rootmem-61.json": "${PROJECT_ROOT}/experiments/strict241-v1/results/rootmem-61.json",
+    "/root/autodl-tmp/memory-retrieval-indirect-requests/experiments/strict241-queryfrozen-v2/results/rootmem-125.json": "${PROJECT_ROOT}/experiments/strict241-v1/results/rootmem-125.json",
+    "/root/autodl-tmp/memory-retrieval-indirect-requests/experiments/strict241-queryfrozen-v2/answers/none.json": "${PROJECT_ROOT}/experiments/native-source-aligned-v3/answers/inmind/none.json",
+    "/root/autodl-tmp/memory-retrieval-indirect-requests/experiments/strict241-queryfrozen-v2/answers/oracle.json": "${PROJECT_ROOT}/experiments/native-source-aligned-v3/answers/inmind/oracle.json"
+  }
+}

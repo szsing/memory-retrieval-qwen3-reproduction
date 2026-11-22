@@ -1,0 +1,42 @@
+{
+  "15": {
+    "A": "full",
+    "B": "none",
+    "C": "rootmem"
+  },
+  "32": {
+    "A": "none",
+    "B": "full",
+    "C": "rootmem"
+  },
+  "36": {
+    "A": "none",
+    "B": "full",
+    "C": "rootmem"
+  },
+  "40": {
+    "A": "rootmem",
+    "B": "none",
+    "C": "full"
+  },
+  "72": {
+    "A": "full",
+    "B": "rootmem",
+    "C": "none"
+  },
+  "81": {
+    "A": "none",
+    "B": "rootmem",
+    "C": "full"
+  },
+  "83": {
+    "A": "none",
+    "B": "rootmem",
+    "C": "full"
+  },
+  "124": {
+    "A": "rootmem",
+    "B": "full",
+    "C": "none"
+  }
+}

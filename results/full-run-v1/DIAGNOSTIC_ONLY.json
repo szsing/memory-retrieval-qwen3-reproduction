@@ -1,0 +1,6 @@
+{
+  "status": "diagnostic_only_not_formal",
+  "reason": "schema text inserted into system messages changes original semantic prompts; four development examples confirm HyDE degenerates to request copying",
+  "evidence": "hyde-development-prompt-audit.json",
+  "formal_conclusions": false
+}

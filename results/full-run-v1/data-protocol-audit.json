@@ -1,0 +1,34 @@
+{
+  "inmind": {
+    "tasks": 125,
+    "background_turns": 486,
+    "sessions": 47,
+    "injection_session": 9,
+    "post_injection_sessions": 38,
+    "all_timelines_checked": 125,
+    "dataset_sha256": "4e27c56047d1f7c3eaf21ad5b6662f638f81a434034546be08b85e09876675a4",
+    "release_validation": "passed",
+    "official_answer_model_not_used": "local Qwen3 instead of gpt-5-mini; retrieval diagnostic, not leaderboard replication"
+  },
+  "lucid": {
+    "available_file": "lucid.json",
+    "rows": 1936,
+    "history_field": "latent_sessions",
+    "full_distractor_history": false,
+    "required": "official lucid_c/s/b/l haystack_sessions; do not call current file full benchmark",
+    "status": "deferred until InMind measured"
+  },
+  "implexconv": {
+    "available": "30 validation users + 30 test users; evidence + 30 other sessions; user turns truncated to 1000 characters",
+    "full_benchmark": false,
+    "required": "retrieve untrimmed full opposed dataset, audit train/test protocol",
+    "status": "deferred until InMind measured"
+  },
+  "baselines": {
+    "mem0ai": "0.1.98 (paper-era release, not exact original paper score replication)",
+    "amem": "WujiangXu/AgenticMemory paper reproduction repository, archived sources hashed",
+    "backbone": "Qwen3-8B BF16 non-thinking",
+    "embedding": "BGE-small shared backbone adaptation",
+    "failures": "abort on swallowed errors; no silent zero scores"
+  }
+}
