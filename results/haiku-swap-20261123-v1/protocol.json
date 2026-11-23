@@ -1,0 +1,36 @@
+{
+  "started": "2026-11-23 09:44:41",
+  "deadline_unix": 1795405481.194027,
+  "n": 61,
+  "pool": "original shared365, full-pool ranking; off-style score logged separately",
+  "model": "qwen3-8b-b968826-bf16-nothink-vllm011",
+  "temperature": 0,
+  "max_tokens": 2048,
+  "thinking": false,
+  "prompt_version": 2,
+  "weight": 8,
+  "picker": "wide dense12+joined6, select6",
+  "frozen_components": [
+    "Qwen61-batched HyDE",
+    "Qwen61-batched gate",
+    "embedding checkpoint",
+    "prompt templates",
+    "weight/picker settings"
+  ],
+  "groups": [
+    "QQ",
+    "HQ",
+    "QH",
+    "HH",
+    "H_raw_query",
+    "HH_presence",
+    "HH_shuffled"
+  ],
+  "selection": "all first61 unseen-domain original testB; no tuning",
+  "cache_raw_sha256": "28cb3a249873fdd2b89f7b68355ef0c68cb563ef0bc3ef16c1e4ff9454afce0a",
+  "plain_hit6": 1,
+  "labels_not_used_as_features": [
+    "fact_line",
+    "kind"
+  ]
+}

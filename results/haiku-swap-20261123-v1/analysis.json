@@ -1,0 +1,80 @@
+{
+  "paired": [
+    {
+      "a": "HQ",
+      "b": "QQ",
+      "wins": 5,
+      "losses": 4,
+      "net": 1,
+      "p_exact": 1
+    },
+    {
+      "a": "QH",
+      "b": "QQ",
+      "wins": 2,
+      "losses": 4,
+      "net": -2,
+      "p_exact": 0.6875
+    },
+    {
+      "a": "HH",
+      "b": "QQ",
+      "wins": 6,
+      "losses": 2,
+      "net": 4,
+      "p_exact": 0.2890625
+    },
+    {
+      "a": "HH",
+      "b": "HQ",
+      "wins": 6,
+      "losses": 3,
+      "net": 3,
+      "p_exact": 0.5078125
+    },
+    {
+      "a": "HH",
+      "b": "QH",
+      "wins": 8,
+      "losses": 2,
+      "net": 6,
+      "p_exact": 0.109375
+    },
+    {
+      "a": "HH",
+      "b": "H_raw_query",
+      "wins": 5,
+      "losses": 1,
+      "net": 4,
+      "p_exact": 0.21875
+    },
+    {
+      "a": "HH",
+      "b": "HH_presence",
+      "wins": 8,
+      "losses": 0,
+      "net": 8,
+      "p_exact": 0.0078125
+    },
+    {
+      "a": "HH",
+      "b": "HH_shuffled",
+      "wins": 8,
+      "losses": 1,
+      "net": 7,
+      "p_exact": 0.0390625
+    }
+  ],
+  "interaction_net_hits": 5,
+  "event_counts": {
+    "instrument_installed": 1,
+    "cache_hit": 127,
+    "json_text_check": 394,
+    "jcall_return": 389,
+    "by_id": 30,
+    "api_response": 267
+  },
+  "response_checks": {
+    "('stop', False)": 267
+  }
+}

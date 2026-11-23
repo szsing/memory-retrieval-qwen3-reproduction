@@ -1,0 +1,97 @@
+{
+  "phase": "complete",
+  "complete": {
+    "QQ": {
+      "hit6": 7,
+      "text_hit6": 7,
+      "off_style_hit6": 13,
+      "candidate_covered": 8,
+      "n": 61,
+      "lm_stats": {
+        "calls": 0,
+        "cached": 82,
+        "tok_in": 0,
+        "tok_out": 0
+      }
+    },
+    "HQ": {
+      "hit6": 8,
+      "text_hit6": 8,
+      "off_style_hit6": 17,
+      "candidate_covered": 10,
+      "n": 61,
+      "lm_stats": {
+        "calls": 52,
+        "cached": 82,
+        "tok_in": 39146,
+        "tok_out": 1314
+      }
+    },
+    "QH": {
+      "hit6": 5,
+      "text_hit6": 5,
+      "off_style_hit6": 13,
+      "candidate_covered": 12,
+      "n": 61,
+      "lm_stats": {
+        "calls": 104,
+        "cached": 82,
+        "tok_in": 78631,
+        "tok_out": 2648
+      }
+    },
+    "HH": {
+      "hit6": 11,
+      "text_hit6": 11,
+      "off_style_hit6": 29,
+      "candidate_covered": 16,
+      "n": 61,
+      "lm_stats": {
+        "calls": 155,
+        "cached": 83,
+        "tok_in": 116166,
+        "tok_out": 3956
+      }
+    },
+    "H_raw_query": {
+      "hit6": 7,
+      "text_hit6": 7,
+      "off_style_hit6": 17,
+      "candidate_covered": 11,
+      "n": 61,
+      "lm_stats": {
+        "calls": 207,
+        "cached": 83,
+        "tok_in": 154786,
+        "tok_out": 5210
+      }
+    },
+    "HH_presence": {
+      "hit6": 3,
+      "text_hit6": 3,
+      "off_style_hit6": 7,
+      "candidate_covered": 3,
+      "n": 61,
+      "lm_stats": {
+        "calls": 215,
+        "cached": 127,
+        "tok_in": 161016,
+        "tok_out": 5406
+      }
+    },
+    "HH_shuffled": {
+      "hit6": 4,
+      "text_hit6": 4,
+      "off_style_hit6": 13,
+      "candidate_covered": 4,
+      "n": 61,
+      "lm_stats": {
+        "calls": 267,
+        "cached": 127,
+        "tok_in": 199484,
+        "tok_out": 6706
+      }
+    }
+  },
+  "updated": "2026-11-23 09:46:29"
+}

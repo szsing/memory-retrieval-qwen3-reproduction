@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-23",
+  "files": {
+    "README.md": "bd47af4a3a8eb54c0d715601f47697c16ab56ef247687096831cf4b540d52ef9",
+    "docs/HAIKU_PICKER_AUDIT.md": "5cf37822af24944ced0446ea7454003aadcc3c00dc432a43610c66be9df4728b",
+    "docs/HAIKU_SWAP_20261123.md": "5887a896aff6f915dc2f380e66c2ee747af4d882e7a6ec88c64800e57b91b83b",
+    "experiments/haiku-swap-20261123-v1/README.md": "0ae17b4a0f881f837194cb2a519934bd6219b617a754f89d53ae960dccf1cbd2",
+    "experiments/haiku-swap-20261123-v1/run_swap.py": "d1cfda674839e0dd571c2d530c36f6168a75ed2cc9d361cabdaa0a95f2727a20",
+    "results/haiku-swap-20261123-v1/analysis.json": "b2b1ae64d072b563180fc32e467f3841595f0b6ec23f332e61aed468dd73716b",
+    "results/haiku-swap-20261123-v1/groups/HH.json": "27878f83cc5ac22e947d68b4d932562725f7f91c19645cb03776a943ed17d7ab",
+    "results/haiku-swap-20261123-v1/groups/HH_presence.json": "30f720a0a8b485442f07cdba55bf682a4f7fb6529080757ec681648728e225b7",
+    "results/haiku-swap-20261123-v1/groups/HH_shuffled.json": "3dcb04e8f6f49a1c6106f5ebd6f6398f2a0fb5f79837d7d5787dd7290754ca0a",
+    "results/haiku-swap-20261123-v1/groups/HQ.json": "ce74d6d120caad1d3858b8efb9010f1d66159a1963b251d7b94739fbddd5c6a2",
+    "results/haiku-swap-20261123-v1/groups/H_raw_query.json": "aa14d9afc34b7de58fc926fb2b89de043a96fb47bcad7a9df2f19b9c1e123e5a",
+    "results/haiku-swap-20261123-v1/groups/QH.json": "95d5405d20e22d1719b16b43b3d0406c384e0dd10fdcc98b5f6f0b41276c4706",
+    "results/haiku-swap-20261123-v1/groups/QQ.json": "1c5807f33b650e89afab2d7703f63feafea046b8f39d37c266b84846013ee941",
+    "results/haiku-swap-20261123-v1/protocol-picker-audit.json": "fd76a3aa97acf66872052d6483e390f7e209e0ef745ce11a7318b9fb8b10ae08",
+    "results/haiku-swap-20261123-v1/protocol.json": "ab10e8b12b76280ed72eb311368baaaed59e9df574f37f5a88caaaac1e870019",
+    "results/haiku-swap-20261123-v1/status.json": "45e4e70fa8c211f7d73cf63c59f1b26a41e12d95d0428c6835449bd9bd107faf",
+    "results/haiku-swap-20261123-v1/summary.json": "a1eedfdd64f22f34a8be781f457ce308615bd6448e7b0082aa4fe45b6beb355e",
+    "scripts/verify_haiku_swap.py": "29e06dfffb892d0b3460deb3b90da1c021bfe007066ad7f86d1318f1a3bf35e6"
+  },
+  "verification": {
+    "command": "python3 scripts/verify_haiku_swap.py",
+    "exit_code": 0,
+    "rows_checked": 427,
+    "picker_cases_checked": 5
+  },
+  "omitted": [
+    "full Haiku and Qwen feature caches",
+    "source dataset texts and raw prompts",
+    "model weights and SQLite caches"
+  ],
+  "scope": "61-query retrieval diagnostic; no new RootMem run; English message excluded"
+}
